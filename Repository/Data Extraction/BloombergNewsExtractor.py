@@ -73,7 +73,7 @@ def incrementYear(current_year):
     return current_year + 1
 
 if __name__ == '__main__':
-    
+	companies_keywords = ['Goldman', 'Sachs', 'Coca', 'Coca-cola', 'JP', 'Morgan', 'Microsoft', 'Walt', 'Disney', 'Chevron', 'Exxon', 'Mobile', 'Pfizer', 'Johnson', 'IBM', 'Proctor', 'Gamble', 'General', 'Electric']
     root = Element("news")    
     archive_base_url = "http://bloomberg.com/archive/news/"
     news_base_url = "http://bloomberg.com/news/"
@@ -98,9 +98,14 @@ if __name__ == '__main__':
                 collatedStoriesParser.feed(str(htmlfile, 'utf-8'))
                 
                 for story in collatedStoriesParser.data: 
+					 for company_keyword in companies_keywords: 
+                         if str(story).lower().find(company_keyword.lower()) == 1: 
+                             break
+                     else: 
+                         continue
                      try: 
                          story_url = news_base_url + str(day) + story
-                     
+							
                          print(story_url)
                          
                          connection = urllib.request.urlopen(story_url)
