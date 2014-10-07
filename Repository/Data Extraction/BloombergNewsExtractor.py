@@ -6,6 +6,7 @@ from xml.etree.ElementTree import Element, SubElement, tostring
 from xml.etree import ElementTree
 from html.parser import HTMLParser
 from html.entities import name2codepoint
+from http.client import IncompleteRead
 
 
 class ParseBloombergCollatedStories(HTMLParser):
@@ -73,8 +74,8 @@ def incrementYear(current_year):
     return current_year + 1
 
 if __name__ == '__main__':
-	companies_keywords = ['Goldman', 'Sachs', 'Coca', 'Coca-cola', 'JP', 'Morgan', 'Microsoft', 'Walt', 'Disney', 'Chevron', 'Exxon', 'Mobile', 'Pfizer', 'Johnson', 'IBM', 'Proctor', 'Gamble', 'General', 'Electric']
-    root = Element("news")    
+    companies_keywords = ['Goldman', 'Sachs', 'Coca', 'Coca-cola', 'JP', 'Morgan', 'Microsoft', 'Walt', 'Disney', 'Chevron', 'Exxon', 'Mobile', 'Pfizer', 'Johnson', 'IBM', 'Proctor', 'Gamble', 'General', 'Electric']
+    root = Element("news")
     archive_base_url = "http://bloomberg.com/archive/news/"
     news_base_url = "http://bloomberg.com/news/"
     current_year = 2007
@@ -91,19 +92,22 @@ if __name__ == '__main__':
                 day_base_url = archive_base_url + str(day) 
                 print(day_base_url)
                 
-                connection = urllib.request.urlopen(day_base_url)
-                htmlfile = connection.read()
-                 
+                try: 
+                    connection = urllib.request.urlopen(day_base_url)
+                    htmlfile = connection.read()
+                except IncompleteRead as e: 
+                    htmlfile = e.partial
+                
                 collatedStoriesParser = ParseBloombergCollatedStories() 
                 collatedStoriesParser.feed(str(htmlfile, 'utf-8'))
                 
                 for story in collatedStoriesParser.data: 
-					 for company_keyword in companies_keywords: 
+                    for company_keyword in companies_keywords: 
                          if str(story).lower().find(company_keyword.lower()) == 1: 
                              break
-                     else: 
-                         continue
-                     try: 
+                    else: 
+                        continue
+                    try: 
                          story_url = news_base_url + str(day) + story
 							
                          print(story_url)
@@ -115,15 +119,15 @@ if __name__ == '__main__':
                         
                          story.feed(str(htmlfile, 'utf-8'))
      
-                         entry = SubElement(root,'entry', {'author': story.data['author'], 'date': story.data['date'], 'url' : story_url, 'keywords': story.data['keywords'], 'category': story.data['category']})
+                         entry = SubElement(root, 'entry', {'author': story.data['author'], 'date': story.data['date'], 'url' : story_url, 'keywords': story.data['keywords'], 'category': story.data['category']})
                          headline = SubElement(entry, 'headline')
-                         headline.text  = story.data['headline']
+                         headline.text = story.data['headline']
                          body = SubElement(entry, 'body')
                          body.text = story.data['body'] 
-                     except Exception as e: 
-                         pass #Don't know, don't care
+                    except Exception as e: 
+                         pass  # Don't know, don't care
                 last_day = day
-        ElementTree.ElementTree(root).write("bloomberg-news-"+ str(current_year) + "-" + str(current_month) +".xml", xml_declaration=True)             
+        ElementTree.ElementTree(root).write("bloomberg-news-" + str(current_year) + "-" + str(current_month) + ".xml", xml_declaration=True)             
         current_month = incrementMonth(current_month)
         if(current_month == 1): 
             current_year = incrementYear(current_year)
