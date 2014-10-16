@@ -79,6 +79,8 @@ for keyword in companies_keywords:
 
         num_of_pages = round(int(results_pages.replace(',', '')) / 100);
 
+
+
         for i in range(1, num_of_pages):
             search_url = "http://search.ft.com/search?q=&rpp=100&f=initialPublishDateTime[2007-01-01T00:00:00,2014-09-30T23:59:59]&f=title[\""+ keyword + "\"]&f=category[\"article\"][\"Articles\"]&curations=ARTICLES&highlight=true&p=" + str(page_number) + "&f=organisations[\"" + keyword + "\"]"
             search_page = browser.get(search_url)

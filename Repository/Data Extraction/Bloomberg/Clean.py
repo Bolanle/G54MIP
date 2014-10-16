@@ -16,17 +16,8 @@ for files in os.listdir(path='.'):
         file_replaced = file_replaced.replace("&gt;", ">")
         file_replaced = file_replaced.replace("&#8217;", "''")
         file_replaced = file_replaced.replace("<?xml version=''1.0'' encoding=''us-ascii''?>", "")
-        file_replaced = file_replaced.replace("<p/>", "</p>")
-        file_replaced = file_replaced.replace("<h1/>", "</h1>")
-        file_replaced = file_replaced.replace("<h2/>", "</h2>")
-        file_replaced = file_replaced.replace("<h3/>", "</h3>")
-        file_replaced = file_replaced.replace("<h4/>", "</h4>")
-        file_replaced = file_replaced.replace("<h5/>", "</h5>")
-        file_replaced = file_replaced.replace("<blockquote/>;", "</blockquote>")
 
         file_replaced = re.sub("To contact (.|\s)*?body>", "]]> </body>", file_replaced)
-        file_replaced = re.sub("&#(.)*?;", "", file_replaced)
-
 
         file.seek(0)
         file.write(file_replaced)

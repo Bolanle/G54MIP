@@ -1,73 +1,576 @@
-
-<news><entry author="By Tim Culpan" date="Aug 18, 2008  3:37 AM ET" url="http://bloomberg.com/news/2008-08-18/microsoft-under-antitrust-probe-in-taiwan-over-vista-update1-.html"><headline>Microsoft Under Antitrust Probe in Taiwan Over Vista</headline><body><![CDATA[
-<p>Microsoft Corp. (MSFT), the world''s largest
-software maker, is being probed by Taiwan''s Fair Trade Commission
+<?xml version='1.0' encoding='us-ascii'?>
+<news><entry author="By Katherine Greene" date="Aug 12, 2008  4:45 PM ET" url="http://bloomberg.com/news/2008-08-12/aci-fossil-jpmorgan-sonus-unionbancal-u-s-equity-movers.html"><headline>ACI, Fossil, JPMorgan, Sonus, UnionBanCal: U.S. Equity Movers</headline><body>
+&lt;p&gt;The following companies had unusual
+price changes in U.S. markets. Stock symbols are in parentheses
+after company names, and prices are as of 4 p.m. in New York. &lt;/p&gt;
+&lt;p&gt;Financial companies fell after JPMorgan Chase  Co. (JPM) 
+reported a $1.5 billion loss on mortgaged-back assets and
+Wachovia Corp. (WB)  said its second-quarter loss was bigger
+than reported in July. JPMorgan slid 9.5 percent, the most since
+July 2002, to $37.92. Wachovia plunged 12 percent to $16. &lt;/p&gt;
+&lt;p&gt;Wells Fargo  Co. (WFC)  fell 3.9 percent to $30.38. Bank
+of America Corp. (BAC)  dropped 6.7 percent to $31.13.
+Citigroup Inc. (C)  lost 6.5 percent to $18.54. &lt;/p&gt;
+&lt;p&gt;Goldman Sachs Group Inc. (GS)  and Morgan Stanley (MS US),
+the two biggest U.S. securities firms, had their third-quarter
+profit estimates lowered by analysts who cited weaker revenue
+from underwriting and equity capital markets. Goldman slid 6
+percent to $167.30. Morgan Stanley (MS) sank 6.4 percent to $42.50. &lt;/p&gt;
+&lt;p&gt;ACI Worldwide Inc. (ACIW)  dropped the most since April
+2000, tumbling 31 percent to $14.56. The maker of electronic-transaction software for banks reported second-quarter profit
+that was 83 percent less than analysts estimated before one-time
+items, according to Bloomberg data. &lt;/p&gt;
+&lt;p&gt;Comverge Inc. (COMV US) plunged 27 percent, the most since
+its April 2007 initial public offering, to $6.55. The provider of
+electric demand reduction systems reported a second-quarter loss
+of 45 cents, wider than the average estimate of 38 cents, based
+on a Bloomberg survey of 12 analysts. &lt;/p&gt;
+&lt;p&gt;Constellation Energy Group Inc. (CEG US) plunged 16 percent,
+the most in seven years, to $61.21. The biggest U.S. power
+marketer doubled its estimates of the collateral it would need if
+its senior unsecured debt is cut below investment grade. &lt;/p&gt;
+&lt;p&gt;Fluor Corp. (FLR)  fell 6 percent to $71.64, the lowest
+since March 31. The largest publicly traded U.S. engineering firm
+was cut to ``hold'' from ``buy'' at Citigroup Inc. Analyst Brian Chin said the stock is trading at a higher valuation than its
+construction and engineering peer group. &lt;/p&gt;
+&lt;p&gt;Fossil Inc. (FOSL)  gained the most since November, adding
+11 percent to $31.94. The seller of namesake watches and
+accessories reported second-quarter earnings and sales and an
+annual profit forecast that topped analysts' estimates. &lt;/p&gt;
+&lt;p&gt;LDK Solar Co. (LDK US) jumped the most since March, rising
+17 percent to $39.37. The Chinese maker of silicon wafers said
+net income rose more than fivefold, beating estimates, as it
+expanded output faster than expected. &lt;/p&gt;
+&lt;p&gt;McDermott International Inc. (MDR)  slid the most since
+March 2004, losing 14 percent to $36.21. The energy-services
+company that's expanding its nuclear-fuel business reported
+second-quarter sales that were 2.9 percent lower than analysts'
+average estimate, according to Bloomberg data. The shortfall was
+McDermott's biggest since the final three months of 2005. &lt;/p&gt;
+&lt;p&gt;Nelnet Inc. (NNI)  climbed 6.9 percent to $12.50, a two-month high. The student loan provider reported second-quarter
+profit of 54 cents a share before one-time costs, nearly three
+times the average analyst estimate of 19 cents. &lt;/p&gt;
+&lt;p&gt;PNM Resources Inc. (PNM)  fell 12 percent, the most since
+March 7, to $11.31. The owner of New Mexico's biggest utility
+reported a $143.5 million second-quarter loss and cut its
+dividend by 46 percent. &lt;/p&gt;
+&lt;p&gt;Schawk Inc. (SGK)  dropped the most in a month, falling
+8.2 percent to $12.74. The digital-imaging service said second-quarter operating profit dropped from a year earlier on lower
+sales and costs for restructuring and asset impairment. &lt;/p&gt;
+&lt;p&gt;Sonus Networks Inc. (SONS)  slid the most since November
+2005, declining 17 percent to $3.49. The maker of software used
+for Internet-based phone calls said it wouldn't achieve its
+forecast for 20 percent sales growth this year. &lt;/p&gt;
+&lt;p&gt;TurboChef Technologies Inc. (OVEN US) jumped 6.8 percent to
+$5.98. Middleby Corp. (MIDD) , the maker of Toastmaster ovens
+and commercial kitchen equipment, said it would buy the designer
+of high-speed ovens in a cash and stock deal valued at $6.47 a
+share based on yesterday's closing prices. &lt;/p&gt;
+&lt;p&gt;Middleby fell 7.9 percent, the most in three months, to
+$53.07. &lt;/p&gt;
+&lt;p&gt;UnionBanCal Corp. (UB US) climbed the most since July 16,
+gaining 13 percent to $65.50. California's second-largest bank
+got a $3 billion offer to sell its remaining stock at $63 a share
+to its biggest shareholder, Mitsubishi UFJ Financial Group Inc. (8306)
+UnionBanCal said it is assessing the bid. &lt;/p&gt;
+&lt;p&gt;Zoltek Cos. (ZOLT US) dropped the most in six month, losing
+15 percent to $15.52. The maker of carbon fibers for windmill
+blades reported third-quarter profit and sales that trailed
+analysts' estimates after failing to win ``significant''
+contracts. &lt;/p&gt;
+&lt;p&gt;To contact the reporter on this story:
+Katherine Greene in New York at 
+kgreene8@bloomberg.net. &lt;/p&gt;
+&lt;p&gt;To contact the editor responsible for this story:
+Chris Nagi at 
+chrisnagi@bloomberg.net. &lt;/p&gt;
+</body></entry><entry author="By Sarah Thompson and Louisa Nesbitt" date="Aug 13, 2008  4:57 AM ET" url="http://bloomberg.com/news/2008-08-13/dsg-falls-as-jpmorgan-casts-doubt-on-asset-sales-cuts-rating.html"><headline>DSG Falls as JPMorgan Casts Doubt on Asset Sales, Cuts Rating</headline><body>
+&lt;p&gt;DSG International Plc fell the most
+in seven months in London trading after JPMorgan Chase  Co. cast
+doubt on the retailer's ability to raise money by selling assets
+and advised investors to pare holdings of the stock. &lt;/p&gt;
+&lt;p&gt;DSG slid as much as 12 percent, wiping 190 million pounds ($361
+million) off its market value. Optimism that the U.K.'s largest
+seller of consumer electronics may be able to improve its finances
+with asset sales is ``misplaced,'' JPMorgan said today, cutting its
+recommendation to ``underweight'' from ``neutral.'' &lt;/p&gt;
+&lt;p&gt;Stock in Hemel Hempstead, England-based DSG has lost 44
+percent this year as higher food and fuel bills prompt Europeans
+to reduce spending on electronics and make purchases on the Web
+or from supermarkets. DSG, owner of PC World and Currys stores,
+reported its first annual loss since 1994 in June and expressed
+caution about consumer confidence in several markets. &lt;/p&gt;
+&lt;p&gt;The retailer's ``Spanish and Italian operations are
+leasehold and loss-making, and operating in markets that are
+likely to remain challenging for some time,'' Simon Irwin, an
+analyst at JPMorgan in London, said in a research report. &lt;/p&gt;
+&lt;p&gt;DSG fell 6.07 pence, or 9.9 percent, to 55.25 pence at 9:51
+a.m. local time, posting the fourth-biggest loss in the 666-company FTSE All-Share Index. (ASX) At yesterday's close, the stock
+had jumped by four-fifths in four weeks, a gain that JPMorgan
+said stemmed partly from optimism about asset sales. &lt;/p&gt;
+&lt;p&gt;The retailer was today's worst performer in the 19-company
+FTSE 350 General Retailers Index, which fell the most among the
+39 industry groups. Kesa Electricals Plc, the owner of the U.K.
+Comet chain, lost as much as 4.8 percent, while Home Retail
+Group Plc (HOME), owner of the Argos and Homebase chains, dropped as
+much as 7.3 percent. &lt;/p&gt;
+&lt;p&gt;JPMorgan set a share-price estimate of 50 pence for shares
+of DSG. &lt;/p&gt;
+&lt;p&gt;To contact the reporters on this story:
+Sarah Thompson in London at 
+sthompson17@bloomberg.net;
+Louisa Nesbitt in Dublin at 
+lnesbitt@bloomberg.net. &lt;/p&gt;
+&lt;p&gt;To contact the editor responsible for this story:
+Daniel Hauck at  dhauck1@bloomberg.net;
+Keith Campbell at  k.campbell@bloomberg.net. &lt;/p&gt;
+</body></entry><entry author="By Sarah Thompson" date="Aug 13, 2008  2:05 AM ET" url="http://bloomberg.com/news/2008-08-13/dsg-international-shares-lowered-to-underweight-at-jpmorgan.html"><headline>DSG International Shares Lowered to `Underweight' at JPMorgan</headline><body>
+&lt;p&gt;DSG International Plc, the U.K.'s
+largest consumer-electronics retailer, was downgraded to
+``underweight'' from ``neutral'' at JPMorgan Chase  Co. &lt;/p&gt;
+&lt;p&gt;DSG shares have rallied 86 percent since July 7 ``in part on
+hopes that DSG could ease its financial situation through asset
+sales,'' the analysts, including Simon Irwin, wrote in a research
+note dated today. &lt;/p&gt;
+&lt;p&gt;``We believe these hopes are misplaced,'' the team added, as
+``DSG's Spanish and Italian operations are leasehold and loss
+making, and operating in markets that we think are likely to
+remain challenging for some time.'' &lt;/p&gt;
+&lt;p&gt;As opposed to selling these assets, ``we believe that DSG
+may have to invest in them to close or restructure.'' &lt;/p&gt;
+&lt;p&gt;JPMorgan set a share-price estimate of 50 pence. The stock
+closed yesterday 8.4 percent higher at 64.75 pence. &lt;/p&gt;
+&lt;p&gt;To contact the reporter on this story:
+Sarah Thompson in London at 
+sthompson17@bloomberg.net. &lt;/p&gt;
+&lt;p&gt;To contact the editor responsible for this story:
+Daniel Hauck at 
+dhauck1@bloomberg.net. &lt;/p&gt;
+</body></entry><entry author="By Dermot Doherty" date="Aug 15, 2008 11:38 AM ET" url="http://bloomberg.com/news/2008-08-15/cytos-rises-most-in-five-weeks-on-pfizer-agreement-update2-.html"><headline>Cytos Rises Most in Five Weeks on Pfizer Agreement</headline><body>
+&lt;p&gt;Cytos Biotechnology AG (CYTN), the Swiss
+developer of allergy vaccines, rose the most in five weeks in
+Swiss trading after it sold Pfizer Inc. (PFE) rights to experimental
+drugs for as much as 150 million Swiss francs ($137 million). &lt;/p&gt;
+&lt;p&gt;Cytos climbed 5.3 Swiss francs, or 10 percent, to 57.5
+francs, its biggest gain since July 10. The shares have fallen 32
+percent this year. &lt;/p&gt;
+&lt;p&gt;Pfizer will make an upfront payment of 10 million francs and
+may pay an additional 140 million francs in milestone and
+transfer fees for immune-response technology, Schlieren,
+Switzerland-based Cytos said in an e-mailed statement today.
+Cytos will also get research funding and royalty payments, which
+may rise to more than 10 percent depending on product sales. The
+company didn't specify which diseases the accord covers. The deal
+follows the sale last year of rights to an experimental nicotine
+vaccine to Novartis AG. &lt;/p&gt;
+&lt;p&gt;``This is very important for Cytos because it's a validation
+of the technology on a broader base as a means of developing
+therapeutic vaccines, and it bodes well for the licensing of its
+other vaccines,'' Markus Metzger, an analyst at Bank Vontobel,
+said in a telephone interview. &lt;/p&gt;
+&lt;p&gt;Pfizer will be responsible for preclinical and clinical
+development of the vaccines, as well as manufacturing and
+marketing. The medicines will be developed for diseases not
+currently covered by Cytos' own drug development program. &lt;/p&gt;
+&lt;h2&gt;Retain Rights &lt;/h2&gt;
+&lt;p&gt;The Swiss company, which already works with Pfizer in animal
+health, will retain the right to develop vaccines that target the
+same diseases in a different way. &lt;/p&gt;
+&lt;p&gt;``The vaccines market, including therapeutic vaccines,
+represents an increasingly attractive segment of the health care
+market,'' Mark Dyer, vice president of business development at
+Cytos, said in the statement. &lt;/p&gt;
+&lt;p&gt;The existing accord with Novartis covers a new treatment for
+Alzheimer's disease that will begin advanced testing this year.
+Cytos is testing another compound that may replace the need for
+patients with high blood pressure to take daily pills. &lt;/p&gt;
+&lt;p&gt;Cytos is also working on an experimental dust-mite and cat
+allergy vaccine. The Swiss company said July 10 the compound
+performed better than a placebo in a study. In November, Cytos
+said its experimental skin cancer medicine showed positive
+results in a clinical trial. &lt;/p&gt;
+&lt;p&gt;To contact the reporter on this story:
+Dermot Doherty in Geneva at 
+Ddoherty9@bloomberg.net &lt;/p&gt;
+&lt;p&gt;To contact the editor responsible for this story:
+Kristen Hallam at 
+khallam@bloomberg.net. &lt;/p&gt;
+</body></entry><entry author="By Maren Naess Olsen" date="Aug 15, 2008  4:40 AM ET" url="http://bloomberg.com/news/2008-08-15/european-oil-services-stocks-raised-to-attractive-at-goldman.html"><headline>European Oil-Services Stocks Raised to `Attractive' at Goldman</headline><body>
+&lt;p&gt;European oil services companies were
+raised to ``attractive'' from ``neutral'' by Goldman Sachs Group
+Inc., on prospects for contract awards to pick up in 2009. &lt;/p&gt;
+&lt;p&gt;``We expect the sector to perform better as companies
+confirm their growth outlook for 2009, driven by the oil
+industry's continuing need to invest to create greater spare
+capacity,'' Goldman said in a report published today. &lt;/p&gt;
+&lt;p&gt;The U.K.'s Petrofac Ltd. (PFC) and Aker Solutions ASA of Norway
+were kept on Goldman's ``Conviction Buy'' list. &lt;/p&gt;
+&lt;p&gt;Saipem SpA (SPM), Europe's biggest oil-field services provider,
+was cut to ``sell'' from ``neutral'' by Goldman because it's
+overvalued compared with its peers, as was Norway's Sevan Marine
+ASA. (SEVAN) &lt;/p&gt;
+&lt;p&gt;To contact the reporter on this story:
+Maren Naess Olsen in London 
+molsen10@bloomberg.net &lt;/p&gt;
+&lt;p&gt;To contact the editor responsible for this story:
+Stephen Voss at  sev@bloomberg.net &lt;/p&gt;
+</body></entry><entry author="By Dermot Doherty" date="Aug 15, 2008  3:34 AM ET" url="http://bloomberg.com/news/2008-08-15/cytos-rises-most-in-five-weeks-on-pfizer-vaccine-agreement.html"><headline>Cytos Rises Most in Five Weeks on Pfizer Vaccine Agreement</headline><body>
+&lt;p&gt;Cytos Biotechnology AG (CYTN), the Swiss
+developer of allergy vaccines, rose the most in five weeks in
+Zurich trading after it sold Pfizer Inc. (PFE) rights to experimental
+drugs for as much as 150 million Swiss francs ($137 million). &lt;/p&gt;
+&lt;p&gt;Cytos climbed as much as 5.1 francs, or 9.8 percent, its
+biggest gain since July 10. The stock increased 4.3 francs, or
+8.2 percent, to 56.5 francs as of 9:30 a.m. The shares had lost
+38 percent this year before today. &lt;/p&gt;
+&lt;p&gt;Pfizer will make an upfront payment of 10 million francs and
+may pay an additional 140 million francs in milestone and
+transfer fees for immune-response technology, Schlieren,
+Switzerland-based Cytos said in an e-mailed statement today.
+Cytos will also get research funding and royalty payments, which
+may rise to more than 10 percent depending on product sales. &lt;/p&gt;
+&lt;p&gt;To contact the reporter on this story:
+Dermot Doherty in Geneva at 
+Ddoherty9@bloomberg.net &lt;/p&gt;
+&lt;p&gt;To contact the editor responsible for this story:
+Kristen Hallam at 
+khallam@bloomberg.net. &lt;/p&gt;
+</body></entry><entry author="By Tim Culpan" date="Aug 18, 2008  3:37 AM ET" url="http://bloomberg.com/news/2008-08-18/microsoft-under-antitrust-probe-in-taiwan-over-vista-update1-.html"><headline>Microsoft Under Antitrust Probe in Taiwan Over Vista</headline><body>
+&lt;p&gt;Microsoft Corp. (MSFT), the world's largest
+software maker, is being probed by Taiwan's Fair Trade Commission
 after an activist group filed a complaint saying consumers are
-being forced to buy its Windows Vista operating system. </p>
-<p>''''We have received the complaint and are now conducting our
-own investigation, which may last around six months,'''' Chou Ya-shu, the antitrust regulator''s spokeswoman, said in a telephone
+being forced to buy its Windows Vista operating system. &lt;/p&gt;
+&lt;p&gt;``We have received the complaint and are now conducting our
+own investigation, which may last around six months,'' Chou Ya-shu, the antitrust regulator's spokeswoman, said in a telephone
 interview today. Microsoft can face fines of as much as NT$25
 million ($796,000) and be ordered to halt illicit practices if
-found guilty of fair-trade breaches, she said. </p>
-<p>Sophia Chang, a spokeswoman for Microsoft in Taipei, denied
+found guilty of fair-trade breaches, she said. &lt;/p&gt;
+&lt;p&gt;Sophia Chang, a spokeswoman for Microsoft in Taipei, denied
 the company forces people to buy Vista and declined to comment
-further on the case. </p>
-<p>Microsoft should be fined for using its monopoly to force
+further on the case. &lt;/p&gt;
+&lt;p&gt;Microsoft should be fined for using its monopoly to force
 consumers to adopt Vista after the company ended sales of Windows
-XP in June, Taiwan''s Consumer Foundation, a non-profit group,
-said in its complaint posted on its Web site on Aug. 15. </p>
-<p>Microsoft, based in Redmond, Washington, stopped selling XP
+XP in June, Taiwan's Consumer Foundation, a non-profit group,
+said in its complaint posted on its Web site on Aug. 15. &lt;/p&gt;
+&lt;p&gt;Microsoft, based in Redmond, Washington, stopped selling XP
 individually and pre-installing the operating system in most
 computers in June to spur Vista sales. Vista, which was released
 for consumers in January last year, requires more memory capacity
-and greater processing power than XP. </p>
-<p>''''It would be a very unusual and creative interpretation of
+and greater processing power than XP. &lt;/p&gt;
+&lt;p&gt;``It would be a very unusual and creative interpretation of
 antitrust law to say that a company is obliged to keep selling a
-product,'''' said Brendon Carr, an attorney who advises
+product,'' said Brendon Carr, an attorney who advises
 multinational companies on antitrust issues at the law firm Hwang
-Mok Park in Seoul. </p>
-<h2>Demand For XP </h2>
-<p>The Consumer Foundation said its research showed 56 percent
+Mok Park in Seoul. &lt;/p&gt;
+&lt;h2&gt;Demand For XP &lt;/h2&gt;
+&lt;p&gt;The Consumer Foundation said its research showed 56 percent
 of consumers buying a computer with Vista would reinstall XP,
 while 67 percent oppose Microsoft ending the sale of the earlier
 operating system. Windows XP remains available preinstalled in
-some low-cost computers such as Acer Inc. (2353)''s Aspire One laptop. </p>
-<p>Under Taiwan''s Fair Trade Act, a company may not ''''use
+some low-cost computers such as Acer Inc. (2353)'s Aspire One laptop. &lt;/p&gt;
+&lt;p&gt;Under Taiwan's Fair Trade Act, a company may not ``use
 incentives or other devious means to induce a business to alter a
-consumer''s shopping choices,'''' the foundation said in the
-statement. </p>
-<p>''''The Fair Trade Commission should fine Microsoft a large
+consumer's shopping choices,'' the foundation said in the
+statement. &lt;/p&gt;
+&lt;p&gt;``The Fair Trade Commission should fine Microsoft a large
 enough amount that would strip away its profits from selling
-Vista,'''' the foundation said. </p>
-<p>]]> </body></entry><entry author="By Flavia Krause-Jackson and Francesca Cinelli" date="Aug 20, 2008  2:27 AM ET" url="http://bloomberg.com/news/2008-08-20/generali-eni-fiat-finmeccanica-stm-italian-equity-preview.html"><headline>Generali, Eni, Fiat, Finmeccanica, STM: Italian Equity Preview</headline><body><![CDATA[
-<p>The following companies may have
-unusual price changes in Italy. Stock symbols are in parentheses
-and share prices are from the last close. </p>
-<p>Italy''s SP/MIB Index declined 610, or 2.1 percent, to
-28,257 in Milan. </p>
-<p>Assicurazioni Generali SpA (G) : European insurance
-companies including Generali are looking for small to medium-sized
-acquisitions in emerging markets as they face sluggish premium
-growth at home, the Wall Street Journal reported. Italy''s biggest
-insurer, fell 39 cents, or 1.7 percent, to 22.51 euros. </p>
-<p>Eni SpA (ENI) : The oil company''s Taranto refinery was left
-undamaged by a fire in an industrial area on the outskirts of the
-city, according to local police. The refinery can process 110,000
-barrels of oil a day, according to data compiled by Bloomberg. The
-shares fell 30 cents, or 1.3 percent, to 21.36 euros. </p>
-<p>Fiat SpA (ISP) : Merrill Lynch downgraded the stock to
-''''underperform'''' from ''''buy.'''' Fiat, Italy''s largest manufacturer,
-shed 44.5 cents, or 3.8 percent, to 11.37 euros. </p>
-<p>Finmeccanica SpA (FNC) : Italy''s biggest defense company won
-the Italian antitrust regulator''s approval for its purchase of an
-11 percent stake in Eurotech SpA, a maker of mini computers. The
-watchdog posted the ruling on its Web site. Finmeccanica said in
-May it was planning to buy 11.1 percent of Eurotech for 18.1
-million euros ($27 million). The shares fell 38 cents, or 2.1
-percent, to 17.95 euros. </p>
-<p>STMicroelectronics NV (STM) : Europe''s largest semiconductor
-maker and Ericsson AB, the world''s largest maker of wireless
-networks, plan to set up a joint venture for wireless applications
-that will employ almost 8,000 people. STMicro declined 28.3 cents,
-or 3.4 percent, to 8.1 euros. </p>
-<p>]]> </body></entry></news>
+Vista,'' the foundation said. &lt;/p&gt;
+&lt;p&gt;To contact the reporter on this story:
+Tim Culpan in Taipei at 
+tculpan1@bloomberg.net. &lt;/p&gt;
+&lt;p&gt;To contact the editor responsible for this story:
+Young-Sam Cho at  ycho2@bloomberg.net. &lt;/p&gt;
+</body></entry><entry author="By Carla Main" date="Aug 19, 2008  8:32 AM ET" url="http://bloomberg.com/news/2008-08-19/greenoak-intel-n-data-nfl-microsoft-in-court-news-update1-.html"><headline>Greenoak, Intel, N-Data, NFL, Microsoft in Court News</headline><body>
+&lt;p&gt;Intel Corp. (INTC), the world's largest
+semiconductor maker, sued Negotiated Data Solutions LLC to
+protect customers including Dell Inc. from royalty demands on the
+industry standard for Ethernet computer networking. The
+technology allows computers to work together in a local network. &lt;/p&gt;
+&lt;p&gt;Intel said Negotiated Data, more commonly known as N-Data,
+sued Dell, and Intel has pledged to cover any liability Dell
+incurs. It wants a court to rule that the N-Data patents are
+invalid or that they were already paid for under an agreement
+with National Semiconductor Corp. (NSM), the original patent owner. &lt;/p&gt;
+&lt;p&gt;N-Data earlier this year settled a U.S. Federal Trade
+Commission complaint that it was trying to hold up the computer
+industry by demanding high royalties for the Ethernet standard.
+N-Data agreed to limits on how much it can collect. Intel
+contends in a complaint filed Aug. 15 in federal court in
+Marshall, Texas, that N-Data shouldn't be allowed to collect
+anything from Intel customers. &lt;/p&gt;
+&lt;p&gt;The case is Intel Corp. v. Negotiated Data Solutions LLC,
+08cv319, U.S. District Court, Eastern District of Texas
+(Marshall). &lt;/p&gt;
+&lt;h2&gt;Cuomo Auction-Rate Accords May Exclude Some Holders &lt;/h2&gt;
+&lt;p&gt;New York State Attorney General Andrew Cuomo's effort to
+force buybacks by Wall Street banks and brokers of auction-rate
+securities may not help some individual investors. &lt;/p&gt;
+&lt;p&gt;In the last two weeks, Cuomo reached agreements with
+Citigroup (C) Inc., UBS (UBSN) AG, Morgan Stanley, JPMorgan (JPM) Chase  Co. and
+Wachovia (WB) Corp. to begin buying back $42 billion of the debt they
+sold directly to individuals. The accords don't extend to
+investors holding most of the remaining $160 billion bought
+through mutual fund firms or brokers that didn't underwrite the
+debt. &lt;/p&gt;
+&lt;p&gt;Cuomo, 50, said in a statement on Aug. 15 that New York-based Goldman Sachs Group Inc. is still negotiating with
+regulators. &lt;/p&gt;
+&lt;p&gt;Investors have been stuck in the securities since the market
+collapsed in February. Dealers, who for two decades bought debt
+that went unsold at auctions, suddenly pulled back because of
+widening credit-market losses. &lt;/p&gt;
+&lt;p&gt;Investors who were told the debt was as safe and liquid as
+money-market funds were left with depreciating securities they
+couldn't sell as auctions failed. Cuomo says the brokerages
+continued to market the debt as cash equivalents even though they
+knew demand was weakening. &lt;/p&gt;
+&lt;p&gt;The auction-rate probes focused on the biggest underwriters
+because those banks have the largest concentration of clients
+holding the debt, Cuomo said. Citigroup was the market's biggest
+underwriter, followed by UBS, according to data from Thomson
+Reuters. &lt;/p&gt;
+&lt;p&gt;Joseph Evangelisti, a spokesman for New York-based JPMorgan,
+which agreed to buy back $3 billion, said its settlement didn't
+extend to customers of other firms. &lt;/p&gt;
+&lt;p&gt;Missouri Secretary of State Robin Carnahan confirmed the
+settlement with Charlotte, North Carolina-based Wachovia is
+limited to the bank's clients. &lt;/p&gt;
+&lt;p&gt;Merrill Lynch  Co. is negotiating a settlement with
+regulators after offering on Aug. 7 to redeem $10 billion from
+its clients starting in January, according to Massachusetts
+Secretary of State William Galvin, who sued the New York-based
+company over its auction-rate sales practices on July 31. &lt;/p&gt;
+&lt;p&gt;Drawing the line on who should be forced to buy back
+securities can be a challenge because brokerages with a
+significant wealth management practices put clients into auction
+rate securities, noted Barry Silbert, chief executive officer of
+New York-based Restricted Stock Partners, which operates a
+trading system for hard-to-sell securities. &lt;/p&gt;
+&lt;p&gt;Cuomo said he subpoenaed about 25 companies that sold
+auction-rate securities. There are also 12 states coordinating
+probes into the collapse of the market, as well as the U.S.
+Securities and Exchange Commission. Cuomo's investigation has
+expanded to include Fidelity Investments and Charles Schwab Corp.
+of San Francisco, CNBC reported on Aug. 15, citing people with
+knowledge of the situation it didn't name. The attorney general
+said in an interview Aug. 15 ``we're working our way'' down the
+list of brokerages and they expect to get to the smaller
+brokerages ``eventually.'' &lt;/p&gt;
+&lt;p&gt;Smaller brokerages and mutual fund companies say they were
+misled by Wall Street banks about the health of the market and
+are not in the same situation as the firms that are offering to
+buy back securities. &lt;/p&gt;
+&lt;p&gt;Oppenheimer Inc., a broker-dealer based in New York, told
+its clients last week it is working with the Washington-based
+Regional Bond Dealers Association to press for SEC intervention
+in the probes so banks that neither underwrote securities nor
+brokered auctions are not forced to buy them back from customers. &lt;/p&gt;
+&lt;h2&gt;North Principal Hedge Fund Sues Greenoak Over German Wind Farms &lt;/h2&gt;
+&lt;p&gt;North Principal Investment Fund Ltd., a Cayman Island-registered hedge fund, is suing private equity firm Greenoak
+Group in London over a 75-million-euro ($110 million) sale of
+permits to build German wind farms. &lt;/p&gt;
+&lt;p&gt;Greenoak contends it controls 80 percent of the permits
+through Germany's Sandbank Power GmbH. &lt;/p&gt;
+&lt;p&gt;NPI claims veto rights over the permits, which could be
+worth as much as 150 million euros to investors seeking to profit
+from alternative energy markets, according to documents filed in
+London's High Court and lawyers' comments at an Aug. 15 hearing
+before Judge David Richard on whether to overturn an injunction
+related to the sale. &lt;/p&gt;
+&lt;p&gt;Richard said he would rule on the dispute Aug. 28, two weeks
+before a deadline Greenoak faces to sell the permits to investors
+who haven't been publicly identified. &lt;/p&gt;
+&lt;p&gt;Richard lifted an order from seven months ago that required
+either NPI or the court to approve any eventual sale. &lt;/p&gt;
+&lt;p&gt;Some of the world's biggest private equity firms are
+investing in Europe's wind farms. Blackstone Group LP (BX), manager of
+the world's largest leveraged buyout fund, said last month it
+would build a 1 billion-euro offshore wind farm in Germany. &lt;/p&gt;
+&lt;p&gt;The case is North Principal Investment Fund Ltd. v. Greenoak
+Power Ltd. and Greenoak Renewable Energy Ltd. HC07C3344. &lt;/p&gt;
+&lt;h2&gt;DFL to Sue Cartel Office Over TV Rights, Handelsblatt Reports &lt;/h2&gt;
+&lt;p&gt;The DFL German soccer league plans to sue the German cartel
+office over restrictions on how it can market its television
+rights, Handelsblatt newspaper reported, citing DFL vice
+President Peter Peters. &lt;/p&gt;
+&lt;p&gt;By insisting that free-to-air broadcasts of Bundesliga game
+highlights must be made available before 8 p.m., the cartel
+office undermined the basis of a five-year contract between the
+DFL and Sirius agency valued at three billion euros
+($4.4 billion), Peters told Handelsblatt. &lt;/p&gt;
+&lt;p&gt;If the DFL lawsuit is unsuccessful and the contract with
+Sirius dissolved, the league will invite new bids for Bundesliga
+TV rights, Handelsblatt said. &lt;/p&gt;
+&lt;h2&gt;Chrysler Sues Johnson Controls Over Lead-Overcharging Claims &lt;/h2&gt;
+&lt;p&gt;Chrysler LLC, the third-largest U.S. automaker, sued battery
+maker Johnson Controls Inc. (JCI) over claims it overcharged the
+automaker for lead that wasn't in the batteries it delivered this
+year. &lt;/p&gt;
+&lt;p&gt;The suit seeks at total of $18.2 million. The complaint
+filed Aug. 14 in state court in Pontiac, Michigan. &lt;/p&gt;
+&lt;p&gt;Chrysler seeks $15.1 million for batteries already delivered
+in 2008 and $3.1 million for batteries scheduled for delivery
+during the rest of the year. Johnson Controls is the world's
+largest producer of automotive batteries and the world's largest
+buyer of lead. &lt;/p&gt;
+&lt;p&gt;Lead prices have fallen 34 percent this year, the most of
+the six main London Metal Exchange metals. &lt;/p&gt;
+&lt;p&gt;For more new suits news from yesterday, click here. For copies of
+recent civil complaints, click here. &lt;/p&gt;
+&lt;h2&gt;Lawsuits/Pretrial &lt;/h2&gt;
+&lt;h2&gt;Ex-Lehman Broker, Former Exec in Plea Talks in Squawk-Box Case &lt;/h2&gt;
+&lt;p&gt;Former Lehman Brothers Holdings Inc. stockbroker David Ghysels is negotiating to plead guilty on a charge he conspired
+to commit fraud by allowing day traders to eavesdrop on internal
+``squawk boxes,'' a U.S. prosecutor said. &lt;/p&gt;
+&lt;p&gt;Former A.B. Watley Group Inc. (ABWG) executive Keevin Leonard, one
+of the day traders charged in the case, is also in plea talks,
+his lawyer, Thomas Dunn, said at a hearing yesterday before U.S.
+District Judge Jack B. Weinstein in Brooklyn, New York. &lt;/p&gt;
+&lt;p&gt;The case is U.S. v. Mahaffy, 05-0613, U.S. District Court,
+Eastern District of New York (Brooklyn). &lt;/p&gt;
+&lt;p&gt;For more lawsuits news from yesterday, click here. &lt;/p&gt;
+&lt;h2&gt;Trials/Appeals &lt;/h2&gt;
+&lt;h2&gt;NFL, Reebok Win U.S. Appeals Court Ruling Over Team Logo Hats &lt;/h2&gt;
+&lt;p&gt;The National Football League didn't violate antitrust laws
+in granting Reebok International Ltd. an exclusive license to
+make hats featuring logos of the league's 32 teams, a federal
+appeals court ruled. &lt;/p&gt;
+&lt;p&gt;The 7th U.S. Circuit Court of Appeals in Chicago, upholding
+the lower court, rejected the argument of cap maker American
+Needle Inc. that the league's franchises illegally conspired to
+restrain trade. The appeals court found the league speaks with
+one voice in its marketing. &lt;/p&gt;
+&lt;p&gt;U.S. Circuit Judge Michael Kanne wrote that the NFL teams
+are a ``single source of economic power'' when promoting the
+football league. &lt;/p&gt;
+&lt;p&gt;The New York-based league, its 32 teams and their licensing
+arm, NFL Properties LLC, were all sued in 2004 by Buffalo Grove,
+Illinois-based American Needle. The company had held a license to
+make NFL team logo hats for more than 20 years before sportswear
+maker Reebok won the exclusive contract in 2001, according to the
+appeals court ruling. &lt;/p&gt;
+&lt;p&gt;Reebok, based in Canton, Massachusetts, was acquired in 2006
+by Adidas AG (ADS) of Herzogenaurach, Germany. &lt;/p&gt;
+&lt;p&gt;The case is American Needle Inc. v. National Football
+League, 07-4006, 7th U.S. Circuit Court of Appeals (Chicago). &lt;/p&gt;
+&lt;p&gt;For more trial news from yesterday, click here. &lt;/p&gt;
+&lt;h2&gt;Verdicts/Settlements &lt;/h2&gt;
+&lt;h2&gt;General Dynamics Pays $4 Million to Settle U.S. Billing Lawsuit &lt;/h2&gt;
+&lt;p&gt;General Dynamics Corp. (GD), the largest maker of armored
+vehicles for the U.S. military, agreed to pay $4 million to
+settle a lawsuit claiming a unit fraudulently billed the
+government for defectively manufactured parts used in Navy
+aircraft and submarines. &lt;/p&gt;
+&lt;p&gt;The government alleged that from September 2001 to August
+2003 the division known as General Dynamics Armament and
+Technical Products defectively manufactured or failed to test
+parts used in Navy aircraft, such as the C-141 transport plane.
+The unit, based in Glen Cove, New York, closed in 2004. &lt;/p&gt;
+&lt;p&gt;The case is U.S. ex rel. McMillan v. General Dynamics
+Armament and Technical Products Inc., 03-CV-4090, Eastern
+District of New York (Brooklyn). &lt;/p&gt;
+&lt;p&gt;For more verdict and settlement news from yesterday, click here. &lt;/p&gt;
+&lt;h2&gt;Litigation Departments &lt;/h2&gt;
+&lt;h2&gt;U.S. Firm Partners With U.K. Cartel Insurer, LegalWeek Says &lt;/h2&gt;
+&lt;p&gt;Cohen, Milstein, Hausfeld  Toll, a U.S. law firm with a
+London office, has entered into a deal with U.K. insurance
+company FirstAssist Legal Protection to provide insurance as a
+way of making antitrust claims more accessible in the U.K.,
+LegalWeek.com reported. &lt;/p&gt;
+&lt;p&gt;The deal has been dubbed ``Cartel Key.'' &lt;/p&gt;
+&lt;p&gt;So-called cartel claims, as antitrust claims are called in
+the U.K., are rarely brought because the plaintiff bears the
+defendant's legal fees and costs as well as his own if he doesn't
+win. The insurance deal, which is the first of its kind, will
+insure claimants against paying the defendant's legal fees as
+well as insuring the client against his own costs, LegalWeek
+said. &lt;/p&gt;
+&lt;p&gt;If the client wins, Cohen Milstein pays a premium to
+FirstAssist, the newspaper said. &lt;/p&gt;
+&lt;p&gt;Cohen Milstein specializes in class-action, or group,
+lawsuits, according to the firm's Web site. &lt;/p&gt;
+&lt;p&gt;Cohen Milstein plans to take cartel cases on a contingency
+fee basis. The insurance is expected to serve as an incentive to
+settle in order to keep costs low, the newspaper reported. &lt;/p&gt;
+&lt;p&gt;For more litigation department news from yesterday, click here. &lt;/p&gt;
+&lt;h2&gt;Court News &lt;/h2&gt;
+&lt;p&gt;Joseph Ziccardi, an attorney, was turned down in his bid
+yesterday to have the federal court in Philadelphia reconsider
+the sanctions it imposed on him for failing to rein in an out-of-control client during a deposition, Law.com reported. &lt;/p&gt;
+&lt;p&gt;The client used the four-letter ``F'' word 73 times while
+his deposition was being taken. Judge Eduardo Robreno of the U.S.
+District Court in Philadelphia imposed $29,000 in sanctions on
+Ziccardi, ruling that he should have exerted more control over
+his client, whom the judge described as ``hostile, uncivil and
+vulgar'' during a deposition, Law.com said. &lt;/p&gt;
+&lt;p&gt;Ziccardi argued that sanctions were unfair because there was
+no specific section of the federal rules of civil procedure that
+he was sanctioned under and he was therefore unable to adequately
+defend himself. The court rejected the argument, and imposed the
+sanctions under Rules 30(d)(2) and 37(a)(5)(A) of the Federal
+Rules of Civil Procedure. &lt;/p&gt;
+&lt;p&gt;The court relied in part on a videotape of the deposition,
+which showed the client repeatedly using foul language in
+addressing opposing counsel. Ziccardi argued in his own defense
+that he made efforts, during off-camera breaks in the deposition,
+to calm his client, the news service reported. &lt;/p&gt;
+&lt;p&gt;The sanctions matter was followed closely on legal blogs,
+LegalWeek.com said. &lt;/p&gt;
+&lt;h2&gt;On the Docket &lt;/h2&gt;
+&lt;h2&gt;Microsoft Under Antitrust Probe in Taiwan Over Vista &lt;/h2&gt;
+&lt;p&gt;Microsoft Corp. (MSFT), the world's largest software maker, is
+being probed by Taiwan's Fair Trade Commission after an activist
+group filed a complaint saying consumers are being forced to buy
+its Windows Vista operating system. &lt;/p&gt;
+&lt;p&gt;The investigation, which is now being conducted, should be
+concluded in about six months, Chou Ya-shu, the antitrust
+regulator's spokeswoman, said in a telephone interview yesterday. &lt;/p&gt;
+&lt;p&gt;Microsoft can face fines of as much as NT$25 million
+($796,000) and be ordered to halt illicit practices if found
+guilty of fair-trade breaches, Chou said. &lt;/p&gt;
+&lt;p&gt;Sophia Chang, a spokeswoman for Microsoft in Taipei, denied
+the company forces people to buy Vista and declined to comment
+further on the case. &lt;/p&gt;
+&lt;p&gt;The complaint was posted on the Web site of Taiwan's Consumer
+Foundation, a non-profit group, on Aug. 15. It said Microsoft
+should be fined for using its monopoly to force consumers to
+adopt Vista after the company ended sales of Windows XP in June. &lt;/p&gt;
+&lt;p&gt;Microsoft, based in Redmond, Washington, stopped selling XP
+individually and pre-installing the operating system in most
+computers in June to spur Vista sales. Vista, which was released
+for consumers in January last year, requires more memory capacity
+and greater processing power than XP. &lt;/p&gt;
+&lt;p&gt;The Consumer Foundation said its research showed 56 percent
+of consumers buying a computer with Vista would reinstall XP,
+while 67 percent oppose Microsoft ending the sale of the earlier
+operating system. Windows XP remains available preinstalled in
+some low-cost computers such as Acer Inc. (2353)'s Aspire One laptop. &lt;/p&gt;
+&lt;h2&gt;Bloomberg Law Report &lt;/h2&gt;
+&lt;p&gt;A products liability decision was the subject of a Bloomberg
+Law Report yesterday. Connetics Corp., the maker of Velac Gel
+acne medication, must defend a suit against it on some of the
+claims relating to fraud. The plaintiffs claimed that Connetics
+knew that the medication causes cancerous skin tumors in mice but
+concealed the finding from investors and analysts in violation of
+securities law. &lt;/p&gt;
+&lt;p&gt;The court ruled that Connetics is protected by the safe
+harbor provision of the Private Securities Law Reform Act with
+respect to claims of violations of the Securities Exchange Act of
+1934 for making forward-looking statements relating to approval
+of the gel by the Food and Drug Administration. Those claims were
+dismissed. &lt;/p&gt;
+&lt;p&gt;The court found that there were sufficient allegations to
+let the case go forward on claims of fraud relating to Velac's
+safety, because the complaint ``properly alleged that Connetics
+`had actual knowledge of undisclosed facts tending to seriously
+undermine the accuracy of those statements.''' &lt;/p&gt;
+&lt;p&gt;The case is In re Connetics Corp. Securities Litigation, 07-02940, U.S. District Court, Northern District of California. &lt;/p&gt;
+&lt;p&gt;For Bloomberg articles by lawyers on litigation topics, click
+here. &lt;/p&gt;
+&lt;p&gt;For news about bankruptcy litigation, click here. For news about
+intellectual property litigation click here. &lt;/p&gt;
+&lt;p&gt;To contact the reporter on this story:
+Carla Main in Jersey City, New Jersey, at 
+cmain2@bloomberg.net. &lt;/p&gt;
+&lt;p&gt;To contact the editor responsible for this story:
+Patrick Oster at  poster@bloomberg.net. &lt;/p&gt;
+</body></entry></news>
