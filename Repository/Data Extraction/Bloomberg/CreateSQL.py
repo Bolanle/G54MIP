@@ -41,8 +41,6 @@ class Retriever():
             try : 
                 for child in root:
                     body =  child.find('body').text
-                    body = body.replace('<![CDATA[', '')
-                    body = body.replace(']]>', '')
                     date = child.get('date')
                     str_cur_yr = str(current_year)
                     if str_cur_yr in date : 
