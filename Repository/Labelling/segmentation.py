@@ -10,7 +10,7 @@ import math
 from numpy import linalg as LA
 from copy import deepcopy
 
-#segments = []
+# segments = []
 def getyfromeqn(start_point, end_point, x_value):
     x0 = start_point[0]
     y0 = start_point[1]
@@ -22,19 +22,12 @@ def getyfromeqn(start_point, end_point, x_value):
     return y
 
 
-def t_test_reject(pvalue):
-    alpha = 0.05
-
-    if (pvalue/2 ) < alpha:
-        return True
-    return False
-
 def t_test_accept(pvalue):
     alpha = 0.05
+    if (pvalue/2) < alpha:
+        return False
+    return True
 
-    if (pvalue/2 ) > alpha:
-        return True
-    return False
 def split(original_time_series, start, end):
     T_temp = []
 
@@ -62,82 +55,98 @@ def split(original_time_series, start, end):
 
         # T-test on related time series
         (t_stat, pvalue) = stats.ttest_rel(hypothesis_time_series, current_time_series)
-        print("Start:", start, "End:", end, "T-stat:", t_stat, "P-value:", pvalue)
+        print("T-stat:", t_stat, "P-value:", pvalue)
 
         #Draw graph for visualisation
 
-        if t_test_reject(pvalue):
+        if not t_test_accept(pvalue):
             T_temp = T_temp + split(original_time_series, start, start + split_position)
+            T_temp.append(
+                (original_time_series_x_axis[start + split_position], original_time_series[start + split_position]))
             T_temp = T_temp + split(original_time_series, start + split_position, end)
-            T_temp.append((original_time_series_x_axis[start + split_position], original_time_series[start + split_position]))
-            plot.plot(
-                   [original_time_series_x_axis[start + split_position], original_time_series_x_axis[start + split_position]],
-                   [original_time_series[start + split_position],
-                    min(original_time_series)])  #Draw vertical line showing segment
 
+            plot.plot(
+                [original_time_series_x_axis[start + split_position],
+                 original_time_series_x_axis[start + split_position]],
+                [original_time_series[start + split_position],
+                 min(original_time_series)])  #Draw vertical line showing segment
 
     return T_temp
 
 
-def merge(t_temp, original_time_series):
-    original_segments =  deepcopy(t_temp)
-    hypothetical_merged_tuple = deepcopy(t_temp)
+def merge(t_temp:list, original_time_series:list):
+    original_time_series_x_axis = range(0, len(original_time_series)) #Generate X axis
+    zipped_time_series = list(zip(original_time_series_x_axis, original_time_series)) #Couple x and y axes
+    hypothetical_merged_tuple = deepcopy(zipped_time_series)
+
     while True and len(t_temp) > 2:
         min_error = sys.maxsize
-        k = None
-        associated_y = None
+        drop = None
+        section = None
         for i in range(0, len(t_temp) - 2):
-            hypothetical_y = getyfromeqn(t_temp[i], t_temp[i+2], t_temp[i+1][0])
-            error = math.pow(t_temp[i+1][1] - hypothetical_y, 2)#
-            if min_error > error:
-                min_error = error
-                k = t_temp[i+1][0]
-                associated_y = hypothetical_y
+            current_error = 0
+            start_point = t_temp[i][0]
+            end_point = t_temp[i+2][0]
+            hypothetical_section = [(x, getyfromeqn(zipped_time_series[start_point], zipped_time_series[end_point], x))
+                                    for x, _ in zipped_time_series[start_point:end_point]]
 
+            for day_price in hypothetical_section:
+                x = day_price[0]
+                y = day_price[1]
+                current_error += math.pow(original_time_series[x] - y, 2)
 
-        for i in range(0, len(hypothetical_merged_tuple)):
-            x = hypothetical_merged_tuple[i][0]
-            if x == k:
-                hypothetical_merged_tuple[i] = (x, associated_y)
+            if min_error > current_error:
+                min_error = current_error
+                drop = t_temp[i+1]
+                section = hypothetical_section
+
+        print("MinError: ", min_error, "Drop:", drop)
 
         hypothetical_merged_line = [y for x, y in hypothetical_merged_tuple]
-        segment_price = [y for x, y in original_segments]
 
-        (t_stat, pvalue) = stats.ttest_rel(hypothetical_merged_line, segment_price)
-        print("Drop:" , k, "new Y:", associated_y,  "T-stat:", t_stat, "P-value:", pvalue)
+        for x, y in section: #replace old y with new hypothetical
+            hypothetical_merged_line[x] = y
+            #hypothetical_merged_tuple[x] = (x, y)
+
+
+        (t_stat, pvalue) = stats.ttest_rel(hypothetical_merged_line, original_time_series)
+        print("Drop:", drop, "T-stat:", t_stat, "P-value:", pvalue, "Len:", len(hypothetical_merged_line))
 
         if t_test_accept(pvalue):
             for i in range(0, len(t_temp)):
                 x = t_temp[i][0]
-                if x == k:
-                    t_temp.pop(i)
+                if x == drop[0]:
+                    print(t_temp.pop(i))
                     break
         else:
             break
     plot.clf()
     plot.plot(original_time_series)
-    plot.plot([x for x, y in original_segments], [y for x, y in original_segments] )
+    #plot.show()
+
     plot.plot([x for x, y in t_temp], [y for x, y in t_temp])
     plot.show()
+    return t_temp
 
-    
-# First import file
-chevron_csv = pandas.read_csv("../Stock Data/jpmorgan.csv")
-open_prices = chevron_csv[chevron_csv.columns[5]].tolist()
 
-plot.plot(range(0, len(open_prices)), open_prices)
-t_temp = split(open_prices, 0, len(open_prices))
-plot.show()
+if __name__ == '__main__':
+    chevron_csv = pandas.read_csv("../Stock Data/jpmorgan.csv")
+    open_prices = chevron_csv[chevron_csv.columns[5]].tolist()
 
-#Segements now contains the modified time series
-if not (0, open_prices[0]) in t_temp:
-    t_temp.insert(0, (0, open_prices[0]))
-if not (len(open_prices) - 1, open_prices[-1]) in t_temp:
-    t_temp.insert(1, (len(open_prices) - 1, open_prices[-1]))
+    plot.plot(range(0, len(open_prices)), open_prices)
+    t_temp = split(open_prices, 0, len(open_prices))
+    plot.show()
 
-t_temp.sort()
-print(t_temp)
+    #Segements now contains the modified time series
+    if not (0, open_prices[0]) in t_temp:
+        t_temp.insert(0, (0, open_prices[0]))
+    if not (len(open_prices) - 1, open_prices[-1]) in t_temp:
+        t_temp.insert(1, (len(open_prices) - 1, open_prices[-1]))
 
-#merge(t_temp, open_prices)
-#plot.show()
+    t_temp.sort()
+    print("After Split", len(t_temp))
+
+    t_temp = merge(t_temp, open_prices)
+    print("After Merge", len(t_temp))
+    #plot.show()
 
