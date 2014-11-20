@@ -2,10 +2,9 @@
 import calendar
 import urllib.request
 import datetime
-from xml.etree.ElementTree import Element, SubElement, tostring
+from xml.etree.ElementTree import Element, SubElement
 from xml.etree import ElementTree
 from html.parser import HTMLParser
-from html.entities import name2codepoint
 from http.client import IncompleteRead
 
 

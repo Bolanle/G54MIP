@@ -74,13 +74,13 @@ class SegmentCreator():
                 if max_error < current_error:
                     max_error = current_error
                     split_position = i
-            print("MaxError: ", max_error)
+            #print("MaxError: ", max_error)
 
             # T-test on related time series
             (t_stat, pvalue) = stats.ttest_rel([point.get_y() for point in hypothesis_time_series],
                                                [point.get_y() for point in current_time_series])
 
-            print("T-stat:", t_stat, "P-value:", pvalue)
+            #print("T-stat:", t_stat, "P-value:", pvalue)
 
             # Draw graph for visualisation
 
@@ -123,7 +123,7 @@ class SegmentCreator():
                     drop = segments[i + 1]
                     section = hypothetical_section
 
-            print("MinError: ", min_error, "Drop:", drop)
+            #print("MinError: ", min_error, "Drop:", drop)
 
             hypothetical_merged_line = [point.get_y() for point in hypothetical_merged_tuple]
 
@@ -133,13 +133,13 @@ class SegmentCreator():
 
             (t_stat, pvalue) = stats.ttest_rel(hypothetical_merged_line, [point.get_y() for point in original_time_series])
 
-            print("Drop:", drop, "T-stat:", t_stat, "P-value:", pvalue, "Len:", len(hypothetical_merged_line))
+            #print("Drop:", drop, "T-stat:", t_stat, "P-value:", pvalue, "Len:", len(hypothetical_merged_line))
 
             if self._t_test_accept(pvalue):
                 for i in range(0, len(segments)):
                     x = segments[i].get_x()
                     if x == drop.get_x():
-                        print("Remove Segment: {}".format(segments.pop(i)))
+                        #print("Remove Segment: {}".format(segments.pop(i)))
                         break
             else:
                 break
@@ -163,14 +163,14 @@ class SegmentCreator():
         if not data[-1] in t_temp:
             t_temp.insert(-1, data[-1])
         t_temp = sorted(t_temp, key=lambda point: point.get_x())
-        print("After Split", len(t_temp))
+        #print("After Split", len(t_temp))
 
         t_temp = self._merge(data, t_temp)
-        print("After Merge:", len(t_temp))
+        #print("After Merge:", len(t_temp))
 
         return t_temp
 
 
 if __name__ == '__main__':
     creator = SegmentCreator(draw=True)
-    creator.create_segments("../Stock Data/jpmorgan.csv", 5)
+    creator.create_segments("../Stock Data/ibm.csv", 5)

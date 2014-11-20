@@ -4,7 +4,7 @@ company_symbol = [("CVX", "chevron.csv"), ("DIS", "disney.csv"), ("GE", "ge.csv"
                   ("JPM", "jpmorgan.csv"), ("IBM", "ibm.csv"), ("KO", "cocacola.csv"), ("MSFT", "microsoft.csv"),
                   ("PFE", "pfizer.csv"), ("PG", "procter.csv"), ("T", "at&t.csv"), ("V", "visa.csv"),
                   ("XOM", "exxon.csv")]
-start_day = "2012-01-01"
+start_day = "2013-01-01"
 end_day = "2014-09-30"
 for symbol, filename in company_symbol:
     historical_prices = ystockquote.get_historical_prices(symbol, start_day, end_day)
