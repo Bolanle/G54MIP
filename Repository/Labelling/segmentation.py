@@ -9,9 +9,10 @@ import math
 
 
 class DataPoint():
-    def __init__(self, x, y):
+    def __init__(self, x, y, date=None):
         self.x = x
         self.y = y
+        self.date = date
 
     def get_x(self):
         return self.x
@@ -19,11 +20,14 @@ class DataPoint():
     def get_y(self):
         return self.y
 
+    def get_date(self):
+        return self.date
+
     def __repr__(self):
-        return "DataPoint({}, {})".format(self.x, self.y)
+        return "DataPoint({}, {}, {})".format(self.x, self.y, self.date)
 
     def __str__(self):
-        return "({}, {})".format(self.x, self.y)
+        return "({}, {}, {})".format(self.x, self.y, self.date)
 
 
 class SegmentCreator():
@@ -33,36 +37,41 @@ class SegmentCreator():
     def __init__(self, draw: bool=False):
         self.draw = draw
 
-    def _get_y_from_eqn(self, start_index_point:DataPoint, end_index_point:DataPoint, x_value):
+    @staticmethod
+    def get_y_from_eqn(start_index_point:DataPoint, end_index_point:DataPoint, x_value):
         y = (((end_index_point.get_y() - start_index_point.get_y()) * (x_value - start_index_point.get_x())) / (
             end_index_point.get_x() - start_index_point.get_x())) + start_index_point.get_y()
-        return y
+        return round(y, 2)
 
-    def _get_series_with_x(self, time_series:list):
+    @staticmethod
+    def get_series_with_x_and_date(time_series:list, dates):
         modified_series = []
         for x, y in enumerate(time_series):
-            modified_series.append(DataPoint(x, y))
+            modified_series.append(DataPoint(x, y, dates[x]))
         return modified_series
-
-    def _t_test_accept(self, pvalue):
-        alpha = 0.05
-        if (pvalue / 2) < alpha:
+    
+    @staticmethod
+    def t_test_accept(pvalue):
+        alpha = 0.1
+        if (pvalue / 2) <= alpha:
             return False
         return True
 
     def _split(self, original_time_series: list, start_index: int, end_index: int):
         if self.draw:
-            plot.plot([point.get_x() for point in original_time_series], [point.get_y() for point in original_time_series])
+            plot.plot([point.get_x() for point in original_time_series],
+                      [point.get_y() for point in original_time_series])
 
         t_temp = []
 
         if (end_index - start_index) > 2:
-            current_time_series = original_time_series[start_index:end_index]
-            current_time_series_x_axis = range(start_index, end_index)
+            current_time_series = original_time_series[start_index:end_index+1]
+            current_time_series_x_axis = range(start_index, end_index+1)
 
             hypothesis_time_series = [
-                DataPoint(x, self._get_y_from_eqn(original_time_series[start_index], original_time_series[end_index], x))
-                           for x in
+                DataPoint(x,
+                          SegmentCreator.get_y_from_eqn(original_time_series[start_index], original_time_series[end_index], x))
+                for x in
                 current_time_series_x_axis]  # generate project points for hypothesis
 
             max_error = 0
@@ -74,7 +83,7 @@ class SegmentCreator():
                 if max_error < current_error:
                     max_error = current_error
                     split_position = i
-            #print("MaxError: ", max_error)
+            # print("MaxError: ", max_error)
 
             # T-test on related time series
             (t_stat, pvalue) = stats.ttest_rel([point.get_y() for point in hypothesis_time_series],
@@ -84,7 +93,7 @@ class SegmentCreator():
 
             # Draw graph for visualisation
 
-            if not self._t_test_accept(pvalue):
+            if not SegmentCreator.t_test_accept(pvalue):
                 t_temp = t_temp + self._split(original_time_series, start_index, start_index + split_position)
                 t_temp.append(original_time_series[start_index + split_position])
                 t_temp = t_temp + self._split(original_time_series, start_index + split_position, end_index)
@@ -111,8 +120,8 @@ class SegmentCreator():
                 start_index = segments[i].get_x()
                 end_index = segments[i + 2].get_x()
                 hypothetical_section = [
-                    DataPoint(point.get_x(), self._get_y_from_eqn(original_time_series[start_index],
-                                                            original_time_series[end_index], point.x))
+                    DataPoint(point.get_x(), SegmentCreator.get_y_from_eqn(original_time_series[start_index],
+                                                                  original_time_series[end_index], point.x))
                     for point in original_time_series[start_index:end_index]]
 
                 for day_price in hypothetical_section:
@@ -123,7 +132,7 @@ class SegmentCreator():
                     drop = segments[i + 1]
                     section = hypothetical_section
 
-            #print("MinError: ", min_error, "Drop:", drop)
+            # print("MinError: ", min_error, "Drop:", drop)
 
             hypothetical_merged_line = [point.get_y() for point in hypothetical_merged_tuple]
 
@@ -131,14 +140,16 @@ class SegmentCreator():
                 hypothetical_merged_line[point.get_x()] = point.get_y()
                 hypothetical_merged_tuple[point.get_x()] = point
 
-            (t_stat, pvalue) = stats.ttest_rel(hypothetical_merged_line, [point.get_y() for point in original_time_series])
+            (t_stat, pvalue) = stats.ttest_rel(hypothetical_merged_line,
+                                               [point.get_y() for point in original_time_series])
 
             #print("Drop:", drop, "T-stat:", t_stat, "P-value:", pvalue, "Len:", len(hypothetical_merged_line))
 
-            if self._t_test_accept(pvalue):
+            if SegmentCreator.t_test_accept(pvalue):
                 for i in range(0, len(segments)):
                     x = segments[i].get_x()
                     if x == drop.get_x():
+                        segments.pop(i)
                         #print("Remove Segment: {}".format(segments.pop(i)))
                         break
             else:
@@ -152,18 +163,19 @@ class SegmentCreator():
 
     def create_segments(self, file_name, column_num):
         file_csv = pandas.read_csv(file_name)
-        data = self._get_series_with_x(file_csv[file_csv.columns[column_num]].tolist())
-        t_temp = self._split(data, 0, len(data) -1)
+        data = SegmentCreator.get_series_with_x_and_date(file_csv[file_csv.columns[column_num]].tolist(),
+                                                 file_csv[file_csv.columns[0]].tolist())
+        t_temp = self._split(data, 0, len(data) - 1)
 
         if self.draw:
-             plot.show()
+            plot.show()
 
         if not data[0] in t_temp:
             t_temp.insert(0, data[0])
         if not data[-1] in t_temp:
             t_temp.insert(-1, data[-1])
         t_temp = sorted(t_temp, key=lambda point: point.get_x())
-        #print("After Split", len(t_temp))
+        # print("After Split", len(t_temp))
 
         t_temp = self._merge(data, t_temp)
         #print("After Merge:", len(t_temp))
