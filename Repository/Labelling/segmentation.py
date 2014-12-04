@@ -53,7 +53,7 @@ class SegmentCreator():
     @staticmethod
     def t_test_accept(pvalue):
         alpha = 0.05
-        if (pvalue) <= alpha:
+        if (pvalue/2) <= alpha:
             return False
         return True
 
