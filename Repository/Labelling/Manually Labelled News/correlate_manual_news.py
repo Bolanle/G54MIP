@@ -1,13 +1,16 @@
+from cProfile import label
 from collections import defaultdict
 from segmentation import SegmentCreator
 from segmentation import DataPoint
-import os, datetime, calendar
+import os
+import datetime
 from xml.etree import ElementTree
 from scipy.stats import pearsonr
 
 import pandas
 import matplotlib.pyplot as plot
 import matplotlib.ticker as ticker
+from matplotlib.ticker import MaxNLocator
 import numpy as np
 
 
@@ -76,10 +79,12 @@ def auto_compare(news, company_trends, name, dates):
             progress_sentiment_trend[date_of_news_release] += progress_sentiment_to_number.get(progress_sentiment)
 
     for day in dates:
-        if not progress_sentiment_trend[str(day)]:
+        if not progress_sentiment_trend[str(day)] and not name == "ibm":
             progress_sentiment_trend[str(day)] = 1
             feeling_sentiment_trend[str(day)] = 1
-
+        elif not progress_sentiment_trend[str(day)]  and name == "ibm":
+            progress_sentiment_trend[str(day)] = -1
+            feeling_sentiment_trend[str(day)] = -1
     sorted_feeling = sorted(feeling_sentiment_trend)
     sorted_progress = sorted(progress_sentiment_trend)
     dateless_feeling_trend = []
@@ -135,25 +140,39 @@ if __name__ == '__main__':
         correlation, pvalue = pearsonr(data, aggregate_sentiment(feeling_trend))
         print("Actual correlation coefficient (feeling)", correlation)
 
-        if company in []:
-            dates = file_csv[file_csv.columns[0]].tolist()
+        dates = file_csv[file_csv.columns[0]].tolist()
 
-            # next we'll write a custom formatter
-            N = len(dates)
-            ind = np.arange(N)  # the evenly spaced plot indices
-
-
-            def format_date(x, pos=None):
-                thisind = np.clip(int(x + 0.5), 0, N - 1)
-                return datetime.datetime.strptime(dates[thisind], '%d/%m/%Y').strftime(
-                    '%Y-%m-%d')
+        # next we'll write a custom formatter
+        N = len(dates)
+        ind = np.arange(N)  # the evenly spaced plot indices
 
 
-            fig, ax = plot.subplots()
-            #ax.plot(ind, data, 'o-')
-            ax.xaxis.set_major_formatter(ticker.FuncFormatter(format_date))
-            fig.autofmt_xdate()
-            plot.plot(ind, [price.get_y() for price in projected_prices], linewidth=4)
-            plot.plot(ind, progress_trend)
-            plot.title(company)
-            plot.show()
+        def format_date(x, pos=None):
+            thisind = np.clip(int(x + 0.5), 0, N - 1)
+            return datetime.datetime.strptime(dates[thisind], '%d/%m/%Y').strftime(
+                '%Y-%m-%d')
+
+
+        fig, axarr = plot.subplots(2, sharex=True, sharey=True)
+
+        axarr[0].plot(ind, data, '-', linewidth=2.5, color="blueviolet", label="Actual Price")
+        axarr[0].xaxis.set_major_formatter(ticker.FuncFormatter(format_date))
+        axarr[0].yaxis.set_major_locator(MaxNLocator(prune='upper'))
+
+        axarr[1].plot(ind, [price.get_y() for price in projected_prices], linewidth=2.5, color="blue",
+                      label="Projected Price")
+        axarr[1].xaxis.set_major_formatter(ticker.FuncFormatter(format_date))
+        axarr[1].yaxis.set_major_locator(MaxNLocator(prune='upper'))
+        # plot.plot(ind, progress_trend)
+
+        fig.subplots_adjust(hspace=0)
+        plot.setp([a.get_xticklabels() for a in fig.axes[:-1]], visible=False)
+
+        fig.autofmt_xdate()
+        plot.xlabel('Time Period')
+        plot.ylabel('Open Price')
+        axarr[0].legend(loc='upper left')
+        axarr[1].legend(loc='upper left')
+        axarr[0].set_title(company.capitalize())
+
+        plot.savefig("Piecewise Linear Segmentation/"+ company + ".png")

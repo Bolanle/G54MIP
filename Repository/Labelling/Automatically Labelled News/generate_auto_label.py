@@ -79,7 +79,10 @@ def auto_generate(news, company_trends, company_name, dates):
             start, end = get_segment_for_news_release(date_of_news_release, company_trends)
             trend = get_trend(start, end)
             news_article.attrib['progress_sentiment'] = progress_sentiment_from_number[trend]
-
+            try:
+                news_article.attrib.pop('feeling_sentiment')
+            except:
+                pass
             progress_sentiment_trend[date_of_news_release] += progress_sentiment_to_num[trend]
     # write to file
     ElementTree.ElementTree(news).write("{}.xml".format(company_name), xml_declaration=True)

@@ -1459,7 +1459,7 @@
     </entry>
 
 
-    <entry author="By Craig Giammona" datetime="Oct 01, 2014  4:35 PM ET" feeling_sentiment="u" progress_sentiment="n"
+    <entry author="By Craig Giammona" datetime="Oct 01, 2014  4:35 PM ET" feeling_sentiment="h" progress_sentiment="n"
            url="http://bloomberg.com/news/2014-10-01/coca-cola-reins-in-stock-compensation-plan-in-wake-of-criticism.html">
         <headline>Coca-Cola Trims Stock Compensation Plan After Criticism</headline>
         <body>
@@ -1808,6 +1808,43 @@
             &lt;p&gt;
             A customer views an Apple Inc. iPhone 5c displayed during the devices launch at the company's store in New
             York. Close
+            &lt;/p&gt;
+        </body>
+    </entry>
+    <entry author="By Amy Thomson and Dina Bass" datetime="Apr 11, 2013  4:10 PM ET" feeling_sentiment="s"
+           progress_sentiment="d"
+           url="http://bloomberg.com/news/2013-04-11/microsoft-drops-on-goldman-sachs-sell-recommendation.html">
+        <headline>Microsoft Drops on Goldman Says PC Share Falling</headline>
+        <body>
+            &lt;p&gt;Microsoft Corp. (MSFT) tumbled the most in
+            more than a year after Goldman Sachs Group Inc. said the
+            software maker is struggling with slack personal-computer sales
+            and its push into consumer devices has failed to gain traction. &lt;/p&gt;
+            &lt;p&gt;In a note to investors today, Heather Bellini, a New York-
+            based analyst at Goldman Sachs, recommended that investors sell
+            the stock. She downgraded the shares from a neutral rating.
+            Since yesterday, at least two other analysts have also reduced
+            their ratings on shares of the world's largest software company,
+            based in Redmond, Washington. &lt;/p&gt;
+            &lt;p&gt;Lackluster corporate demand for Microsoft's new Windows 8
+            operating system helped send PC shipments plummeting 14 percent
+            worldwide in the first quarter, according to IDC, making it the
+            worst quarter since the researcher starting tracking sales.
+            Consumers are also increasingly opting to forgo PCs in favor of
+            smartphones and tablet machines, markets where Microsoft's
+            offerings are selling poorly. &lt;/p&gt;
+            &lt;p&gt;'The company faces critical secular challenges given the
+            deteriorating PC demand backdrop,' Bellini wrote. Financial
+            results will 'gradually deteriorate unless Microsoft
+            successfully repositions itself as a more meaningful participant
+            in the new era of consumer compute.' &lt;/p&gt;
+
+
+            Photographer: Stuart Isett/Bloomberg
+
+            &lt;p&gt;
+            Customer Ben Higginbotham, left, uses the Surface table computer at the opening of a Microsoft Corp. store
+            in Bellevue, Washington on Oct. 26, 2012. Close
             &lt;/p&gt;
         </body>
     </entry>
