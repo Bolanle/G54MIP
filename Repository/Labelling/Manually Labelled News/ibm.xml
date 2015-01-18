@@ -1,8 +1,38 @@
 <?xml version='1.0' encoding='us-ascii'?>
 <news>
-
-    <entry author="By David McLaughlin and Alex Barinka" datetime="Apr 04, 2014  6:29 PM ET" feeling_sentiment="s"
-           progress_sentiment="d"
+    <entry author="By Christie Smythe" datetime="Apr 03, 2013  2:11 PM ET" feeling_sentiment="s" progress_sentiment="n"
+           url="http://bloomberg.com/news/2013-04-03/former-stockbroker-pleads-guilty-in-ibm-spss-tipping-case.html">
+        <headline>Former Stockbroker Pleads Guilty in IBM-SPSS Tipping Case</headline>
+        <body>
+            &lt;p&gt;A former New York stockbroker
+            admitted to sharing inside tips about International Business
+            Machines Corp. (IBM)'s $1.2 billion acquisition of SPSS Inc. that he
+            picked up from his roommate. &lt;/p&gt;
+            &lt;p&gt;Thomas Conradt, 35, pleaded guilty to conspiracy to commit
+            securities fraud and two counts of securities fraud today in
+            Manhattan federal court. Conradt was accused of learning about
+            the deal from his roommate, Trent Martin, a former financial
+            analyst who was extradited from Hong Kong last month. &lt;/p&gt;
+            &lt;p&gt;Prosecutors said Martin was tipped by a corporate lawyer,
+            not identified in court papers, who was working on the IBM deal
+            in 2009. &lt;/p&gt;
+            &lt;p&gt;'I understood this information was inside information and
+            that it was not publically available,' Conradt told U.S.
+            District Judge Andrew L. Carter Jr. today. 'I can assure the
+            court that I will never put myself in this position again.' &lt;/p&gt;
+            &lt;h2&gt;Carter set sentencing for Oct. 3 &lt;/h2&gt;
+            &lt;p&gt;Martin allegedly bought SPSS stock based on the information
+            and shared the tip with Conradt. Conradt in turn was accused of
+            telling a friend, David Weishaus, who passed the information to
+            two other brokers, according to the government. &lt;/p&gt;
+            &lt;p&gt;Following his extradition, Martin, an Australian citizen,
+            pleaded not guilty to conspiracy and securities fraud. &lt;/p&gt;
+            &lt;p&gt;The case is U.S. v. Martin, 12-cr-00887, U.S. District
+            Court, Southern District of New York (Manhattan). &lt;/p&gt;
+            &lt;p&gt;</body>
+    </entry>
+    <entry author="By David McLaughlin and Alex Barinka" datetime="Apr 04, 2014  6:29 PM ET" feeling_sentiment="h"
+           progress_sentiment="u"
            url="http://bloomberg.com/news/2014-04-04/lenovo-ibm-deal-probed-by-u-s-over-servers-at-pentagon.html">
         <headline>Lenovo-IBM Deal Probed by U.S. Over Servers at Pentagon</headline>
         <body>
@@ -153,6 +183,81 @@
             sensitive data as a server.' &lt;/p&gt;
             &lt;p&gt;</body>
     </entry>
+    <entry author="By Carla Main" datetime="Apr 07, 2014 12:01 AM ET" feeling_sentiment="h" progress_sentiment="u"
+           url="http://bloomberg.com/news/2014-04-07/holder-trading-probe-tax-breaks-ibm-pension-compliance.html">
+        <headline>Holder Trading Probe, Tax Breaks, IBM Pension: Compliance</headline>
+        <body>
+            &lt;p&gt;U.S. Attorney General Eric Holder
+            promised Congress a thorough investigation into whether high-frequency trading violates laws against insider
+            trading. &lt;/p&gt;
+            &lt;p&gt;Holder made the comments in prepared remarks April 4 for a
+            Congressional oversight hearing. &lt;/p&gt;
+            &lt;p&gt;The Federal Bureau of Investigation has said its agents are
+            probing whether firms that conduct high-frequency trading get an
+            unfair jump on the competition by using computers and data lines
+            to gain access to non-public information. The bureau has taken
+            the unusual step of publicly appealing for traders and stock-exchange workers to blow the whistle on
+            possible manipulation
+            tied to the super-fast computer networks. &lt;/p&gt;
+            &lt;p&gt;The practice drew extensive media coverage last week with
+            the publication of 'Flash Boys,' a book on the topic by
+            Michael Lewis, a columnist for Bloomberg View. &lt;/p&gt;
+            &lt;p&gt;The FBI's inquiry stems from a multiyear crackdown on
+            insider trading that has led to 79 convictions of hedge-fund
+            traders and others. Other federal and state agencies also are
+            examining high-frequency trading, which relies on computers and
+            high-speed data connections to post and cancel orders in
+            fractions of a second to profit on slight price discrepancies. &lt;/p&gt;
+            &lt;p&gt;For more, click here. &lt;/p&gt;
+            &lt;h2&gt;Compliance Policy &lt;/h2&gt;
+            &lt;h2&gt;Lapsed U.S. Tax Breaks for Wind, Corporations Revived in Senate &lt;/h2&gt;
+            &lt;p&gt;The U.S. Senate Finance Committee voted to revive almost
+            all of the 55 tax breaks that expired Dec. 31, providing
+            benefits for wind energy, U.S.-based multinational corporations
+            and motor sports track owners. &lt;/p&gt;
+            &lt;p&gt;While senators said they lamented the need to routinely
+            extend tax breaks, lawmakers continue the temporary revival
+            pattern. Making the breaks permanent would require accounting
+            for 10 years of forgone revenue. Lawmakers back provisions that
+            are particularly important in their home states and trade
+            support for other members' favored breaks. &lt;/p&gt;
+            &lt;h2&gt;Courts &lt;/h2&gt;
+            &lt;h2&gt;IBM Pension Changes Breached Employee Rights, U.K. Judge Says &lt;/h2&gt;
+            &lt;p&gt;International Business Machines Corp. (IBM) unfairly changed its
+            U.K. pension plan in a bid to reduce a deficit of 890 million
+            pounds ($1.48 billion), a judge in London ruled, handing a
+            victory to a group of employees who had opposed the move by the
+            company. &lt;/p&gt;
+            &lt;p&gt;IBM's 'Project Waltz,' which cut benefits to 5,000
+            employees, breached the company's duties to them, Judge Nicholas
+            Warren said in the 430-page ruling. &lt;/p&gt;
+            &lt;p&gt;'The court's opinion acknowledges IBM's right to make
+            changes in its U.K. pension programs,' said Ken Saunders, a
+            company spokesman. IBM disagrees with the decision and will
+            appeal, he said. &lt;/p&gt;
+            &lt;p&gt;David Young, a lawyer for the employees, didn't immediately
+            respond to requests for comment on the ruling. &lt;/p&gt;
+            &lt;p&gt;The case is IBM United Kingdom Holdings Ltd., IBM United
+            Kingdom Ltd. v Stuart Dalgleish Ors, High Court of Justice,
+            Chancery Division, HC10C01796. &lt;/p&gt;
+            &lt;h2&gt;SAC Capital Judge Urged by U.S. to Accept $900 Million Penalty &lt;/h2&gt;
+            &lt;p&gt;SAC Capital Advisors LP's plea agreement to pay a $900
+            million penalty should be accepted, U.S. prosecutors told a
+            judge April 3 as they seek the biggest criminal fine ever
+            imposed for insider trading. The fine is part of a larger
+            settlement with the hedge fund. &lt;/p&gt;
+            &lt;p&gt;U.S. District Judge Laura Taylor Swain is set to decide
+            April 10 whether she will accept the plea. &lt;/p&gt;
+            &lt;p&gt;SAC pleaded guilty in November to securities fraud and wire
+            fraud for allowing eight employees to engage in illicit trading
+            dating back to 1999. &lt;/p&gt;
+            &lt;p&gt;The criminal case is U.S. v. SAC Capital Advisors LP, 13-cr-00541, U.S. District Court, Southern
+            District of New York
+            (Manhattan). The civil case is U.S. v. SAC Capital Advisors LP,
+            1:13-cv-5182, U.S. District Court, Southern District of New York
+            (Manhattan). &lt;/p&gt;
+            &lt;p&gt;</body>
+    </entry>
     <entry author="By Sarah Frier" datetime="Apr 09, 2013 12:01 AM ET" feeling_sentiment="s" progress_sentiment="n"
            url="http://bloomberg.com/news/2013-04-09/augusta-national-stays-mum-on-when-ibm-s-female-ceo-can-join.html">
         <headline>Augusta National Stays Mum on When IBM's Female CEO Can Join</headline>
@@ -266,7 +371,174 @@
             Poor's 500 Index. &lt;/p&gt;
             &lt;p&gt;</body>
     </entry>
-
+    <entry author="By Ellen Rosen" datetime="Apr 22, 2013  8:00 AM ET" feeling_sentiment="n" progress_sentiment="n"
+           url="http://bloomberg.com/news/2013-04-22/e-books-sony-music-glaxo-ibm-intellectual-property.html">
+        <headline>E-Books, Sony Music, Glaxo, IBM: Intellectual Property</headline>
+        <body>
+            &lt;p&gt;Facebook Inc. (FB), operator of the
+            world's most popular social-networking website, must convince a
+            Chicago federal court jury that its Timeline feature isn't
+            trampling the trademark rights of the website Timelines.com. &lt;/p&gt;
+            &lt;p&gt;Timelines Inc., the operator of that site, sued Facebook in
+            September 2011, a week after the social network announced it was
+            converting user-profile pages previously known as walls to
+            individual chronologies and calling the new feature
+            'Timeline.' &lt;/p&gt;
+            &lt;p&gt;Announcing its new profile design, Facebook founder and
+            Chief Executive Officer Mark Zuckerberg called Timeline 'the
+            heart' of a user's experience. Facebook has more than a billion
+            monthly users, according to its website. &lt;/p&gt;
+            &lt;p&gt;Timelines, which has about 94,000 visitors a month, is
+            scheduled to go to trial today seeking to stop Facebook from
+            using the word 'timeline,' contending it has held a federal
+            trademark on the use of 'timelines' in the realm of user-created Internet chronologies since 2009. &lt;/p&gt;
+            &lt;p&gt;The Chicago-based company's website allows user-members to
+            create timelines and add events to existing ones including those
+            for space exploration, sporting events, battles and
+            assassinations. &lt;/p&gt;
+            &lt;p&gt;Timelines is seeking damages equivalent to Facebook's
+            Timeline-derived ad revenue, plaintiff's attorney Douglas
+            Albritton said in a phone interview this month. &lt;/p&gt;
+            &lt;p&gt;Facebook, based in Menlo Park, California, counter-sued,
+            contending 'timeline' is too generic for federal trademark
+            protection and arguing that the registrations should be
+            canceled. &lt;/p&gt;
+            &lt;p&gt;'Plaintiff's description of its services reflects the
+            common understanding of the term 'timeline' in the English
+            language,' defense lawyers said in a January court filing
+            asking U.S. District Judge John W. Darrah for a ruling it its
+            favor ending the case. &lt;/p&gt;
+            &lt;p&gt;Darrah on April 1 denied Facebook's motion, setting it on
+            course for today's trial in his court. &lt;/p&gt;
+            &lt;p&gt;The case is Timelines Inc. v. Facebook Inc., 11-cv-06867,
+            U.S. District Court, Northern District of Illinois (Chicago). &lt;/p&gt;
+            &lt;p&gt;For more, click here. &lt;/p&gt;
+            &lt;p&gt;For more trademark news, click here. &lt;/p&gt;
+            &lt;h2&gt;Patent &lt;/h2&gt;
+            &lt;h2&gt;Penguin Offers Changes to Settle EU's E-Books Antitrust Probe &lt;/h2&gt;
+            &lt;p&gt;Pearson Plc (PSON)'s Penguin offered to overhaul pricing models
+            for digital books to settle a European Union antitrust probe
+            into whether they blocked competition. &lt;/p&gt;
+            &lt;p&gt;Penguin won't 'restrict, limit or impede' e-book
+            retailers' discounts or their ability to 'set, alter or reduce
+            retail prices for e-books' for two years, according to details
+            of the proposed changes as published in the EU's Official
+            Journal April 19. Apple Inc. (AAPL), the world's biggest technology
+            company, and four publishers previously offered similar remedies
+            to allay European concerns. &lt;/p&gt;
+            &lt;p&gt;The EU said Penguin, together with the four publishers and
+            Apple, 'may have breached EU antitrust rules that prohibit
+            cartels and restrictive practices by jointly switching the sale
+            of e-books from a wholesale model to agency contracts containing
+            the same key terms,' the Brussels-based European Commission
+            said in a statement. The companies 'may have engaged in a
+            concerted practice with the object of raising retail prices of
+            e-books' or blocking lower prices in Europe, it said. &lt;/p&gt;
+            &lt;p&gt;The EU's antitrust regulator is giving competitors and
+            customers until May 19 to comment on the proposed remedies,
+            which could then become legally binding in a settlement that
+            would end the investigation without imposing fines or
+            determining that the companies violated competition rules. The
+            commission said it will conduct another such market test 'if
+            substantial changes to the commitments are subsequently made.' &lt;/p&gt;
+            &lt;p&gt;Penguin said that 'subject to the market test currently
+            under way, it has reached an agreement with the European
+            Commission to settle its investigation,' according to an e-mailed statement on Friday. &lt;/p&gt;
+            &lt;p&gt;'Penguin's position that it has done nothing wrong remains
+            unchanged and the company continues to believe that the agency
+            pricing model operates in the best interests of consumers and
+            authors,' the company said in the statement. &lt;/p&gt;
+            &lt;p&gt;For more, click here. &lt;/p&gt;
+            &lt;h2&gt;Glaxo Gets OFT Complaint for Paying to Delay Seroxat Copies &lt;/h2&gt;
+            &lt;p&gt;GlaxoSmithKline Plc (GSK) was sent an antitrust complaint by U.K.
+            regulators who say the company may have colluded with generic-drug makers to keep copies of its Seroxat
+            antidepressant off the
+            market. &lt;/p&gt;
+            &lt;p&gt;Glaxo, the U.K.'s biggest drugmaker, may have paid Alpharma
+            Ltd., Generics (U.K.) Ltd. and a unit of Teva Pharmaceutical
+            Industries Ltd. (TEVA) to delay the release of cheaper, copycat
+            versions of the drug, the U.K. Office of Fair Trading said on
+            its website. Seroxat was one of Glaxo's best-selling drugs from
+            2002 through 2004, when the agreements were in place, the OFT
+            said. &lt;/p&gt;
+            &lt;p&gt;'The introduction of generic medicines can lead to strong
+            competition on price, which can drive savings for the NHS, to
+            the benefit of patients and, ultimately, taxpayers,' said Ann
+            Pope, a director at the OFT, referring to the U.K.'s publicly
+            funded National Health Service. &lt;/p&gt;
+            &lt;p&gt;Antitrust regulators on both sides of the Atlantic are
+            focusing on how settlements between companies that make branded
+            medicines and generics producers might harm consumers. Les
+            Laboratoires Servier, H. Lundbeck A/S (LUN) and Teva, the world's
+            largest generic-drug maker, were sent statements of objections
+            last year by the European Union's antitrust watchdog over
+            possible delays for generic drugs. &lt;/p&gt;
+            &lt;p&gt;The OFT probe covers matters already examined by the EU
+            without subsequent sanctions, David Daley, a spokesman for the
+            London-based company, said by e-mail. &lt;/p&gt;
+            &lt;p&gt;Glaxo 'supports fair competition and we very strongly
+            believe that we acted within the law, as the holder of valid
+            patents for paroxetine, in entering the agreements under
+            investigation,' Daley said in an e-mail, referring to the
+            active ingredient in Seroxat. &lt;/p&gt;
+            &lt;p&gt;Glaxo and the generic companies were sent so-called
+            statements of objections, the OFT said. Daley said the company
+            will need time to review the documents before considering any
+            further action. &lt;/p&gt;
+            &lt;p&gt;For more, click here. &lt;/p&gt;
+            &lt;p&gt;For more patent news, click here. &lt;/p&gt;
+            &lt;h2&gt;Copyright &lt;/h2&gt;
+            &lt;h2&gt;Songwriter Settles Suit Against Sony and Alicia Keys &lt;/h2&gt;
+            &lt;p&gt;Earl Shuman, who wrote the song '(Hey There) Lonely Girl'
+            has settled a suit filed in December against Sony Music, Alicia
+            Keys and several other defendants. He claimed that Keys' latest
+            hit, 'Girl on Fire,' sampled several seconds of his song
+            without authorization or payment. The song, which he co-wrote
+            with Leon Carr, was a hit in 1969 and 1980. &lt;/p&gt;
+            &lt;p&gt;The terms of the settlement weren't disclosed. &lt;/p&gt;
+            &lt;p&gt;Los Angeles attorney Philip Kaplan, who represented Shuman,
+            didn't return a call seeking comment. Sony Music, a division of
+            Sony Corp. (SNE), declined to comment. &lt;/p&gt;
+            &lt;p&gt;The case is Shuman v. Sony Entertainment, 2:12-cv-10572,
+            U.S. District Court for the Central District of California (Los
+            Angeles). &lt;/p&gt;
+            &lt;p&gt;For more copyright news, click here. &lt;/p&gt;
+            &lt;h2&gt;Deals &lt;/h2&gt;
+            &lt;h2&gt;Venture Capital Investments Drop in First Quarter of 2013 &lt;/h2&gt;
+            &lt;p&gt;From January through March, according to the National
+            Venture Capital Association, 863 companies received $5.867
+            billion in venture capital investments. &lt;/p&gt;
+            &lt;p&gt;The amounts reflect a decline of 12 percent in dollar
+            amounts and 15 percent in the number of deals from the fourth
+            quarter of 2012, when $6.7 billion was invested in 1,013 deals. &lt;/p&gt;
+            &lt;p&gt;The NVCA said that the life sciences and clean technology
+            sectors faced the most severe decreases, while there were
+            'notable' increases in the media and entertainment industry. &lt;/p&gt;
+            &lt;p&gt;For more, click here. &lt;/p&gt;
+            &lt;h2&gt;Lenovo Said to Be in Talks to Buy Parts of IBM Server Unit &lt;/h2&gt;
+            &lt;p&gt;Lenovo Group Ltd. (992), the Chinese personal-computer maker, is
+            the most likely bidder for parts of International Business
+            Machines Corp. (IBM)'s server division, a person familiar with the
+            matter said. &lt;/p&gt;
+            &lt;p&gt;The business, which sells servers running x86 processors,
+            may fetch $2.5 billion to $4.5 billion depending on what assets
+            and liabilities are included, said the person, who asked to not
+            be named because the talks are private. An agreement may still
+            be several weeks away, the person said. &lt;/p&gt;
+            &lt;p&gt;Lenovo used the 2005 purchase of IBM's PC unit as a
+            steppingstone to become the world's second-largest producer. &lt;/p&gt;
+            &lt;p&gt;The talks were previously reported in CRN, a publication
+            aimed at technology integrators. In response to the story,
+            Lenovo said it was in 'preliminary' discussions about a
+            potential acquisition with a third party, which it didn't name. &lt;/p&gt;
+            &lt;p&gt;Jeffrey Shafer, a Lenovo spokesman, said in an e-mail he
+            had no additional comment beyond that statement. &lt;/p&gt;
+            &lt;p&gt;IBM Chief Financial Officer Mark Loughridge said on his
+            company's earnings call that he wouldn't comment on rumors. Ed Barbini, a spokesman for Armonk, New
+            York-based IBM, also
+            declined to comment on the Lenovo talks. &lt;/p&gt;
+            &lt;p&gt;</body>
+    </entry>
     <entry author="By Thomas Mulier" datetime="Apr 23, 2013  1:34 AM ET" feeling_sentiment="s" progress_sentiment="d"
            url="http://bloomberg.com/news/2013-04-23/roche-dissolves-applied-science-unit-as-it-ends-ibm-alliance.html">
         <headline>Roche Dissolves Applied Science Unit as It Ends IBM Alliance</headline>
@@ -291,7 +563,7 @@
             &lt;p&gt;Roche said its outlook for 2013 remains unchanged. &lt;/p&gt;
             &lt;p&gt;</body>
     </entry>
-    <entry author="By Alex Barinka" datetime="Apr 23, 2014  1:00 PM ET" feeling_sentiment="h" progress_sentiment="u"
+    <entry author="By Alex Barinka" datetime="Apr 23, 2014  1:00 PM ET" feeling_sentiment="n" progress_sentiment="u"
            url="http://bloomberg.com/news/2014-04-23/ibm-introduces-new-power-server-amid-repositioning-of-unit.html">
         <headline>IBM Introduces New Power Server Amid 'Repositioning' of Unit</headline>
         <body>
@@ -505,6 +777,122 @@
             &lt;p&gt;The company was willing to pay Globalfoundries Inc. about $1 billion to take the chip-manufacturing
             unit of its hands -- an offer that was turned down for being $1 billion too short, a person familiar with
             the talks said this month. &lt;/p&gt; &lt;p&gt;</body>
+    </entry>
+    <entry author="By Bloomberg News" datetime="Aug 14, 2014  6:49 AM ET" feeling_sentiment="h" progress_sentiment="u"
+           url="http://bloomberg.com/news/2014-08-14/lenovo-working-with-multiple-u-s-agencies-on-ibm-motorola-ceo.html">
+        <headline>Lenovo Working With Multiple Agencies on IBM, Motorola</headline>
+        <body>
+            &lt;p&gt;Lenovo Group Ltd. (992) said more
+            negotiations are required with multiple U.S. government agencies
+            as the Chinese company seeks approval for more than $5 billion
+            in planned acquisitions. &lt;/p&gt;
+            &lt;p&gt;Lenovo still believes it can close the $2.3 billion
+            purchase of International Business Machines Corp. (IBM)'s low-end
+            server unit and the $2.91 billion purchase of Google Inc. (GOOG)'s
+            Motorola Mobility unit this year as planned, Chief Executive
+            Officer Yang Yuanqing said in a phone interview today. &lt;/p&gt;
+            &lt;p&gt;'We are making progress, but we definitely still have some
+            things to do with multiple government agencies,' Yang said
+            without elaborating on the remaining issues. &lt;/p&gt;
+            &lt;p&gt;The IBM deal was expected to spark a close review partly
+            because U.S. agencies, including the Defense Department and the
+            Department of Homeland Security, buy the IBM servers, according
+            to Bloomberg Intelligence. Lenovo and IBM, seeking more time for
+            a U.S. national-security review, in June resubmitted the deal
+            for examination by an interagency panel, a person familiar with
+            the matter said at the time. &lt;/p&gt;
+            &lt;p&gt;'The IBM and Motorola deals are important for Lenovo,
+            especially for growth beyond fiscal 2016,' said Stephen Yang, a
+            Hong Kong-based analyst at Sun Hung Kai Financial. 'All parties
+            are hoping for calendar year-end closure, but there is always a
+            risk that regulators could stretch it out.' &lt;/p&gt;
+            &lt;h2&gt;CFIUS Review &lt;/h2&gt;
+            &lt;p&gt;The Committee on Foreign Investment in the U.S. examines
+            acquisitions of U.S. companies by foreign investors to determine
+            the effects on national security, with a standard inquiry taking
+            75 days. Lenovo said in June the companies were still on track
+            to complete the deal by year's end. &lt;/p&gt;
+            &lt;p&gt;Lenovo was successful in getting CFIUS approval in 2005 for
+            an earlier deal, in which the Chinese company acquired IBM's
+            personal-computer unit for $1.25 billion. &lt;/p&gt;
+            &lt;p&gt;Review of the latest IBM purchase, which was announced in
+            January, comes amid heightened tension between the U.S. and
+            China over cybersecurity. In May, the U.S. accused five Chinese
+            military officials of stealing trade secrets and other
+            information from American companies. &lt;/p&gt;
+            &lt;p&gt;The server purchase would add a business with wider profit
+            margins than PCs and give Lenovo about 14 percent of that
+            market, the company has said. The Motorola deal would add an
+            established mobile phone brand in developed markets, including
+            the U.S. &lt;/p&gt;
+            &lt;p&gt;'With the Motorola deal, we will become a global player in
+            the smartphone area,' Yang said in the interview today. 'The
+            IBM deal is equally important to our enterprise business or even
+            more important because that gives us a very strong foundation,
+            very strong customer base, very good technology and a good
+            team.' &lt;/p&gt;
+            &lt;h2&gt;Profit Rise &lt;/h2&gt;
+            &lt;p&gt;Yang spoke today after the company reported net income
+            surged 23 percent to $213.5 million in the three months ended
+            June. That beat the $197.3 million average of eight analysts'
+            estimates compiled by Bloomberg. &lt;/p&gt;
+            &lt;p&gt;Sales climbed to $10.4 billion in the period from $8.79
+            billion a year earlier, Lenovo said. &lt;/p&gt;
+            &lt;p&gt;Yang has kept the company growing by winning market share
+            in PCs as he expands the smartphone and tablet-computer
+            businesses. Lenovo is moving beyond its home base of China by
+            targeting growth in the Middle East, Africa and Latin America. &lt;/p&gt;
+            &lt;p&gt;'Looks like strength everywhere -- their emerging markets
+            business in both smartphones and PCs seemed relatively strong,'
+            said Alberto Moel, an analyst at Sanford C. Bernstein Co. in
+            Hong Kong. 'The PC contraction is now heading into the late
+            stages, and Lenovo is driving the consolidation to its
+            advantage.' &lt;/p&gt;
+            &lt;h2&gt;PC Share &lt;/h2&gt;
+            &lt;p&gt;Lenovo, which has its headquarters in Beijing and
+            Morrisville, North Carolina, fell 1.4 percent in Hong Kong,
+            while the benchmark Hang Seng Index declined 0.4 percent. The
+            stock has gained 19 percent this year. &lt;/p&gt;
+            &lt;p&gt;While industrywide global PC shipments gained 0.1 percent
+            in the three months ended June, Lenovo posted a 15 percent
+            increase, researcher Gartner Inc. reported last month. Global PC
+            shipments are projected to decline 2.9 percent this year,
+            following a 9.5 percent drop last year, according to Gartner. &lt;/p&gt;
+            &lt;p&gt;Lenovo's smartphone shipments jumped 39 percent in the
+            period to 15.8 million units, researcher International Data
+            Corp. reported last month. That lifted its global market share
+            for the devices to 5.4 percent from 4.7 percent a year earlier,
+            IDC said. &lt;/p&gt;
+            &lt;p&gt;'The company beat estimates with strong product shipments
+            as their PC sales outpaced the global average,' Ricky Lai, an
+            analyst at Guotai Junan International Holdings Limited in Hong
+            Kong, said by phone today after results. 'The smartphone
+            business is also showing very strong growth in the second
+            quarter.' &lt;/p&gt;
+            &lt;h2&gt;Online Sales &lt;/h2&gt;
+            &lt;p&gt;Lenovo passed Samsung Electronics Co. (005930) as China's smartphone
+            market leader for the first time, Yang said, citing data from
+            IDC. Still, increased competition from domestic peers including
+            Xiaomi Corp. and Huawei Technologies Co. are increasing
+            competition in China. &lt;/p&gt;
+            &lt;p&gt;Lenovo will adopt more of the online distribution strategy
+            favored by Xiaomi, using Lenovo's websites and e-commerce
+            platforms run by JD.com Inc. and Alibaba Group Holding Ltd. (BABA),
+            Yang said. &lt;/p&gt;
+            &lt;p&gt;'China is a very chaotic market and the top three are very
+            close,' Yang said in the interview. 'The current competitive
+            situation is hard for everyone to make money. For mobile phones,
+            our focus is outside of China, particularly emerging markets.' &lt;/p&gt;
+            &lt;p&gt;Lenovo ranks No. 4 globally in smartphone shipments, behind
+            Samsung, Apple Inc. and Huawei, respectively, IDC said. Lenovo
+            will look to Southeast Asia, Eastern Europe and Latin America
+            for growth, Yang said in the interview. &lt;/p&gt;
+            &lt;p&gt;'Lenovo is doing very well on the mobile side,' Jean-Louis Lafayeedney, an analyst at JI Asia in
+            Hong Kong, said
+            before the results were announced. 'They have a rapidly growing
+            business in terms of sales, although it's still not growing as
+            much in terms of profit.' &lt;/p&gt;
+            &lt;p&gt;</body>
     </entry>
     <entry author="By Alex Barinka and David McLaughlin" datetime="Aug 15, 2014  6:37 PM ET" feeling_sentiment="h"
            progress_sentiment="u"
@@ -791,8 +1179,8 @@
             in a Dec. 11 phone interview. His firm oversees $90 billion. 'They're willing to purchase shares. It's a
             good thing to see that they have cash flow.' &lt;/p&gt; &lt;p&gt;</body>
     </entry>
-    <entry author="By Sarah Frier and Olga Kharif" datetime="Feb 01, 2013  4:12 PM ET" feeling_sentiment="s"
-           progress_sentiment="d"
+    <entry author="By Sarah Frier and Olga Kharif" datetime="Feb 01, 2013  4:12 PM ET" feeling_sentiment="h"
+           progress_sentiment="u"
            url="http://bloomberg.com/news/2013-02-01/ibm-stagnant-sales-make-netapp-splunk-targets-real-m-a.html">
         <headline>IBM May Need Multibillion-Dollar Deal to Jump-Start Sales</headline>
         <body>
@@ -1025,7 +1413,99 @@
             are expected to be rated Aa3 by Moody's Investors Service. &lt;/p&gt;
             &lt;p&gt;</body>
     </entry>
-
+    <entry author="By Jessica Summers" datetime="Feb 06, 2014  6:04 PM ET" feeling_sentiment="h" progress_sentiment="n"
+           url="http://bloomberg.com/news/2014-02-06/credit-swaps-in-u-s-decrease-ibm-issues-4-5-billion-of-bonds.html">
+        <headline>Credit Swaps in U.S. Decrease; IBM Issues $4.5 Billion of Bonds</headline>
+        <body>
+            &lt;p&gt;A measure of U.S. corporate credit
+            risk declined as applications for U.S. unemployment benefits
+            fell for the first time in three weeks. International Business
+            Machines Corp. (IBM) issued $4.5 billion of bonds in four parts. &lt;/p&gt;
+            &lt;p&gt;The Markit CDX North American Investment Grade Index, a
+            credit-default swaps benchmark used to hedge against losses or
+            to speculate on creditworthiness, decreased 3.1 basis points to
+            69.8 basis points at 5:03 p.m. in New York, according to prices
+            compiled by Bloomberg. The gauge has fallen from a more-than
+            three-month high of 74.5 basis points on Feb. 3. &lt;/p&gt;
+            &lt;p&gt;A stronger employment outlook may bolster investor
+            confidence in a strengthening economy, which would help
+            companies repay their obligations. Jobless claims dropped by
+            20,000 to 331,000 in the period ended Feb. 1, the Labor
+            Department reported today in Washington, signaling employers are
+            confident demand for goods and services will hold up at the same
+            time fiscal restraints ease. The median forecast of economists
+            surveyed by Bloomberg called for a decrease to 335,000. &lt;/p&gt;
+            &lt;p&gt;'The economic data continues to be on track in the U.S.,'
+            William Larkin, a fixed-income money manager who helps oversee
+            $500 million at Cabot Money Management Inc., said in a telephone
+            interview from Salem, Massachusetts. 'The market is going to be
+            putting a lot of weighting on Friday's employment report.' &lt;/p&gt;
+            &lt;p&gt;The Labor Department may report tomorrow that payrolls
+            increased by 180,000 employees in January after a 74,000
+            increase in December, according to the median forecast of
+            economists surveyed by Bloomberg. &lt;/p&gt;
+            &lt;h2&gt;Labor Gains &lt;/h2&gt;
+            &lt;p&gt;Companies added 175,000 workers in January as colder-than-normal weather limited progress in the
+            labor market, according
+            to a report yesterday by the ADP Research Institute in Roseland,
+            New Jersey. &lt;/p&gt;
+            &lt;p&gt;The credit swaps measure typically falls as investor
+            confidence improves and rises as it deteriorates. The contracts
+            pay the buyer face value if a borrower fails to meet its
+            obligations, less the value of the defaulted debt. A basis point
+            equals $1,000 annually on a contract protecting $10 million of
+            debt. &lt;/p&gt;
+            &lt;p&gt;IBM sold $1 billion of two-year floating-rate notes to
+            yield 7 basis points more than the three-month London interbank
+            offered rate and $750 million of five-year floaters to yield 37
+            basis points more than the benchmark, Bloomberg data show. &lt;/p&gt;
+            &lt;h2&gt;IBM Offering &lt;/h2&gt;
+            &lt;p&gt;The world's biggest computer-services provider also issued
+            $750 million of 1.95 percent, five-year debt to yield 48 basis
+            points more than similar-maturity Treasuries and $2 billion of
+            3.625 percent, 10-year securities with a relative yield of 95
+            basis points, the data show. &lt;/p&gt;
+            &lt;p&gt;Proceeds may be used for general corporate purposes and the
+            securities may be rated Aa3 by Moody's Investors Service,
+            according to the data. &lt;/p&gt;
+            &lt;p&gt;'It's a strong credit that there's going to be demand
+            for,' Jody Lurie, a corporate-credit analyst at Janney
+            Montgomery Scott LLC in Philadelphia, said in a telephone
+            interview. One reason IBM issued now was 'because they know
+            what the market will offer today versus tomorrow.' &lt;/p&gt;
+            &lt;p&gt;Payrolls in December increased at the slowest pace since
+            January 2011 and the unemployment rate dropped to 6.7 percent,
+            the lowest since October 2008, as more people left the labor
+            force. Another weak number 'would reinforce the fear that
+            another false start on this recovery has reemerged,' Eric Green, global head of foreign exchange, rates and
+            commodities at
+            TD Securities USA LLC in New York, wrote today in a report. &lt;/p&gt;
+            &lt;h2&gt;Commercial Paper &lt;/h2&gt;
+            &lt;p&gt;The market for corporate borrowing through short-term IOUs
+            fell to the lowest level in about six months. The seasonally
+            adjusted amount of U.S. commercial paper decreased $24.2 billion
+            to $989.7 billion outstanding in the week ended yesterday, the
+            fourth straight drop, the Federal Reserve said today on its
+            website. That's the lowest level since the market touched $987.6
+            billion in the period ended Aug. 7. &lt;/p&gt;
+            &lt;p&gt;Commercial paper sold by non-U.S. financial institutions
+            fell $13.3 billion to $239 billion, the lowest level since the
+            period ended July 17, while the amount issued by U.S.-based
+            banks decreased $6.6 billion to $267.6 billion, the lowest level
+            since the period ended Sept. 4. Corporations sell commercial
+            paper, typically maturing in 270 days or less, to fund everyday
+            activities such as rent and salaries. &lt;/p&gt;
+            &lt;p&gt;The risk premium on the Markit CDX North American High
+            Yield Index, tied to the debt of 100 speculative-grade
+            companies, narrowed 14.3 basis points to 340.9, Bloomberg prices
+            show. High-yield, high-risk bonds are rated below Baa3 by
+            Moody's and less than BBB- at Standard Poor's. A basis point
+            is 0.01 percentage point. &lt;/p&gt;
+            &lt;p&gt;The extra yield investors demand to hold investment-grade
+            corporate bonds rather than government debt was little changed
+            at 112, Bloomberg data show. &lt;/p&gt;
+            &lt;p&gt;</body>
+    </entry>
     <entry author="By Alex Barinka" datetime="Feb 06, 2014 12:01 AM ET" feeling_sentiment="h" progress_sentiment="u"
            url="http://bloomberg.com/news/2014-02-06/ibm-to-spend-100-million-to-bring-watson-technology-to-africa.html">
         <headline>IBM to Spend $100 Million to Bring Watson Technology to Africa</headline>
@@ -1233,7 +1713,7 @@
             that path and bring even more services out to the cloud.' &lt;/p&gt;
             &lt;p&gt;</body>
     </entry>
-    <entry author="By Alex Barinka and Cornelius Rahn" datetime="Feb 26, 2014  2:01 PM ET" feeling_sentiment="n"
+    <entry author="By Alex Barinka and Cornelius Rahn" datetime="Feb 26, 2014  2:01 PM ET" feeling_sentiment="h"
            progress_sentiment="n"
            url="http://bloomberg.com/news/2014-02-26/ibm-encourages-software-developers-to-make-apps-on-watson.html">
         <headline>IBM Encourages Software Developers to Make Apps on Watson</headline>
@@ -1669,7 +2149,256 @@
             website on Jan. 8. &lt;/p&gt;
             &lt;p&gt;</body>
     </entry>
-
+    <entry author="By Karl Baker" datetime="Jan 11, 2013  4:44 PM ET" feeling_sentiment="h" progress_sentiment="u"
+           url="http://bloomberg.com/news/2013-01-11/splunk-gains-on-speculation-ibm-may-consider-takeover.html">
+        <headline>Splunk Gains on Speculation IBM May Consider Takeover</headline>
+        <body>
+            &lt;p&gt;Splunk Inc. (SPLK), a maker of software
+            that helps businesses analyze Web data, climbed the most in more
+            than four months on speculation that the company might be
+            acquired by International Business Machines Corp. (IBM) &lt;/p&gt;
+            &lt;p&gt;The shares increased 8.4 percent to $32.27 at the close in
+            New York, the biggest gain since Aug. 31. Shares of the San
+            Francisco-based company have advanced 90 percent since an
+            initial public offering in April. &lt;/p&gt;
+            &lt;p&gt;Splunk could lure offers of as much as $4 billion, James Gilman, an analyst at Drexel Hamilton LLC,
+            said in an interview.
+            IBM, the largest computer services provider, or Oracle Corp. (ORCL),
+            the biggest provider of database software, might consider buying
+            Splunk to expand services for corporate customers, he said. &lt;/p&gt;
+            &lt;p&gt;'I have heard IBM,' Peter Goldmacher, an analyst at Cowen
+            Co., said in an interview about potential buyers. &lt;/p&gt;
+            &lt;p&gt;James Sciales, a spokesman for IBM, said the company
+            doesn't comment on rumors or speculation. Deborah Hellinger, an
+            Oracle spokeswoman, declined to comment. Tom Stilwell, a Splunk
+            spokesman, didn't respond to requests for comment. &lt;/p&gt;
+            &lt;p&gt;Founded in 2004 by Erik Swan, Rob Das and Michael Baum,
+            Splunk is the first of the so-called big data companies to go
+            public, providing software that helps businesses monitor and
+            analyze information to improve service, cut operations costs and
+            reduce security risks. Its backers include venture firms August
+            Capital, JKB Capital, Ignition and Sevin Rosen Funds. &lt;/p&gt;
+            &lt;p&gt;IBM has been expanding its efforts to analyze business data
+            to improve performance and security. The company plans to make
+            $16 billion from analytics by 2015. &lt;/p&gt;
+            &lt;p&gt;Oracle Chief Executive Officer Larry Ellison is spending to
+            add cloud software that customers can rent and run over the
+            Internet, a tool Spunk provides. In December, Oracle agreed to
+            buy Eloqua Inc. for about $871 million, further expanding in
+            cloud computing and ratcheting up competition with
+            Salesforce.com Inc. and SAP AG. (SAP) &lt;/p&gt;
+            &lt;p&gt;</body>
+    </entry>
+    <entry author="By Victoria Slind-Flor" datetime="Jan 11, 2013  7:01 AM ET" feeling_sentiment="n"
+           progress_sentiment="n"
+           url="http://bloomberg.com/news/2013-01-11/ibm-ikea-mls-gazprom-northrop-intellectual-property.html">
+        <headline>IBM, Ikea, MLS, Gazprom, Northrop: Intellectual Property</headline>
+        <body>
+            &lt;p&gt;International Business Machines
+            Corp. (IBM) racked up more U.S. patents than any other company for the
+            20th straight year, helped by increasing contributions from its
+            researchers in other countries. &lt;/p&gt;
+            &lt;p&gt;IBM's 6,478 patents in 2012 mark a record for the company,
+            research firm IFI Claims Patent Services said in a statement.
+            South Korea's Samsung Electronics Co. (005930) and Tokyo-based Canon Inc. (7751)
+            ranked second and third. Google Inc. took a spot in the top 50
+            for the first time, with 15 more patents than Apple (AAPL) Inc. &lt;/p&gt;
+            &lt;p&gt;About 30 percent of IBM's patents were produced by
+            inventors outside the U.S., up from 22 percent in 2010. Research
+            centers in Germany, Japan, Canada, the U.K. and Israel were
+            especially productive, the Armonk, New York-based company said.
+            The percentage of its patents coming from overseas is expected
+            to continue growing as newer labs in Brazil and Kenya ramp up,
+            said Manny Schecter, IBM's chief patent counsel. &lt;/p&gt;
+            &lt;p&gt;'Intellectual property flows from where markets are
+            flourishing,' he said in an interview. 'You'll see upticks in
+            the amount of technology and intellectual property which we
+            generate outside the U.S.' &lt;/p&gt;
+            &lt;p&gt;IBM's flow of patents lets the computer-services giant
+            produce about $1 billion a year in licensing revenue. The
+            intellectual property also gives it the freedom to move into new
+            businesses with less risk of being sued over technology. &lt;/p&gt;
+            &lt;p&gt;Still, some other technology companies get much higher
+            royalty revenue from a smaller number of patents. Qualcomm Inc. (QCOM),
+            a designer of mobile-phone chips, made $6.33 billion in
+            technology licensing in the most recent fiscal year -- even
+            though it's not in the top 10 of IFI's list. &lt;/p&gt;
+            &lt;p&gt;Apple, whose innovations helped revolutionize computing and
+            mobile phones, also isn't one of the biggest recipients of U.S.
+            patents. The maker of the iPhone and iPad spends about half as
+            much as IBM on research and development. &lt;/p&gt;
+            &lt;p&gt;Even so, Apple made gains in this year's list, jumping to
+            No. 22 from 39th place. Google, Apple's biggest rival in
+            smartphone software, rose to 21st place. Both companies are
+            embroiled in lawsuits over intellectual property -- along with
+            other mobile-phone makers such as Samsung -- giving them more
+            incentive to increase their store of patents. &lt;/p&gt;
+            &lt;p&gt;IBM, which has more than 430,000 employees worldwide,
+            invests about $6 billion in RD each year. With more than 67,000
+            patents since 1993, about half of which are active, it is easier
+            for the company to avoid courtrooms, Schecter has said. Eight
+            thousand inventors in 46 states and 35 countries contributed to
+            last year's patents. &lt;/p&gt;
+            &lt;p&gt;For more patent news, click here. &lt;/p&gt;
+            &lt;h2&gt;Trademark &lt;/h2&gt;
+            &lt;h2&gt;EU's Almunia Says Google May Be Diverting Traffic to Its Sites &lt;/h2&gt;
+            &lt;p&gt;Google Inc. (GOOG)'s dominance of the Web-search market in Europe
+            concerns regulators there, despite the company's recent
+            settlement with the U.S. Federal Trade Commission, Joaquin
+            Almunia told the Financial Times in an interview. &lt;/p&gt;
+            &lt;p&gt;Almunia, the European Commission vice president with the
+            responsibility for competition, said an investigation of
+            Mountain View, California-based Google is continuing and 'my
+            conviction is that they are diverting traffic' to their own
+            sites, the Financial Times reported. &lt;/p&gt;
+            &lt;p&gt;He has said that he will give the search-engine company
+            until the end of January to come up with a settlement that will
+            assuage antitrust concerns, according to the Financial Times. &lt;/p&gt;
+            &lt;p&gt;Almunia said Google officials are handling the European
+            Commission's investigation better than other antitrust targets
+            in the past, and that the company 'has learned the way these
+            kind of cases should be done,' the Financial Times reported. &lt;/p&gt;
+            &lt;h2&gt;Ikea's Planned India Expansion May Hit Trademark Roadblocks &lt;/h2&gt;
+            &lt;p&gt;Ikea of Sweden AB's plans to open retail stores in India
+            may face trademark roadblocks, India's Business Standard
+            reported. &lt;/p&gt;
+            &lt;p&gt;According to the newspaper, three Indian companies
+            registered with that country's Registrar of Companies to use the
+            same brand name. &lt;/p&gt;
+            &lt;p&gt;Ikea Home Decor Private Ltd., a furniture manufacturer, has
+            been registered since July 2011, and two other Indian companies
+            have earlier registration dates than that, the Business Standard
+            reported. &lt;/p&gt;
+            &lt;p&gt;Although the Swedish furniture giant could go to Indian
+            courts and claim the registrants were trying to trade on Ikea's
+            goodwill and fame, this could take a long time if the other
+            companies have actually registered trademarks, Business Standard
+            reported. &lt;/p&gt;
+            &lt;p&gt;MLS Application to Register 'Cascadia Cup' Mark Irk Soccer Fans &lt;/p&gt;
+            &lt;p&gt;Major League Soccer has responded to Pacific Northwest
+            soccer fans' concerns over a trademark application by promising
+            to meet three fan groups, the SounderAtHeart.com blog reported. &lt;/p&gt;
+            &lt;p&gt;The league is seeking to register 'Cascadia Cup' as a
+            trademark, even though fan groups own the trophy and came up
+            with the idea for the award, according to the blog. &lt;/p&gt;
+            &lt;p&gt;The application was filed with the aim of halting potential
+            exploitation of the term 'by parties unaffiliated with the
+            league and its supporters,' the league said in a statement, the
+            blog reported. &lt;/p&gt;
+            &lt;p&gt;The league said it understood there were some fan concerns
+            about how the use of the mark would be managed, and hoped the
+            forthcoming meeting with the leadership of the fan groups would
+            assuage fears, according to the blog. &lt;/p&gt;
+            &lt;h2&gt;Brabham Name, Trademark Back in Auto-Racing Family's Hands &lt;/h2&gt;
+            &lt;p&gt;A German court has resolved a trademark dispute between a
+            family associated with Formula 1 auto racing and a German who
+            registered the family's name in Germany, the Motorsport.com
+            auto-racing news blog reported. &lt;/p&gt;
+            &lt;p&gt;Registration of the Brabham trademarks have now reverted to
+            the family, which includes triple Formula 1 World Champion Jack
+            Brabham, according to Motorsport.com. &lt;/p&gt;
+            &lt;p&gt;A third generation of racing Brabham's is 'coming up
+            through the ranks,' David Brabham told Motorsports.com, and the
+            ruling will 'help future plans for the Brabham brand.' &lt;/p&gt;
+            &lt;p&gt;A monitoring system has been set up to look for any
+            attempts worldwide to register the Brabham name without the
+            family's consent, Motorsport.com reported. &lt;/p&gt;
+            &lt;p&gt;For more trademark news, click here. &lt;/p&gt;
+            &lt;h2&gt;Copyright &lt;/h2&gt;
+            &lt;h2&gt;Gazprom Unit, Rostelecom Sued Over Use of Blur Song in TV Ad &lt;/h2&gt;
+            &lt;p&gt;Gazprom OAO (GAZP)'s NTV unit and Russian telecommunications
+            operator Rostelecom were sued for copyright infringement over
+            alleged unauthorized use of 'Song2' from the British band
+            Blur, the Russian International News Agency reported. &lt;/p&gt;
+            &lt;p&gt;The court has been asked to force Rostelecom to publish the
+            text of an earlier infringement ruling related to the music's
+            copyright, and to order payments of $115,100 from Rostelecom and
+            $16,435 from NTV, according to the news agency. &lt;/p&gt;
+            &lt;p&gt;Rostelecom was accused of using the song in an
+            advertisement, and NTV was sued for allegedly running that ad on
+            its television channel, the news agency reported. &lt;/p&gt;
+            &lt;p&gt;The suit was filed by SGBA Music Publishing, a unit of Gala
+            Records, Russia's first privately owned music recording company,
+            according to the news agency. &lt;/p&gt;
+            &lt;h2&gt;Faulkner Literary Rights, Northrop Grumman Settle Dispute &lt;/h2&gt;
+            &lt;p&gt;A copyright-infringement lawsuit brought by the owners of
+            the rights to the late William Faulkner's work against Northrop
+            Grumman Corp. (NOC) has been settled, according to a court filing. &lt;/p&gt;
+            &lt;p&gt;Faulkner Literary Rights LLC sued the Falls Church,
+            Virginia-based defense contractor for copyright infringement in
+            federal court in Jackson, Mississippi, in October. The rights
+            holder objected to the use of a Faulkner quote in an
+            advertisement. &lt;/p&gt;
+            &lt;p&gt;'We must be free, not because we claim freedom, but
+            because we practice it,' is taken from a 1956 Faulkner essay,
+            'On Fear: The South in Labor,' according to court papers. The
+            Faulkner rights holder claims the quote was used without
+            permission. &lt;/p&gt;
+            &lt;p&gt;Nobel laureate Faulkner, a novelist who wrote about his
+            native Mississippi, died in 1962. He was also the winner of two
+            Pulitzer Prizes. &lt;/p&gt;
+            &lt;p&gt;Terms of the settlement weren't disclosed. According to the
+            court filing, each party was to pay its own litigation costs,
+            including legal fees. &lt;/p&gt;
+            &lt;p&gt;The case is Faulkner Literary Rights LLC v. Northrop
+            Grumman Corp., 12-cv-00732, U.S. District Court, Southern
+            District of Mississippi (Jackson). &lt;/p&gt;
+            &lt;p&gt;For more copyright news, click here. &lt;/p&gt;
+            &lt;h2&gt;IP Moves &lt;/h2&gt;
+            &lt;p&gt;Fish Richardson Hires Two IP Litigators From Goodwin Procter &lt;/p&gt;
+            &lt;p&gt;Fish Richardson PC hired two new members for its IP
+            litigation group, the Boston-based firm said in a statement. &lt;/p&gt;
+            &lt;p&gt;The new hires -- R. David Hosp and Mark S. Puzella --
+            joined from Goodwin Procter LLP, also a Boston firm. &lt;/p&gt;
+            &lt;p&gt;Hosp and Puzella both handle copyright, trademark, false-
+            advertising and licensing disputes. Among clients they have
+            represented are Aereo Inc., Houghton Mifflin Harcourt, New
+            Balance Athletic Shoe Inc., Monotype Imaging Inc. and Iconics
+            Inc. &lt;/p&gt;
+            &lt;p&gt;Puzella has an undergraduate degree from Wesleyan
+            University and a law degree from Northwestern University. Hosp
+            has an undergraduate degree from Dartmouth College and a law
+            degree from George Washington University. &lt;/p&gt;
+            &lt;p&gt;</body>
+    </entry>
+    <entry author="By Rainer Buergin" datetime="Jan 14, 2014  3:23 AM ET" feeling_sentiment="n" progress_sentiment="n"
+           url="http://bloomberg.com/news/2014-01-14/german-euro-skeptics-gain-ex-ibm-europe-chief-before-eu-election.html">
+        <headline>German Euro Skeptics Gain Ex-IBM Europe Chief Before EU Election</headline>
+        <body>
+            &lt;p&gt;Germany's anti-euro AfD party is set
+            to announce the candidacy of Hans-Olaf Henkel, a former European
+            chief for International Business Machines Corp (IBM), in a coup that
+            might help broaden its appeal in European Parliament elections. &lt;/p&gt;
+            &lt;p&gt;The Alternative for Germany, or AfD in German, took 4.7
+            percent in September's federal elections to narrowly miss out on
+            seats in the country's lower house of parliament. Presenting
+            Henkel in Berlin today may help the party to clear the 3 percent
+            hurdle in May's European elections to gain its first legislative
+            seats. &lt;/p&gt;
+            &lt;p&gt;'The fact the AfD is still there, despite the euro crisis
+            having taken a back seat, shows that a large number of AfD
+            supporters aren't just euro skeptics, but that the AfD taps into
+            a pool of right-wing voters,' Manfred Guellner, who heads the
+            pollster Forsa, said in an interview. That makes it 'more than
+            likely' the AfD will enter the European Parliament. &lt;/p&gt;
+            &lt;p&gt;The AfD's failure to win Bundestag seats last year bucked a
+            trend that has seen anti-European parties gain support in
+            countries from the U.K. to Greece, raising the prospect of a
+            shift in power in the 766-seat European Parliament. By contrast,
+            German support for the European Union rose to a record in a poll
+            last week. &lt;/p&gt;
+            &lt;p&gt;While the AfD opposes the euro and advocates Greece's exit
+            from the 18-nation single currency, it is not expressly anti-EU.
+            AfD leader Bernd Lucke has said he won't ally with parties such
+            as France's Front National and Dutchman Geert Wilders' Party for
+            Freedom, which have said they may form an anti-EU bloc. Lucke is
+            due to hold a press briefing at 2 p.m. in Berlin. &lt;/p&gt;
+            &lt;p&gt;AfD delegates will vote on the party's list of candidates
+            for the European elections at a Jan. 25 convention in the
+            southern town of Aschaffenburg. Polls suggest the AfD would take
+            about 5 percent if elections were held now. &lt;/p&gt;
+            &lt;p&gt;</body>
+    </entry>
     <entry author="By Alex Barinka" datetime="Jan 14, 2014  9:44 AM ET" feeling_sentiment="s" progress_sentiment="u"
            url="http://bloomberg.com/news/2014-01-14/ibm-wins-most-u-s-patents-for-21st-year-in-a-row.html">
         <headline>IBM Wins Most U.S. Patents for 21st Year in a Row</headline>
@@ -1698,7 +2427,193 @@
             &lt;/p&gt;
         </body>
     </entry>
-
+    <entry author="By Victoria Slind-Flor" datetime="Jan 15, 2014  6:55 AM ET" feeling_sentiment="s"
+           progress_sentiment="u"
+           url="http://bloomberg.com/news/2014-01-15/ibm-allergan-matryoshka-frack-intellectual-property.html">
+        <headline>IBM, Allergan, Matryoshka, Frack: Intellectual Property</headline>
+        <body>
+            &lt;p&gt;International Business Machines
+            Corp. (IBM) amassed more U.S. patents than any other company for the
+            21st straight year, helped by its push into big-data services,
+            which glean insights by mining large quantities of information. &lt;/p&gt;
+            &lt;p&gt;IBM's 6,809 patents in 2013 scored an annual record, the
+            company said yesterday in a statement. With inventors in 41
+            countries, more than 31 percent of the patents came from
+            overseas. South Korea's Samsung Electronics (005930) Co. and Tokyo-based
+            Canon Inc. (7751) ranked second and third. While computer-related
+            patents can take almost three years to process, the annual list
+            shows where companies are seeking growth opportunities. &lt;/p&gt;
+            &lt;p&gt;As sluggish demand for computer hardware has dragged down
+            revenue, IBM is focusing more on fast-growing areas such as
+            analytics and cloud computing. Last week, IBM said it's forming
+            a separate division for its Watson tool -- a so-called cognitive
+            technology that can analyze vast amounts of data and answer
+            questions in plain English. Bernie Meyerson, vice president for
+            innovation at IBM, said the unit relies on recent patents. &lt;/p&gt;
+            &lt;p&gt;'The work on cognitive is based on numerous of the patents
+            that were just issued related to Watson,' Meyerson said in an
+            interview from IBM's headquarters in Armonk, New York. 'That
+            new division is now a major commercial focus. By funding
+            research in that area, you will fund patents in that area.' &lt;/p&gt;
+            &lt;p&gt;Samsung claimed the No. 2 spot in the U.S. patent tally,
+            which it has held since 2007. It received almost 4,700, an 8
+            percent drop from the previous year. &lt;/p&gt;
+            &lt;p&gt;Once again, only two U.S. companies made the top 10 in
+            addition to IBM. In 2013, it was software maker Microsoft Corp.
+            and phone-chip maker Qualcomm Inc. (QCOM); the year before it was
+            Microsoft and General Electric Co. (GE) &lt;/p&gt;
+            &lt;p&gt;Google Inc., which ranked 11th, and Apple Inc., coming in
+            at 13th, both rose into the top 20 for the first time together,
+            research firm IFI Claims Patent Services said in a statement.
+            BlackBerry Ltd. was 20th in 2013, up from 29th the previous
+            year. &lt;/p&gt;
+            &lt;h2&gt;Allergan Wins Order Blocking Copies of Lumigan Until 2027 &lt;/h2&gt;
+            &lt;p&gt;Allergan Inc. (AGN) won a patent-infringement lawsuit that will
+            prevent copies of its Lumigan 0.01% glaucoma treatment from
+            entering the U.S. market until 2027. &lt;/p&gt;
+            &lt;p&gt;Novartis AG (NOVN)'s Sandoz unit, Actavis Plc (ACT), Hi-Tech Pharmacal
+            Co. and Lupin Ltd. (LPC) would infringe Allergan's patents on the
+            medicine, U.S. District Judge Michael Schneider in Tyler, Texas,
+            said in an opinion posted on the court's website yesterday. The
+            judge also rejected arguments that the patents were invalid, and
+            ordered that regulatory approval not be granted until they
+            expire. &lt;/p&gt;
+            &lt;p&gt;Lumigan, which comes in different solution formulas,
+            generated $452.7 million in sales for the nine months ended
+            Sept. 30 and accounts for about 10 percent of the Irvine,
+            California-based company's revenue. The solution slows the
+            progression of glaucoma, which can cause blindness. &lt;/p&gt;
+            &lt;p&gt;The case involved five patents. Four expire in 2025 and the
+            fifth in 2027, according to the website of the U.S. Food and
+            Drug Administration. &lt;/p&gt;
+            &lt;p&gt;The generic-drug companies argued that the patents were
+            little different from ones covering Lumigan 0.03%. An appeals
+            court last year upheld a patent on that treatment that expires
+            in August. The judge said the newer patents are for a solution
+            that limited red eyes, which caused some patients to stop taking
+            the treatment. &lt;/p&gt;
+            &lt;p&gt;Bonnie Jacobs, a spokeswoman for Allergan, said the company
+            had no comment. Officials with the generic-drug makers either
+            had no immediate comment or didn't immediately respond to
+            queries. &lt;/p&gt;
+            &lt;p&gt;Lumigan is Allergan's second-biggest drug, after Restasis
+            eye drops. Allergan yesterday received a new patent on Restasis. &lt;/p&gt;
+            &lt;p&gt;The case is Allergan Inc. v. Sandoz Inc., 11-cv-00441, U.S.
+            District Court, Eastern District of Texas (Tyler). &lt;/p&gt;
+            &lt;h2&gt;Microsoft Sued for Infringement by Former Litigator's Client &lt;/h2&gt;
+            &lt;p&gt;Microsoft Corp. (MSFT), the world's largest software company, was
+            sued for infringement by a company whose lawyer has litigated
+            patent cases in the past for Microsoft. &lt;/p&gt;
+            &lt;p&gt;IpLearn-Focus LLC filed its lawsuit Jan. 10 in federal
+            court in San Francisco. The Mountain View, California-based
+            company is represented by Matthew D. Powers of the Tensegrity
+            Law Group LLP of Redwood Shores, California. &lt;/p&gt;
+            &lt;p&gt;Powers, who left New York-based Weil Gotshal Manges LLP
+            in 2011 to form a patent-litigation firm, represented Microsoft
+            in cases including a lawsuit filed in June of that year against
+            TiVo Inc. (TIVO) He defended the Redmond, Washington-based software
+            maker in a 2007 case brought by patent owner I4i LP, according
+            to court files. &lt;/p&gt;
+            &lt;p&gt;As of yesterday afternoon, the electronic docket for the
+            IPLearn-Focus lawsuit didn't show an entry of any motion by
+            Microsoft to disqualify Powers. No counsel for Microsoft is
+            listed. &lt;/p&gt;
+            &lt;p&gt;The lawsuit concerns three patents covering learning
+            methods and systems that use a remote sensor. IpLearn-Focus said
+            Microsoft's Xbox video-game console and services infringe
+            patents 8,475,174, 8,538,321 and 8,538,320. According to the
+            database of the U.S. Patent and Trademark Office, those are the
+            only three patents belonging to IpLearn-Focus. &lt;/p&gt;
+            &lt;p&gt;The company, which doesn't have a functioning website, also
+            is listed as the owner of patent application 20140004498, which
+            was published in the office's database Jan. 2. That application
+            is related to the use of detached sensors in a learning
+            environment. &lt;/p&gt;
+            &lt;p&gt;IpLearn-Focus said in court filings that it put Microsoft
+            on notice of its alleged infringement on Nov. 1 and that at the
+            time the complaint was filed it had received no response from
+            the software maker. &lt;/p&gt;
+            &lt;p&gt;The company said it's seeking money damages and a
+            reasonable royalty. It asked that damages be tripled for
+            Microsoft's allegedly deliberate infringement. It also requested
+            attorney fees and litigation costs. &lt;/p&gt;
+            &lt;p&gt;Microsoft didn't immediately respond to an e-mailed request
+            for comment on the lawsuit. &lt;/p&gt;
+            &lt;p&gt;The case is IpLearn-Focus LLC v. Microsoft Corp., 14-cv-00151, U.S. District Court, Northern
+            District of California
+            (San Francisco). &lt;/p&gt;
+            &lt;p&gt;For more patent news, click here. &lt;/p&gt;
+            &lt;h2&gt;Trademark &lt;/h2&gt;
+            &lt;h2&gt;Matryoshka to Be Mark of Federal Agency, Voice of Russia Says &lt;/h2&gt;
+            &lt;p&gt;An image of the nesting dolls known as Matryoshka dolls
+            will be used as a trademark for Russia's Federal Agency for the
+            Commonwealth of Independent States, Compatriots Abroad and
+            International Humanitarian Cooperation, the Voice of Russia
+            reported. &lt;/p&gt;
+            &lt;p&gt;The mark will be used at events prompting international
+            development in which Russia is involved, as well as on various
+            Russian air carriers, according to Voice of Russia. &lt;/p&gt;
+            &lt;p&gt;Alexi Mukhin, general director of Russia's Center for
+            Political Information, told Voice of Russia the Matryoshka
+            symbol was chosen because it has 'a deep philosophical
+            meaning' standing for 'motherhood and fertility.' &lt;/p&gt;
+            &lt;p&gt;The logotype that accompanies the image has already been
+            created and registered in the six official languages of the
+            United Nations, Voice of Russia reported. &lt;/p&gt;
+            &lt;p&gt;Blur's Alex James Seeks to Register 'Britpop' in U.K., BBC Says &lt;/p&gt;
+            &lt;p&gt;Musician Alex James is seeking to trademark 'Britpop' in
+            the U.K. for use on alcoholic and non-alcoholic drinks, the BBC
+            reported. &lt;/p&gt;
+            &lt;p&gt;James has applied to register the mark with the U.K.'s
+            Intellectual Property Office, according to the BBC. &lt;/p&gt;
+            &lt;p&gt;The performer, a member of the band Blur, has a farm in
+            Oxfordshire and, with celebrity chef Jamie Oliver, produces
+            'the Big Feastival,' a food and music gathering, the BBC said. &lt;/p&gt;
+            &lt;p&gt;James's farm produces eight kinds of cheese, with such
+            names as Blue Monday, Figgy Pudding and Farleigh Wallop, the
+            news service reported. &lt;/p&gt;
+            &lt;p&gt;For more trademark news, click here. &lt;/p&gt;
+            &lt;h2&gt;Copyright &lt;/h2&gt;
+            &lt;h2&gt;University of Toronto Refunds Students' Copyright License Fees &lt;/h2&gt;
+            &lt;p&gt;Students at the University of Toronto were given a C$13
+            ($11.87) refund for fees they paid to Access Copyright, Canada's
+            copyright licensing agency, the Varsity student newspaper
+            reported. &lt;/p&gt;
+            &lt;p&gt;After the university ended its license with Access
+            Copyright in December, it chose to refund the fees, according to
+            the Varsity. &lt;/p&gt;
+            &lt;p&gt;Content-producers' organizations, including the Canadian
+            Authors Association, the Canadian Publishers Council and the
+            Canadian Educational Resources Council have gone on record with
+            their disapproval of the school's choice to end the license,
+            saying the university isn't respecting their work, the Varsity
+            reported. &lt;/p&gt;
+            &lt;p&gt;Under the school's present policy, if 10 percent or less of
+            a work is used by a professor, the school considers this fair
+            use under Canadian copyright law, and no license is required,
+            according to the Varsity. &lt;/p&gt;
+            &lt;p&gt;For more copyright news, click here. &lt;/p&gt;
+            &lt;h2&gt;Trade Secrets/Industrial Espionage &lt;/h2&gt;
+            &lt;h2&gt;Energy Panel Head Decries Number of Fracking Secret Claims &lt;/h2&gt;
+            &lt;p&gt;The head of a panel convened by the Obama administration to
+            look at safety issues related to hydraulic fracturing said trade
+            secrets claims about fracking made by the oil and gas industry
+            harm the industry itself, EE Publishing's EnergyWire reported. &lt;/p&gt;
+            &lt;p&gt;Professor John M. Deutch of the Massachusetts Institute of
+            Technology, at a meeting at the U.S. Energy Department of the
+            panel he heads, said people are 'dramatically interested' in
+            the makeup of fracking fluids and that the industry's trade
+            secret claims damage public's confidence, according to
+            EnergyWire. &lt;/p&gt;
+            &lt;p&gt;At the same meeting, Eric Milito of the American Petroleum
+            Institute, said he disagreed with Deutch and the disclosures
+            being made by the industry are adequate. &lt;/p&gt;
+            &lt;p&gt;The committee was meeting to look at the effectiveness of
+            the FracFocus website, on which oil and gas drillers identify
+            the chemicals they use in their fracking fluids, according to
+            EnergyWire. &lt;/p&gt;
+            &lt;p&gt;</body>
+    </entry>
     <entry author="By Alex Barinka" datetime="Jan 17, 2014  4:29 PM ET" feeling_sentiment="h" progress_sentiment="u"
            url="http://bloomberg.com/news/2014-01-17/ibm-to-invest-1-2-billion-to-build-on-softlayer-cloud-services.html">
         <headline>IBM to Invest $1.2 Billion to Boost SoftLayer Cloud Services</headline>
@@ -1913,7 +2828,109 @@
             and energy sectors, Waterfund said. &lt;/p&gt;
             &lt;p&gt;</body>
     </entry>
-
+    <entry author="By Alex Barinka" datetime="Jan 23, 2014  4:23 PM ET" feeling_sentiment="h" progress_sentiment="n"
+           url="http://bloomberg.com/news/2014-01-23/lenovo-to-buy-ibm-server-unit-for-2-3-billion-amid-pc-slump.html">
+        <headline>Lenovo to Buy IBM Server Unit for $2.3 Billion Amid Slump</headline>
+        <body>
+            &lt;p&gt;International Business Machines Corp. (IBM) agreed to sell its low-end server business for $2.3
+            billion to Lenovo Group Ltd. (992), decreasing its reliance on computer hardware as sales of the products
+            plunge. &lt;/p&gt; &lt;p&gt;The deal price includes about $2 billion of cash, with the rest coming in shares
+            of Beijing-based Lenovo, the two companies said today in a statement today. The transaction now faces
+            regulatory scrutiny, including a likely national-security review that could slow or scuttle the purchase.
+            &lt;/p&gt; &lt;p&gt;Related: IBM Predicts Success in U.S. Review of Levono Deal&lt;/p&gt;&lt;p&gt;IBM
+            reported its seventh straight quarter of declining revenue this week, hurt by a shrinking computer-hardware
+            business. While the company will continue to sell a range of higher-end servers and mainframes, offloading
+            the x86 division removes a low-margin business from its books. Chief Executive Officer Ginni Rometty is
+            focusing more on software and services in a bid to reignite sales and meet an ambitious goal of $20 a share
+            in earnings by next year. &lt;/p&gt; &lt;p&gt;'We were no longer in a position to get the kinds of returns
+            that we wanted,' Steve Mills, senior vice president of software and systems at Armonk, New York-based IBM,
+            said in an interview. 'We wouldn't do this if we didn't see the obvious taking place in the market.' &lt;/p&gt;
+            &lt;h2&gt;Share Slide &lt;/h2&gt; &lt;p&gt;Today's announcement followed on-again, off-again negotiations
+            between the two sides. Talks had broken down last year over the price of the asset, then valued at $2.5
+            billion to $4.5 billion. The negotiations resumed in November, according to Lenovo Chief Financial Officer
+            Wong Wai Ming. Lenovo disclosed earlier this week that it was in preliminary discussions about an unnamed
+            acquisition, spurring speculation that the agreement was finally close to being reached. &lt;/p&gt; &lt;p&gt;IBM
+            shares gained less than 1 percent to $182.73 at the close in New York. The hardware slump has taken a toll
+            on the stock over the past year: It slid 2.1 percent in 2013, making IBM the only decliner in the Dow Jones
+            Industrial Average. Trading of Lenovo's shares, meanwhile, was halted today because of the agreement. &lt;/p&gt;
+            &lt;p&gt;As part of the deal, Lenovo will get IBM servers that use x86 processors, an industry-standard
+            technology developed by Intel Corp. The transaction also includes BladeCenter and Flex System blade-style
+            servers -- slim devices that slide into racks -- along with switches that run corporate computer networks.
+            IBM will keep its System z mainframes, Power servers, storage systems and other higher-end hardware. &lt;/p&gt;
+            &lt;p&gt;The x86 division's more than 7,000 employees are expected to move to Lenovo, Mills said. He
+            declined to comment on whether there would be job cuts. &lt;/p&gt; &lt;h2&gt;Value Versus Volume &lt;/h2&gt;
+            &lt;p&gt;The idea is to stick to products where IBM can add value. The x86 server business has become an
+            industry of large volumes and slim margins -- where one competitor's products are hard to distinguish from
+            another's. &lt;/p&gt; &lt;p&gt;'Value is something that we are very good at selling,' Mills said. 'Volume is
+            a challenge.' &lt;/p&gt; &lt;p&gt;Revenue at IBM's systems and technology business, which sells mainframes,
+            servers and other hardware, declined 26 percent last quarter. The segment's gross margin -- the percentage
+            of sales remaining after taking out production costs -- also is getting squeezed. It fell 3.5 percentage
+            points to 36 percent last year. That compares with an 89 percent margin for its software business. &lt;/p&gt;
+            &lt;p&gt;'They continue to divest their lower-margin hardware business line and this is just continuing down
+            that path,' Brian Marshall, an analyst at ISI Group in New York, said in an interview. He has the equivalent
+            of a sell rating on the shares. &lt;/p&gt; &lt;h2&gt;PC Expansion &lt;/h2&gt; &lt;p&gt;Lenovo comes to the
+            deal from the opposite perspective. As the world's largest maker of personal computers, it already sells
+            millions of relatively low-margin products. The x86 servers run on the same technology as PCs, and the
+            transaction will help Lenovo escalate competition with current rivals such as Hewlett-Packard Co. (HPQ) and
+            Dell Inc. &lt;/p&gt; &lt;p&gt;Today's agreement also builds on Lenovo's 2005 purchase of IBM's PC unit for
+            $1.25 billion, excluding debt. That acquisition gave Lenovo a foothold in the U.S. and put it on the path to
+            ultimately unseating Hewlett-Packard as the top PC maker last year. As part of the legacy of that agreement,
+            Lenovo operates a U.S. base in Morrisville, North Carolina, potentially mitigating concerns that a Chinese
+            company is taking over IBM's server business. &lt;/p&gt; &lt;p&gt;Though the PC industry is suffering its
+            worst-ever decline, Lenovo CEO Yang Yuanqing has maintained growth by adding mobile devices and pushing
+            ThinkPad notebooks into markets across Europe and South America. Along the way, Lenovo's shares have climbed
+            for five straight years. The stock hit a 52-week high in the past week, making Yang's 7.7 percent stake
+            worth $1.06 billion. The 49-year-old has a net worth of $1.3 billion, according to the Bloomberg
+            Billionaires Index. &lt;/p&gt; &lt;h2&gt;Biggest Acquisition &lt;/h2&gt; &lt;p&gt;Buying the x86 server
+            division -- the biggest acquisition in Lenovo's history -- will give it more insulation against the PC
+            slump. While IBM has struggled with the business, the products have higher margins than laptops and they'll
+            add about $4.6 billion in annual revenue. &lt;/p&gt; &lt;p&gt;'This deal is relatively transformational for
+            Lenovo,' said Alberto Moel, an analyst at Sanford C. Bernstein Co. in Hong Kong. 'If Lenovo can control
+            expenses and enjoy some of the higher gross margins in this business, which are above Lenovo's PC margins,
+            then this could be a very good deal for them.' &lt;/p&gt; &lt;p&gt;Yang had been seeking to increase
+            Lenovo's share of the global server business to between 5 percent and 10 percent within three years. Today's
+            deal beats that goal by itself. Lenovo will have about 14 percent of the market when the transaction is
+            completed, up from less than 2 percent now, Senior Vice President Peter Hortensius said in an interview.
+            &lt;/p&gt; &lt;h2&gt;Corporate Equipment &lt;/h2&gt; &lt;p&gt;Lenovo's 2005 deal with IBM vaulted Lenovo
+            from the No. 8 PC maker to third. The company later bought control of Germany's Medion AG and NEC Corp.'s PC
+            division in Japan. The acquisitions helped Lenovo reach the top spot in PC shipments in the second quarter
+            of last year. Lenovo kept that position in the latest quarter, helped by a 6.6 percent increase in
+            shipments, according to research firm Gartner Inc. &lt;/p&gt; &lt;p&gt;The overall PC industry is hurting,
+            though, with shipments shrinking 10 percent in 2013, according to Gartner. Yang wants to build future growth
+            on mobile devices and information technology, supplying equipment and services to corporate and government
+            customers. &lt;/p&gt; &lt;p&gt;'For the past 20 years, PCs were our core business,' he said in an interview.
+            'This deal will meet our strategy and give us a good foundation for the enterprise business. We hope we
+            quickly can build it into $10 billion in annual sales, from $4.6 billion now.' &lt;/p&gt; &lt;h2&gt;Enterprise
+            Services &lt;/h2&gt; &lt;p&gt;IBM was the third-largest seller of x86 servers in the third quarter, trailing
+            Hewlett-Packard and Dell, according to IDC. It sold $1.21 billion worth of the machines in the period,
+            accounting for 13 percent of the industry's $9.52 billion total. Lenovo didn't rank among the top 10. &lt;/p&gt;
+            &lt;p&gt;'Due to the strong IBM client base, Lenovo can enter the top-tier enterprise services market,' Tony
+            Yang, an analyst at BOCI Research Ltd. in Hong Kong, said in a report. 'The service business will be
+            Lenovo's major driver in the future.' &lt;/p&gt; &lt;p&gt;Even so, selling servers to Internet companies has
+            become more challenging. Google Inc., Facebook Inc. and other online services are increasingly building
+            their own data centers with custom machines that use Intel technology. That cuts server sellers out of the
+            loop. &lt;/p&gt; &lt;h2&gt;Deal Funding &lt;/h2&gt; &lt;p&gt;To pay for the purchase, Lenovo can draw on a
+            cash hoard that was worth $2.46 billion as of Sept. 30. The company said in October that it could also
+            finance a large purchase by issuing equity. &lt;/p&gt; &lt;p&gt;Since selling the PC division to Lenovo, IBM
+            has divested other units, including printers and retail-store systems. The recent performance of the server
+            business made it logical to offload it as well, Mills said. &lt;/p&gt; &lt;p&gt;'Our business model is to
+            seek out areas of the IT industry where we could get both growth and profits,' he said. 'If one of those
+            things falls away, then we obviously move to other approaches.' &lt;/p&gt; &lt;p&gt;Still, the Lenovo deal
+            isn't certain to close. The transaction may trigger a U.S. security review -- especially since it involves a
+            Chinese buyer. Proposed transactions by Chinese companies accounted for about 20 percent of reviews in 2012
+            by the Committee on Foreign Investment in the U.S. &lt;/p&gt; &lt;p&gt;The panel consists of the heads of
+            federal agencies, including the departments of Commerce, Defense, Homeland Security, Justice and State, and
+            the Office of the U.S. Trade Representative. Amid concerns about hacking and cyber espionage by China, the
+            country has become the committee's most highly scrutinized nation, supplanting the U.K. &lt;/p&gt; &lt;h2&gt;Submitting
+            Information &lt;/h2&gt; &lt;p&gt;Lenovo's Hortensius said the company wouldn't have done the deal if they
+            didn't think it would pass U.S. regulators. To move the process along, IBM will soon submit information to
+            regulators, said Chris Padilla, the company's vice president for governmental programs. &lt;/p&gt; &lt;p&gt;Even
+            if the deal clears those hurdles, Lenovo could still lose some IBM customers in the U.S., though that may be
+            offset by gains in its home market of China, said Stephen Yang, a Hong Kong-based analyst at Sun Hung Kai
+            Financial. &lt;/p&gt; &lt;p&gt;'Lenovo may still face some headwinds selling servers to American
+            institutions and corporates due to worries over counterintelligence,' Yang said. 'Lenovo would likely focus
+            on growing its China market first, like they've always done with any business.' &lt;/p&gt; &lt;p&gt;</body>
+    </entry>
     <entry author="By Brian Wingfield" datetime="Jan 23, 2014  7:00 PM ET" feeling_sentiment="h" progress_sentiment="n"
            url="http://bloomberg.com/news/2014-01-23/ibm-says-u-s-security-review-to-be-sought-for-deal-with-lenovo.html">
         <headline>IBM Predicts Success in U.S. Review of Lenovo Deal</headline>
@@ -2145,7 +3162,68 @@
             &lt;/p&gt;
         </body>
     </entry>
+    <entry author="By Dina Bass" datetime="Jul 15, 2014  8:51 PM ET" feeling_sentiment="n" progress_sentiment="n"
+           url="http://bloomberg.com/news/2014-07-15/5-steve-jobs-disses-on-ibm-before-apple-teamed-up-with-an-old-rival.html">
+        <headline>5 Steve Jobs Disses on IBM Before Apple Teamed Up With an Old Rival</headline>
+        <body>
+            &lt;p&gt;Apple's landmark deal with IBM today is likely to set off yet another round of "this wouldn't have
+            happened under Steve Jobs" hand-wringing. In this situation, the case for that is pretty clear.&lt;/p&gt;&lt;p&gt;The
+            rivalry with International Business Machines goes back to the beginning of Apple, and the late co-founder
+            seemed to hold the grudge throughout his career. On the day Tim Cook announced a collaboration with IBM to
+            create business software for the iPhone and iPad, here's a look back at five examples of Jobs taking jabs at
+            the century-old tech company.&lt;/p&gt;&lt;p&gt;"Welcome, IBM. Seriously." In 1981, Steve Jobs placed a
+            print advertisement "welcoming" IBM to the PC market. It was, of course, tongue-in-cheek and meant to
+            highlight IBM's relatively late entry to an important industry. IBM ended up having a strong run in PCs but
+            abandoned the business in 2005 when it sold the division to China's Lenovo.&lt;/p&gt;&lt;p&gt;Jobs Gives IBM
+            the Finger. The vintage photo of a young, rebellious Jobs is beloved by Apple die-hards. It resurfaced
+            recently when Andy Hertzfeld, who worked with Jobs on the Macintosh, posted it online.&lt;/p&gt;&lt;p&gt;1984.
+            The iconic commercial, which portrayed Big Blue as the ominous Big Brother from the George Orwell novel,
+            aired during the 1984 Super Bowl. Jobs loved the ad, created by its longtime agency ChiatDay. Apple's board
+            didn't, and preferred to not antagonize IBM.&lt;/p&gt;&lt;p&gt;Here's how Jobs introduced that ad in a 1983
+            speech before it was shown on TV for the only time: "It appears IBM wants it all. Apple is perceived to be
+            the only hope to offer IBM a run for its money. Dealers, initially welcoming IBM with open arms, now fear an
+            IBM-dominated and controlled future. They are increasingly and desperately turning back to Apple as the only
+            force that can ensure their future freedom. IBM wants it all and is aiming its guns on its last obstacle to
+            industry control: Apple. Will Big Blue dominate the entire computer industry? The entire information age?
+            Was George Orwell right about 1984?''&lt;/p&gt;&lt;p&gt;Dark Ages. In a 1985 interview with Playboy
+            magazine, Jobs said, "If for some reason, we make some giant mistakes and IBM wins, my personal feeling is
+            that we are going to enter sort of a computer Dark Ages for about 20 years. Once IBM gains control of a
+            market sector, they almost always stop innovation. They prevent innovation from happening."&lt;/p&gt;&lt;p&gt;The
+            Switch to Intel. During Jobs's absence from Apple, the company switched to a type of processor made by IBM
+            called the PowerPC. Under Jobs, Apple embarked on a multiyear effort to transition to Intel chips. "Our goal
+            is to provide our customers with the best personal computers in the world, and looking ahead Intel has the
+            strongest processor roadmap by far,' Jobs said in a statement when he announced the switch in 2005. "It's
+            been ten years since our transition to the PowerPC, and we think Intel's technology will help us create the
+            best personal computers for the next ten years.'&lt;/p&gt;
+        </body>
+    </entry>
+    <entry author="By C. Thompson" datetime="Jul 16, 2014  6:01 AM ET" feeling_sentiment="n" progress_sentiment="n"
+           url="http://bloomberg.com/news/2014-07-16/what-would-jobs-think-of-getting-in-bed-with-ibm-opening-line.html">
+        <headline>What Would Jobs Think of Getting in Bed With IBM?: Opening Line</headline>
+        <body>
+            &lt;p&gt;Somewhere up there, Steve Jobs has just begun furious work with a bunch of dearly departed
+            programmers on a virtual-reality software called iLive that will restore him among the quick so that he can
+            smack Tim Cook. &lt;/p&gt; &lt;p&gt;'All this,' he'll screech, 'all this I built out of warfare with IBM,
+            and this is how you do me?' &lt;/p&gt; &lt;p&gt;That is surely what many others are envisioning this morning
+            after waking up to the news that Apple will add IBM business software to iPads and iPhones. IBM recognizes
+            that computers are increasingly becoming something you carry, not something you sit in front of, and Apple
+            is realizing, what -- that people want to use Excel spreadsheets on their iPhones? How is that going to
+            work? &lt;/p&gt; &lt;p&gt;There are few corporate rivalries to match the IBM-Apple enmity. Writing in the
+            week immediately following the now-legendary Super Bowl ad for Apple's Macintosh personal computer, Newsweek
+            referred to their competition as 'almost a holy war.' &lt;/p&gt; &lt;p&gt;But like most beliefs, standards,
+            oaths and solemn vows, throw a little money at them and people will see a different side. Apple's iThings
+            will continue to be expensive gadgets/tools/toys until they figure out how to make them capable of running
+            the world. IBM's software isn't going to be worth either the 1s or the 0s if it's not on the best mobile
+            devices. So it had to happen. &lt;/p&gt;
 
+
+            Photographer: Noah Berger/Bloomberg
+
+            &lt;p&gt;
+            Apple Co-Founder Steve Jobs. Close
+            &lt;/p&gt;
+        </body>
+    </entry>
     <entry author="By Adam Satariano and Alex Barinka" datetime="Jul 16, 2014 10:33 AM ET" feeling_sentiment="h"
            progress_sentiment="u"
            url="http://bloomberg.com/news/2014-07-16/apple-puts-ibm-rivalry-to-rest-with-corporate-sales-deal.html">
@@ -2216,7 +3294,68 @@
             &lt;/p&gt;
         </body>
     </entry>
-
+    <entry author="By Eric Lam and Christina Pellegrini" datetime="Jul 17, 2014  4:52 PM ET" feeling_sentiment="s"
+           progress_sentiment="n"
+           url="http://bloomberg.com/news/2014-07-17/apple-ibm-deal-snaps-blackberry-rally-on-turnaround-doubt.html">
+        <headline>Apple-IBM Deal Snaps BlackBerry Rally on Turnaround Doubt</headline>
+        <body>
+            &lt;p&gt;John Chen's turnaround plan for BlackBerry Ltd. just got a reality check. &lt;/p&gt; &lt;p&gt;Shares
+            of the company, which had surged 54 percent under Chen's leadership this year, slumped the most since
+            November yesterday after Apple Inc. (AAPL) and International Business Machines Corp. (IBM) unveiled a pact
+            to collaborate on business services. &lt;/p&gt; &lt;p&gt;The deal puts BlackBerry's nascent recovery at risk
+            by encroaching on a key component of the new chief executive officer's overhaul: shifting the company from
+            flagging smartphone sales toward software-based services for corporations, which generate higher margins.
+            &lt;/p&gt; &lt;p&gt;'You've got quite a few bigger enterprise entities now vying in the space where
+            BlackBerry dominated,' Amitabh Passi, a San Francisco-based analyst at UBS Securities LLC, said by phone
+            yesterday. He listed U.S.-based companies VMware Inc. (VMW) and Citrix Systems Inc. (CTXS) as challengers
+            and questioned whether Google Inc. (GOOG) and Microsoft Corp. (MSFT) will intensify their efforts on
+            business services too. 'It changes the competitive dynamic.' &lt;/p&gt; &lt;p&gt;Since taking over as CEO in
+            November, Chen had been winning over investors with a turnaround strategy that has included cutting costs,
+            selling most of the company's property in Canada, and building revenue in business services and its BBM
+            instant messaging service to compensate for declining handset sales. &lt;/p&gt; &lt;p&gt;The Waterloo,
+            Ontario-based smartphone maker reported an adjusted loss of 11 cents a share in its fiscal first quarter on
+            June 19, ahead of the analysts' average forecast of a 25-cent loss. &lt;/p&gt; &lt;h2&gt;Growth Path &lt;/h2&gt;
+            &lt;p&gt;'Right now, everything that I'm doing is judiciously starting to lay the groundwork for revenue
+            growth for next year,' the 59-year-old Chen said in a conference call at the time. The odds of a turnaround
+            are 80-20, up from a previous prognosis of 50-50, Chen said in May. &lt;/p&gt; &lt;p&gt;The stock had
+            responded positively, with the U.S.-listed shares nearly doubling through yesterday since a low in December.
+            Shares sold short on the stock dropped to 24.3 million as of July 16, the lowest level since 2012, compared
+            with 63.5 million in March 2013, according to data compiled by Markit Ltd. &lt;/p&gt; &lt;p&gt;Options
+            traders had also been betting Chen's strategy would lead to further gains in the stock. &lt;/p&gt; &lt;p&gt;One-month
+            put options calling for the stock to drop 10 percent cost 5.2 points less than calls betting on a 10 percent
+            gain on July 7, the biggest spread ever for the price relationship known as skew, according to data compiled
+            by Bloomberg. &lt;/p&gt; &lt;p&gt;Seven of the 10 contracts with the highest ownership are bullish, and
+            January $10 calls have the highest open interest, data show. &lt;/p&gt; &lt;h2&gt;Business Apps &lt;/h2&gt;
+            &lt;p&gt;The rally came to a halt yesterday, with the stock tumbling 12 percent in New York to close at
+            $9.97. It dropped another 2.6 percent to $9.71 in New York today. &lt;/p&gt; &lt;p&gt;The Apple-IBM deal
+            announced July 15 is designed to get more iPhones and iPads into corporate hands and more IBM services such
+            as analytics, data storage and supply-chain management onto mobile devices. The companies will also create
+            industry applications. &lt;/p&gt; &lt;p&gt;'You can't provide apps without a secure infrastructure
+            underneath,' Passi at UBS said. &lt;/p&gt; &lt;p&gt;BlackBerry is a 'clear leader' in the business market
+            with the most secure devices, software, servers and network, Lisette Kwong, a spokeswoman for BlackBerry,
+            said yesterday. &lt;/p&gt; &lt;p&gt;'Enterprises should think twice about relying on any solution built on
+            the foundation of a consumer technology that lacks the proven security benefits that BlackBerry has always
+            delivered,' Kwong said in an e-mail. &lt;/p&gt; &lt;h2&gt;Cost Competition &lt;/h2&gt; &lt;p&gt;'Short
+            sellers may re-initiate positions in BlackBerry,' said John Stephenson, CEO at Stephenson Co. Capital
+            Management Inc., in an e-mail. 'I view this as an incremental negative. Much of the easy lifting has been
+            done in real estate sales and tax credits. Also, after the run that the stock has had, many investors are
+            looking to take money off the table.' &lt;/p&gt; &lt;p&gt;BlackBerry may have trouble keeping up
+            technologically with Apple while keeping its services affordable, Stephenson said. &lt;/p&gt; &lt;p&gt;'Many
+            firms are abandoning the BlackBerry platform as the cost of the server is just too great,' he said.
+            'BlackBerry has the better corporate security, although Apple's iPhone 5S has biometrics, which helps close
+            that gap.' &lt;/p&gt; &lt;p&gt;Still, Apple and IBM have to prove they can develop products together and win
+            over business customers. &lt;/p&gt; &lt;h2&gt;Negative Bucket &lt;/h2&gt; &lt;p&gt;While their alliance is
+            'incrementally concerning' for BlackBerry, there aren't enough specifics about the pact at this stage to
+            really judge the threat it poses, Passi said. &lt;/p&gt; &lt;p&gt;Luciano Orengo, a fund manager at Manulife
+            Asset Management Ltd. in Toronto, sold his positions in BlackBerry several years ago as the company's
+            earnings deteriorated. The recent rally in shares doesn't pique his interest. Unlike cyclical stocks such as
+            commodities producers, technology companies that fall behind tend to stay behind and ultimately disappear,
+            he said. &lt;/p&gt; &lt;p&gt;'BlackBerry is a company that's slowly dying, and today's news that Apple and
+            IBM are partnering on the business side is another drop into the negative bucket,' he said. His firm manages
+            about C$292 billion ($272 billion). 'Technology is a treadmill. You have to keep innovating, keep growing
+            share. I can't look at that company and three years from now tell you whether it'll be here or not.' &lt;/p&gt;
+            &lt;p&gt;</body>
+    </entry>
     <entry author="By Alex Barinka" datetime="Jul 17, 2014  5:13 PM ET" feeling_sentiment="h" progress_sentiment="u"
            url="http://bloomberg.com/news/2014-07-17/ibm-sales-top-estimates-as-rometty-advances-toward-profit-goals.html">
         <headline>IBM Sales Top Estimates as Rometty Moves Toward Profit Goals</headline>
@@ -2670,7 +3809,7 @@
             dollars from each other. &lt;/p&gt;
             &lt;p&gt;</body>
     </entry>
-    <entry author="By Sarah Frier" datetime="Jul 31, 2013  4:33 PM ET" feeling_sentiment="s" progress_sentiment="d"
+    <entry author="By Sarah Frier" datetime="Jul 31, 2013  4:33 PM ET" feeling_sentiment="n" progress_sentiment="n"
            url="http://bloomberg.com/news/2013-07-31/ibm-says-sec-investigating-its-cloud-computing-revenue-figures.html">
         <headline>IBM Defends Cloud-Computing Accounting Amid SEC Probe</headline>
         <body>
@@ -3120,7 +4259,44 @@
             Facebook and Twitter. &lt;/p&gt;
             &lt;p&gt;</body>
     </entry>
+    <entry author="By Natalie Obiko Pearson" datetime="Jun 20, 2013  2:15 AM ET" feeling_sentiment="h"
+           progress_sentiment="u"
+           url="http://bloomberg.com/news/2013-06-20/tata-wins-over-ibm-dell-with-solar-cheaper-than-grid.html">
+        <headline>Tata Wins Over IBM, Dell With Solar Cheaper Than Grid</headline>
+        <body>
+            &lt;p&gt;Tata Group's solar unit is expanding
+            its business building plants for customers, forecasting that
+            offices and factories will be paying more for grid power than
+            solar by 2016 in most Indian states. &lt;/p&gt;
+            &lt;p&gt;Solar installations for commercial and industrial energy
+            consumers, such as cement factories, information technology
+            parks and car manufacturers, seeking to generate their own power
+            represent a market of about 80 billion rupees ($1.3 billion),
+            said Ajay Goel, chief executive of Tata Power Solar Systems
+            Ltd., a unit of India's biggest industrial group that owns
+            Jaguar Land Rover. &lt;/p&gt;
+            &lt;p&gt;The company, formerly known as Tata BP Solar Ltd., is
+            seeking to diversify from making panels after an oversupply from
+            Chinese competitors crushed prices globally and idled Indian
+            factories. Customers for whom it has already completed solar
+            plants for self-generation include Maruti Suzuki India Ltd. (MSIL), the
+            country's biggest carmaker, and the local units of Dell Inc. (DELL) and
+            International Business Machines Corp. (IBM) &lt;/p&gt;
+            &lt;p&gt;'We're seeing a huge uptake as we get closer and closer to
+            grid parity,' Goel said in a phone interview. 'Corporate
+            customers are coming to us to install solar on their rooftops or
+            land on the side of their factories because it can provide
+            energy cheaper than from the grid.' &lt;/p&gt;
 
+
+            Photographer: Dhiraj Singh/Bloomberg
+
+            &lt;p&gt;
+            An employee transports a graphite holder of cells to an anti-reflection machine at the Tata Power Solar
+            Systems Ltd. manufacturing plant in Bangalore. Close
+            &lt;/p&gt;
+        </body>
+    </entry>
     <entry author="By Kristen Schweizer" datetime="Jun 20, 2013  6:01 PM ET" feeling_sentiment="h"
            progress_sentiment="u"
            url="http://bloomberg.com/news/2013-06-20/ibm-atom-boy-joins-police-sketch-artist-to-give-ads-novel-twist.html">
@@ -3519,7 +4695,29 @@
             with competitors like Amazon.com Inc. &lt;/p&gt;
             &lt;p&gt;</body>
     </entry>
-
+    <entry author="By Richard Rubin" datetime="Mar 12, 2014  2:47 PM ET" feeling_sentiment="s" progress_sentiment="n"
+           url="http://bloomberg.com/news/2014-03-12/cash-abroad-rises-206-billion-as-apple-to-ibm-avoid-tax.html">
+        <headline>Cash Abroad Rises $206 Billion as Apple to IBM Avoid Tax</headline>
+        <body>
+            &lt;p&gt;The largest U.S.-based companies added $206 billion to their stockpiles of offshore profits last
+            year, parking earnings in low-tax countries until Congress gives them a reason not to. &lt;/p&gt; &lt;p&gt;The
+            multinational companies have accumulated $1.95 trillion outside the U.S., up 11.8 percent from a year
+            earlier, according to securities filings from 307 corporations reviewed by Bloomberg News. Three U.S.-based
+            companies -- Microsoft Corp. (MSFT), Apple Inc. and International Business Machines Corp. -- added $37.5
+            billion, or 18.2 percent of the total increase. &lt;/p&gt; &lt;p&gt;'The loopholes in our tax code right now
+            give such a big reward to companies that use gimmicks to make it look like they earn their profits
+            offshore,' said Dan Smith, a tax and budget advocate at the U.S. Public Interest Research Group, which seeks
+            to counteract corporate influence. &lt;/p&gt; &lt;p&gt;Even as governments around the world cut tax rates
+            and try to keep corporations from shifting profits to tax havens, the U.S. Congress remains paralyzed in its
+            efforts. The response of U.S.-based companies over the past few years has been consistent: book profits
+            offshore and leave them there. &lt;/p&gt; &lt;p&gt;Congress hasn't acted because of disagreements over
+            whether to be tougher on U.S. companies operating abroad amid broader disputes over government spending and
+            taxation. The stalemate has prevented the U.S. from tapping a pot of money that President Barack Obama and
+            the top Republican tax writer in Congress have eyed for such projects as rebuilding highways. &lt;/p&gt;
+            &lt;h2&gt;Deferring Taxes &lt;/h2&gt;
+            &lt;p&gt;&lt;/p&gt;
+        </body>
+    </entry>
     <entry author="By Joseph Ciolli and Lu Wang" datetime="May 01, 2014  4:45 AM ET" feeling_sentiment="h"
            progress_sentiment="u"
            url="http://bloomberg.com/news/2014-05-01/dow-gets-back-to-record-as-caterpillar-joins-ibm-in-rally.html">
@@ -4222,7 +5420,43 @@
             &lt;/p&gt;
         </body>
     </entry>
+    <entry author="By Tara Lachapelle" datetime="May 29, 2013 12:14 PM ET" feeling_sentiment="h" progress_sentiment="u"
+           url="http://bloomberg.com/news/2013-05-29/jive-seen-luring-suitors-such-as-ibm-oracle-real-m-a.html">
+        <headline>Jive Seen Luring Suitors Such as IBM, Oracle: Real M&amp;amp;A</headline>
+        <body>
+            &lt;p&gt;Jive Software Inc. (JIVE), which is growing
+            three times faster than its peers, may become a takeover target
+            for International Business Machines Corp. or Oracle Corp. (ORCL) after
+            luring the attention of SAP AG. (SAP) &lt;/p&gt;
+            &lt;p&gt;Jive rallied 5.6 percent, the most in three months, on May
+            24 after Bloomberg News reported that SAP recently considered
+            buying the $1.1 billion company before deciding there was too
+            much product overlap. The Palo Alto, California-based developer
+            of software that helps employees collaborate may now lure other
+            suitors, including IBM and Oracle, because of its prospects for
+            increasing revenue, Credit Suisse Group AG said. &lt;/p&gt;
+            &lt;p&gt;Jive is forecast to boost sales by 119 percent during the
+            next three years, according to analysts' estimates compiled by
+            Bloomberg. Microsoft Corp. (MSFT) already bought a business similar to
+            Jive last year, paying $1.2 billion for Yammer Inc., and Jive's
+            chief executive officer sold his last software venture to
+            Hewlett-Packard Co. (HPQ) for about $4.5 billion. &lt;/p&gt;
+            &lt;p&gt;With SAP, 'even if the talks were abandoned, it shows that
+            there's interest,' Steve Ashley, a Milwaukee-based analyst with
+            Robert W. Baird Co., said in a telephone interview. 'They are
+            the leader in the social collaboration space for businesses, and
+            they have the strongest offering and most differentiated
+            offering in that new, emerging market.' &lt;/p&gt;
 
+
+            Photographer: David Paul Morris/Bloomberg
+
+            &lt;p&gt;
+            Jive CEO Tony Zingale previously ran Mercury Interactive Corp., which he sold to Hewlett-Packard in 2006.
+            Close
+            &lt;/p&gt;
+        </body>
+    </entry>
     <entry author="By Sarah Rabil" datetime="May 30, 2014  1:24 PM ET" feeling_sentiment="h" progress_sentiment="u"
            url="http://bloomberg.com/news/2014-05-30/ibm-partners-with-transwiseway-for-connected-car-deal-in-china.html">
         <headline>IBM Partners With TransWiseway for Connected Car Deal in China</headline>
@@ -5102,7 +6336,51 @@
             2.2 percent to $190.70. &lt;/p&gt;
             &lt;p&gt;</body>
     </entry>
-
+    <entry author="By Bob Van Voris" datetime="Sep 12, 2013  5:55 PM ET" feeling_sentiment="s" progress_sentiment="n"
+           url="http://bloomberg.com/news/2013-09-12/ibm-insider-trading-suspect-to-plead-guilty-lawyer-says.html">
+        <headline>IBM Insider Trading Suspect to Plead Guilty, Lawyer Says</headline>
+        <body>
+            &lt;p&gt;A former securities analyst
+            extradited to the U.S. from Hong Kong in March pleaded guilty to
+            his role in an insider trading scheme involving International
+            Business Machines Corp. (IBM)'s $1.2 billion acquisition of SPSS Inc. &lt;/p&gt;
+            &lt;p&gt;Trent Martin, 34, an Australian citizen, entered his plea
+            to a single count of conspiracy in a hearing today before U.S.
+            District Judge Andrew L. Carter Jr. in Manhattan. Martin told
+            Carter that he made about $7,600 from trading on the tip, which
+            he received from an unidentified attorney working on the deal. &lt;/p&gt;
+            &lt;p&gt;'I knew my actions were wrong and in violation of the law
+            and I apologize to the court for my conduct,' Martin said
+            today. &lt;/p&gt;
+            &lt;p&gt;Martin, who faces as much as five years in prison when he's
+            sentenced on March 14, is cooperating with the government in
+            hopes of leniency. Carter agreed to a request by lawyers for
+            both sides that he be allowed to return to Sydney until he's
+            sentenced. Martin will probably face deportation to Australia as
+            a result of the guilty plea, Carter said. &lt;/p&gt;
+            &lt;p&gt;Martin said he received the tip from the lawyer, a close
+            friend, in June 2009. He shared the information with his
+            Manhattan roommate, Thomas Conradt, who was a stockbroker.
+            Conradt passed the information to his co-worker and friend David
+            Weishaus, who in turn tipped two other brokers. &lt;/p&gt;
+            &lt;h2&gt;Securities Fraud &lt;/h2&gt;
+            &lt;p&gt;Conradt pleaded guilty in April to one count of conspiracy
+            and two counts of securities fraud. Weishaus has pleaded not
+            guilty. &lt;/p&gt;
+            &lt;p&gt;Martin worked at Royal Bank of Scotland Group Plc in the
+            U.S. and an RBS joint venture in Australia before joining Nomura
+            Holdings Inc. (8604) in September 2011, according to two people
+            familiar with the situation who asked not to be identified
+            because they aren't authorized to speak about the matter. &lt;/p&gt;
+            &lt;p&gt;The Financial Industry Regulatory Authority lists a Trent
+            Martin who left ABN Amro Bank NV in 2009 to work at the Stamford
+            office of RBS, which participated in ABN Amro's takeover in
+            2007. Martin's broker registration at RBS ended in November
+            2010, Finra documents show. &lt;/p&gt;
+            &lt;p&gt;The case is U.S. v. Martin, 12-cr-00887, U.S. District
+            Court, Southern District of New York (Manhattan). &lt;/p&gt;
+            &lt;p&gt;</body>
+    </entry>
     <entry author="By Alex Barinka" datetime="Sep 16, 2014 11:47 AM ET" feeling_sentiment="h" progress_sentiment="u"
            url="http://bloomberg.com/news/2014-09-16/ibm-touts-watson-to-back-office-amid-cloud-service-push.html">
         <headline>IBM Touts Watson to Back Office Amid Cloud Service Push</headline>
@@ -5140,7 +6418,7 @@
             &lt;/p&gt;
         </body>
     </entry>
-    <entry author="By Bloomberg News" datetime="Sep 29, 2014  3:06 AM ET" feeling_sentiment="s" progress_sentiment="d"
+    <entry author="By Bloomberg News" datetime="Sep 29, 2014  3:06 AM ET" feeling_sentiment="h" progress_sentiment="u"
            url="http://bloomberg.com/news/2014-09-29/lenovo-to-pay-less-for-ibm-servers-with-closing-this-week.html">
         <headline>Lenovo to Pay Less for IBM Servers With Closing This Week</headline>
         <body>
@@ -5176,83 +6454,5 @@
             business, allowing it to focus on growing areas such as cloud computing and data analytics. Close
             &lt;/p&gt;
         </body>
-    </entry>
-    <entry author="By Aaron Ricadela" datetime="Apr 19, 2013 12:25 AM ET" feeling_sentiment="s" progress_sentiment="d"
-           url="http://bloomberg.com/news/2013-04-19/microsoft-to-ibm-struggle-to-manage-mobile-computing-shift-tech.html">
-        <headline>Microsoft, IBM Struggle to Manage Mobile-Computing Shift</headline>
-        <body>
-            &lt;p&gt;Microsoft Corp. (MSFT) and International Business Machines Corp. (IBM) (IBM), two architects of the
-            U.S. computer industry, are feeling the pain as consumers and businesses flock to mobile devices. &lt;/p&gt;
-            &lt;p&gt;Microsoft, the world's largest software company, yesterday reported no growth in Windows sales in
-            its latest quarter, after accounting for upgrades sold in the past. IBM is struggling to boost hardware
-            sales as more companies let employees use their own devices at work. Meanwhile Google Inc. (GOOG), which is
-            expanding beyond its search-engine roots with Android software for smartphones and tablets, is keeping pace
-            with the shift, reporting better-than-projected profits from mobile advertising. &lt;/p&gt; &lt;p&gt;As
-            consumers check e-mail, browse the Web and watch television and movies on the go, PC shipments plummeted 14
-            percent in the first quarter, the worst decline since researcher IDC began tracking data in 1994. Microsoft
-            and others aren't moving fast enough to end their reliance on traditional computing, according to Brent
-            Thill, an analyst at UBS Investment Bank. &lt;/p&gt; &lt;p&gt;'It's been a tough start to the year,' said
-            San Francisco-based Thill. &lt;/p&gt; &lt;p&gt;Chipmaker Advanced Micro Devices Inc. (AMD), which aims to
-            generate 20 percent of sales outside the PC industry by the fourth quarter, forecast second-quarter sales
-            yesterday that may surpass some analysts' estimates as it diversifies. &lt;/p&gt;
-
-
-            Photographer: David Paul Morris/Bloomberg
-
-            &lt;p&gt;
-            Shoppers use a Microsoft Corp. Surface tablet computer at a pop-up store in the Westfield San Francisco
-            Centre in San Francisco. Microsoft has sold little more than a million of the lower-end RT version, and
-            about 400,000 Surface Pros since their debut. Close
-            &lt;/p&gt;
-        </body>
-    </entry>
-
-    <entry author="By Ilya Khrennikov" datetime="Jul 21, 2014  9:57 AM ET" feeling_sentiment="s" progress_sentiment="d"
-           url="http://bloomberg.com/news/2014-07-21/russia-seeks-to-cut-dependence-on-ibm-microsoft-amid-sanctions.html">
-        <headline>Russia to Reduce Reliance on Microsoft, IBM After Sanctions</headline>
-        <body>
-            &lt;p&gt;Russia's parliament is preparing new rules in a bid to cut its reliance on foreign technology
-            suppliers after U.S. sanctions against some of the country's largest companies, a move that could hurt sales
-            at vendors such as Microsoft Corp. (MSFT) and International Business Machines Corp. (IBM) &lt;/p&gt; &lt;p&gt;The
-            State Duma, Russia's lower house of parliament, is drafting a bill to require government agencies and
-            state-run enterprises to give preference to local providers of software and hardware, according to a
-            document from the commission for strategic information systems obtained by Bloomberg News. The paper
-            addresses criteria for tender processes such as favoring products that don't have imported, licensed
-            components. &lt;/p&gt; &lt;p&gt;'This all has to do with sanctions,' Andrey Chernogorov, executive secretary
-            of the commission, said in a phone interview. 'Given the current international tensions, substituting
-            imports with local software and hardware becomes the key to ensuring self sufficiency.' &lt;/p&gt; &lt;p&gt;The
-            Obama administration on July 16 tightened sanctions on Russian banks, energy and defense companies to punish
-            the country over its interference in Ukraine. On the following day, the downing of a Malaysia Airlines jet
-            caught in the military conflict, killing all 298 people on board, sent the Ukraine crisis into a new phase
-            and raises the prospect of further sanctions. &lt;/p&gt; &lt;h2&gt;H-P, Oracle &lt;/h2&gt; &lt;p&gt;Hewlett-Packard
-            Co. (HP), IBM, Microsoft, Cisco Systems Inc. (CSCO), Oracle Corp. (ORCL) and Germany's SAP SE had combined
-            revenue of 285 billion rubles ($8.1 billion) from Russia last year, according to estimates by the Russian
-            Academy of Sciences that are included in the commission's document. Hewlett-Packard and IBM together
-            accounted for almost 78 percent of the figure. About 77 percent of the total sales were contracts from the
-            government and state-controlled companies, it said. &lt;/p&gt; &lt;p&gt;Spokesmen for IBM and Oracle in the
-            U.K. declined to comment on the planned law. Representatives for Hewlett-Packard, Microsoft, SAP and Cisco
-            didn't immediately return phone calls and e-mails seeking comment. &lt;/p&gt; &lt;p&gt;Hewlett-Packard
-            slipped 0.5 percent at 9:48 a.m. in New York trading. IBM fell 1.2 percent, Microsoft lost 0.5 percent,
-            Cisco dropped 0.1 percent and Oracle rose 0.3 percent. SAP lost 0.5 percent in Frankfurt trading. &lt;/p&gt;
-            &lt;p&gt;The commission accelerated preparation for the bill after reports that American technology
-            companies may cut off services to Russian banks and companies to comply with U.S. sanctions, Chernogorov
-            said. The proposal may be submitted for a parliamentary vote in September, he said. &lt;/p&gt; &lt;h2&gt;Rosneft,
-            VEB &lt;/h2&gt; &lt;p&gt;Among Russian companies the U.S. imposed lending curbs on last week are energy
-            giants OAO Rosneft (ROSN) and OAO Novatek (NVTK) as well as Vnesheconombank and OAO Gazprombank. Since
-            sanctions against Russia were first announced in March, President Vladimir Putin has repeatedly called for
-            substituting imports with domestic production to limit the threat to Russia's economic growth. &lt;/p&gt;
-            &lt;p&gt;With the lack of regulations in post-Soviet Russia that govern the award of technology contracts,
-            foreign vendors account for 67 percent of software used in the country and about 90 percent of hardware,
-            according to the commission. Foreign software may have hidden capabilities such as 'bugs' and 'backdoors,'
-            giving suppliers access to confidential data, Chernogorov said. &lt;/p&gt; &lt;p&gt;Russia's Communications
-            Ministry is among agencies seeking to cut dependence on foreign vendors as it develops its e-government
-            initiative, a unified database of personal data used to provide online services such as granting a license
-            permit or assigning a child to school. &lt;/p&gt; &lt;h2&gt;Local Production &lt;/h2&gt; &lt;p&gt;'The idea
-            of supporting local IT production is justified,' said Nikolay Komlev, executive director of the Russian
-            Association of Computer and IT Enterprises, which represents multinationals such as IBM and Hewlett-Packard
-            as well as Russian vendors. 'Still, its implementation proposed by State Duma may give a competitive
-            advantage to not the most efficient companies.' &lt;/p&gt; &lt;p&gt;Russia's largest IT companies with
-            annual revenue exceeding $1 billion include NCC, Lanit, Technoserv, NVision Group and IBS Group Holding Ltd.
-            (IBSG), according to CNews Analytics. &lt;/p&gt; &lt;p&gt;</body>
     </entry>
 </news>

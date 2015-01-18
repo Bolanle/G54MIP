@@ -87,8 +87,11 @@ def auto_generate(news, company_trends, company_name, dates):
     # write to file
     ElementTree.ElementTree(news).write("{}.xml".format(company_name), xml_declaration=True)
     for day in dates:
-        if not progress_sentiment_trend[str(day)]:
+        if not progress_sentiment_trend[str(day)] and not company_name == "ibm":
             progress_sentiment_trend[str(day)] = 1
+
+        elif not progress_sentiment_trend[str(day)] and company_name == "ibm":
+            progress_sentiment_trend[str(day)] = -1
 
     sorted_progress = sorted(progress_sentiment_trend)
     dateless_progress_trend = []
@@ -155,6 +158,6 @@ if __name__ == '__main__':
             ax.xaxis.set_major_formatter(ticker.FuncFormatter(format_date))
             fig.autofmt_xdate()
             plot.plot(ind, [price.get_y() for price in projected_prices], linewidth=4)
-            plot.plot(ind, aggregate_sentiment(progress_trend))
+            #plot.plot(ind, aggregate_sentiment(progress_trend))
             plot.title(company)
             plot.show()

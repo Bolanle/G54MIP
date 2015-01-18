@@ -1,6 +1,24 @@
 <?xml version='1.0' encoding='us-ascii'?>
 <news>
-    <entry author="By Joe Carroll" datetime="Apr 09, 2014  5:08 PM ET" feeling_sentiment="h" progress_sentiment="u"
+    <entry author="By Lynn Doan" datetime="Apr 05, 2013  7:10 PM ET" feeling_sentiment="n" progress_sentiment="n"
+           url="http://bloomberg.com/news/2013-04-05/more-chevron-el-segundo-had-exact-same-corrosion-as-richmond.html">
+        <headline>MORE: Chevron El Segundo Had 'Exact Same' Corrosion' as Richmond</headline>
+        <body>
+            &lt;p&gt;Chevron Corp. (CVX) replaced pipe at El
+            Segundo refinery's No. 4 crude unit in early September, Melissa Ritchie, Co. spokeswoman, said by e-mail.
+            * Co. collected inspection data on portions of piping at the
+            crude unit in Aug., determined that thickness of pipe would
+            allow it to remain in service
+            * Pipe was later replaced 'out of an abundance of caution in
+            light of the Richmond incident,' Ritchie says
+            * Inspection of piping at refinery is 'ongoing,' she says
+            * PREVIOUS STORY: NSN MKSZYX6JTSEG GO
+            * NOTE: Chevron Richmond refinery fire on Aug. 6 sent more than
+            15,000 people to hospital emergency rooms. PREVIOUS STORY: NSN
+            MKSZJC6JTSET GO &lt;/p&gt;
+            &lt;p&gt;</body>
+    </entry>
+    <entry author="By Joe Carroll" datetime="Apr 09, 2014  5:08 PM ET" feeling_sentiment="s" progress_sentiment="d"
            url="http://bloomberg.com/news/2014-04-09/chevron-output-fall-as-it-seeks-to-reverse-declines.html">
         <headline>Chevron Output Fall as It Seeks to Reverse Declines</headline>
         <body>
@@ -33,7 +51,7 @@
             &lt;p&gt;Exxon Mobil Corp. is the biggest U.S. energy company. &lt;/p&gt;
             &lt;p&gt;</body>
     </entry>
-    <entry author="By Lynn Doan" datetime="Apr 10, 2013  4:14 PM ET" feeling_sentiment="n" progress_sentiment="n"
+    <entry author="By Lynn Doan" datetime="Apr 10, 2013  4:14 PM ET" feeling_sentiment="h" progress_sentiment="u"
            url="http://bloomberg.com/news/2013-04-10/san-francisco-gasoline-falls-as-chevron-readies-unit-for-startup.html">
         <headline>San Francisco Gasoline Falls as Chevron Readies Unit for Startup</headline>
         <body>
@@ -125,8 +143,8 @@
             Mobil Corp., and Royal Dutch Shell Plc. &lt;/p&gt;
             &lt;p&gt;</body>
     </entry>
-    <entry author="By Ben Elgin and Peter Waldman" datetime="Apr 18, 2013 12:01 AM ET" feeling_sentiment="n"
-           progress_sentiment="n"
+    <entry author="By Ben Elgin and Peter Waldman" datetime="Apr 18, 2013 12:01 AM ET" feeling_sentiment="s"
+           progress_sentiment="d"
            url="http://bloomberg.com/news/2013-04-18/chevron-defies-california-on-carbon-emissions.html">
         <headline>Chevron Defies California On Carbon Emissions</headline>
         <body>
@@ -239,7 +257,7 @@
             Bloomberg. &lt;/p&gt;
             &lt;p&gt;</body>
     </entry>
-    <entry author="By Lynn Doan" datetime="Apr 29, 2013  5:52 PM ET" feeling_sentiment="h" progress_sentiment="u"
+    <entry author="By Lynn Doan" datetime="Apr 29, 2013  5:52 PM ET" feeling_sentiment="s" progress_sentiment="u"
            url="http://bloomberg.com/news/2013-04-29/san-francisco-gasoline-hits-two-week-low-as-chevron-unit-starts.html">
         <headline>San Francisco Gasoline Hits Two-Week Low as Chevron Unit Starts</headline>
         <body>
@@ -292,7 +310,7 @@
     <entry author="By Joe Carroll and Zain Shauk" datetime="Aug 01, 2014  4:19 PM ET" feeling_sentiment="s"
            progress_sentiment="d"
            url="http://bloomberg.com/news/2014-08-01/chevron-profit-rises-on-asset-sales-and-higher-brent-oil.html">
-        <headline>Chevron Falls as Output Drops Despite Rising Spending</headline>
+        <headline>Chevron Falls as Output Drops Despie Rising Spending</headline>
         <body>
             &lt;p&gt;Chevron Corp. (CVX) fell after posting the
             lowest second-quarter oil and natural gas output in six years as
@@ -481,7 +499,7 @@
             &lt;p&gt;&lt;/p&gt;
         </body>
     </entry>
-    <entry author="By Joe Carroll" datetime="Dec 11, 2013  5:19 PM ET" feeling_sentiment="n" progress_sentiment="n"
+    <entry author="By Joe Carroll" datetime="Dec 11, 2013  5:19 PM ET" feeling_sentiment="s" progress_sentiment="d"
            url="http://bloomberg.com/news/2013-12-11/chevron-2014-spending-to-fall-even-as-gorgon-lng-costs-increase.html">
         <headline>Chevron 2014 Spending to Fall Even as Gorgon LNG Costs Increase</headline>
         <body>
@@ -621,7 +639,7 @@
         </body>
     </entry>
     <entry author="By Elisha Bala-Gbogbo" datetime="Feb 01, 2013  6:23 AM ET" feeling_sentiment="s"
-           progress_sentiment="n"
+           progress_sentiment="d"
            url="http://bloomberg.com/news/2013-02-01/nigeria-fines-on-shell-chevron-not-backed-by-law.html">
         <headline>Nigeria Spill Fines on Shell, Chevron, Not Backed by Law</headline>
         <body>
@@ -817,7 +835,7 @@
             company by market value. &lt;/p&gt;
             &lt;p&gt;</body>
     </entry>
-    <entry author="By Lynn Doan" datetime="Jan 13, 2014  3:22 PM ET" feeling_sentiment="s" progress_sentiment="d"
+    <entry author="By Lynn Doan" datetime="Jan 13, 2014  3:22 PM ET" feeling_sentiment="s" progress_sentiment="u"
            url="http://bloomberg.com/news/2014-01-13/los-angeles-gasoline-gains-after-chevron-refinery-reports-upsets.html">
         <headline>Los Angeles Gasoline Gains After Chevron Refinery Reports Upsets</headline>
         <body>
@@ -990,7 +1008,7 @@
             Court, Northern District of California (San Francisco). &lt;/p&gt;
             &lt;p&gt;</body>
     </entry>
-    <entry author="By Matthew Monks" datetime="Jan 17, 2014 11:45 AM ET" feeling_sentiment="n" progress_sentiment="n"
+    <entry author="By Matthew Monks" datetime="Jan 17, 2014 11:45 AM ET" feeling_sentiment="h" progress_sentiment="d"
            url="http://bloomberg.com/news/2014-01-17/chevron-is-said-to-seek-buyers-for-1-billion-in-u-s-assets.html">
         <headline>Chevron Is Said to Seek Buyers for $1 Billion in U.S. Assets</headline>
         <body>
@@ -1105,7 +1123,7 @@
             Wilmington office. She was at KL Gates LLP.' &lt;/p&gt;
             &lt;p&gt;</body>
     </entry>
-    <entry author="By Rupert Rowling" datetime="Jan 30, 2013 12:49 PM ET" feeling_sentiment="n" progress_sentiment="n"
+    <entry author="By Rupert Rowling" datetime="Jan 30, 2013 12:49 PM ET" feeling_sentiment="s" progress_sentiment="d"
            url="http://bloomberg.com/news/2013-01-30/total-chevron-bid-for-forties-pertamina-seeks-3-months-crude.html">
         <headline>Total, Chevron Bid for Forties; Pertamina Seeks 3-Months Crude</headline>
         <body>
@@ -1227,7 +1245,7 @@
             production 20 percent by the end of 2017. &lt;/p&gt;
             &lt;p&gt;</body>
     </entry>
-    <entry author="By Joe Carroll" datetime="Jul 10, 2013  5:13 PM ET" feeling_sentiment="s" progress_sentiment="n"
+    <entry author="By Joe Carroll" datetime="Jul 10, 2013  5:13 PM ET" feeling_sentiment="s" progress_sentiment="d"
            url="http://bloomberg.com/news/2013-07-10/chevron-says-april-may-production-fell-from-second-quarter-2012.html">
         <headline>Chevron Says April-May Production Fell From Second Quarter 2012</headline>
         <body>
@@ -1245,7 +1263,7 @@
     </entry>
     <entry author="By Joe Carroll" datetime="Jul 10, 2014  5:47 PM ET" feeling_sentiment="h" progress_sentiment="u"
            url="http://bloomberg.com/news/2014-07-10/chevron-says-second-quarter-profit-exceeded-first-quarter-result.html">
-        <headline>Chevron's Second-Quarter Profit Boosted by Asset Sales</headline>
+        <headline>Chevron's Second-Quuarter Profit Boosted by Asset Sales</headline>
         <body>
             &lt;p&gt;Chevron Corp. (CVX), the world's third-largest energy producer by market value, said more than half
             a
@@ -1270,7 +1288,60 @@
             data compiled by Bloomberg. &lt;/p&gt;
             &lt;p&gt;</body>
     </entry>
-
+    <entry author="By Daniel Cancel" datetime="Jul 16, 2013  4:39 PM ET" feeling_sentiment="h" progress_sentiment="u"
+           url="http://bloomberg.com/news/2013-07-16/chevron-shale-talk-makes-ypf-best-performer-buenos-aires-mover.html">
+        <headline>Chevron Shale Talk Makes YPF Best Performer: Buenos Aires Mover</headline>
+        <body>
+            &lt;p&gt;YPF SA rose the most among major
+            Argentine stocks on speculation the state-run energy company
+            will sign the first binding partnership to develop shale oil and
+            natural gas since its nationalization a year ago. &lt;/p&gt;
+            &lt;p&gt;The shares gained 3.5 percent to 137.50 pesos in Buenos
+            Aires, the highest closing price since March last year.
+            Argentina's benchmark index rose 1.4 percent. &lt;/p&gt;
+            &lt;p&gt;YPF, the best performer this month among 15 global peers
+            tracked by Bloomberg, will sign today an accord with Chevron
+            Corp. (CVX) in a ceremony to be attended by President Cristina Fernandez de Kirchner and Chevron Chairman
+            and Chief Executive
+            Officer John Watson, newspaper El Cronista reported, citing a
+            government official it didn't identify. Yesterday the government
+            said it will offer energy companies incentives if they invest $1
+            billion or more over a five-year period. &lt;/p&gt;
+            &lt;p&gt;'The stock is rallying on the Chevron agreement and the
+            government decree,' Carlos Aszpis, an equity strategist at
+            Schweber Cia. Sociedad de Bolsa SA, said by telephone from
+            Buenos Aires. 'There's been a nice combination of headlines
+            driving the move.' &lt;/p&gt;
+            &lt;p&gt;A definitive deal with Chevron, the world's second-biggest
+            oil company, would help YPF tap the world's second-largest shale
+            gas deposit and fourth-largest shale oil reservoir as the
+            country struggles to lift output and pare fuel imports. In a
+            preliminary arrangement, the ventures's initial investments were
+            estimated at $1.5 billion. &lt;/p&gt;
+            &lt;h2&gt;Independence Goal &lt;/h2&gt;
+            &lt;p&gt;Watson will travel to Argentina to sign the deal between
+            July 15 and July 16, Jorge Sapag, governor of Neuquen province
+            where the Vaca Muerta shale formation is located, said on June
+            26. Jim Craig, a spokesman for Chevron, couldn't immediately be
+            reached by phone for comment today. A YPF official who isn't
+            authorized to speak publicly said he didn't have any information
+            on when the agreement will be signed. &lt;/p&gt;
+            &lt;p&gt;Fernandez's government seized a 51 percent stake in YPF
+            from Spain's Repsol SA (REP) in April 2012 to stem fuel imports that
+            doubled to $9.4 billion in 2011 and are expected to rise to as
+            much as $15 billion this year. &lt;/p&gt;
+            &lt;p&gt;Chevron's investment will help make Argentina energy
+            independent, Ali Moshiri, Chevron's head of Latin America,
+            Middle East and Africa, said May 16, after touring the shale
+            formation in southwestern Argentina. &lt;/p&gt;
+            &lt;p&gt;Vaca Muerta, Spanish for dead cow, may hold at least 23
+            billion barrels of oil equivalent, according to a report by
+            independent auditor Ryder Scott released in February 2012 by
+            YPF. &lt;/p&gt;
+            &lt;p&gt;YPF's American depositary receipts rose 2.3 percent to
+            $16.27 in New York, the highest since Feb. 20. &lt;/p&gt;
+            &lt;p&gt;</body>
+    </entry>
     <entry author="By Patricia Hurtado" datetime="Jul 16, 2013  8:56 PM ET" feeling_sentiment="n" progress_sentiment="n"
            url="http://bloomberg.com/news/2013-07-16/chevron-judge-denies-ecuadoreans-request-for-trial-delay.html">
         <headline>Chevron Judge Denies Ecuadoreans' Request for Trial Delay</headline>
@@ -1585,6 +1656,28 @@
             lowered output levels. The company has been shut out of international capital markets because of
             double-digit borrowing costs for Argentine issuers. &lt;/p&gt; &lt;p&gt;</body>
     </entry>
+    <entry author="By Matthew Campbell and Joe Carroll" datetime="Jun 05, 2013  8:13 AM ET" feeling_sentiment="n"
+           progress_sentiment="d"
+           url="http://bloomberg.com/news/2013-06-05/chevron-hires-ex-citigroup-energy-banker-lovegrove-as-adviser.html">
+        <headline>Chevron Hires Ex-Citigroup Energy Banker Lovegrove as Adviser</headline>
+        <body>
+            &lt;p&gt;Chevron Corp. (CVX) hired former Citigroup
+            Inc. (C) oil and gas banker Martin Lovegrove in an advisory role as
+            the energy group looks to expand production. &lt;/p&gt;
+            &lt;p&gt;Chevron 'has contracted Martin Lovegrove to an advisory
+            position within the company,' Gareth Johnstone, a Chevron
+            spokesman, said in an e-mail. He will assist with 'business
+            development activities.' &lt;/p&gt;
+            &lt;p&gt;Lovegrove was Citigroup's chairman for global energy until
+            departing the New York-based bank earlier this year. He advised
+            on transactions including Cnooc Ltd.'s $15.1 billion acquisition
+            of Canada's Nexen Inc., the largest-ever foreign takeover by a
+            Chinese company. &lt;/p&gt;
+            &lt;p&gt;San Ramon, California-based Chevron is spending $36.7
+            billion this year on exploration, export terminals and refinery
+            upgrades after oil and gas output hit a four-year low in 2012. &lt;/p&gt;
+            &lt;p&gt;</body>
+    </entry>
     <entry author="By Chris Dolmetsch and Zain Shauk" datetime="Jun 05, 2014  3:50 PM ET" feeling_sentiment="s"
            progress_sentiment="d"
            url="http://bloomberg.com/news/2014-06-05/bp-chevron-among-refiners-sued-by-vermont-over-mtbe.html">
@@ -1828,9 +1921,9 @@
             profits, reached a three-month high earlier this week. &lt;/p&gt;
             &lt;p&gt;</body>
     </entry>
-    <entry author="By Joe Carroll" datetime="Jun 13, 2014  1:21 PM ET" feeling_sentiment="h" progress_sentiment="u"
+    <entry author="By Joe Carroll" datetime="Jun 13, 2014  1:21 PM ET" feeling_sentiment="n" progress_sentiment="u"
            url="http://bloomberg.com/news/2014-06-13/chevron-sells-africxan-oilfield-and-pipeline-for-1-3-bln.html">
-        <headline>Chevron Sells African Oilfield and Pipeline For $1.3 Bln</headline>
+        <headline>Chevron Sells Africxan Oilfield and Pipeline For $1.3 Bln</headline>
         <body>
             &lt;p&gt;Chevron Corp., the world's third-largest energy producer by market value, sold its stakes in an
             African oilfield and pipeline for $1.3 billion. &lt;/p&gt;
@@ -1917,7 +2010,68 @@
             compiled by Bloomberg. &lt;/p&gt;
             &lt;p&gt;</body>
     </entry>
-    <entry author="By Sarika Gangar" datetime="Jun 17, 2013  6:07 PM ET" feeling_sentiment="n" progress_sentiment="n"
+    <entry author="By Scott Harrison" datetime="Jun 17, 2013  5:27 PM ET" feeling_sentiment="n" progress_sentiment="u"
+           url="http://bloomberg.com/news/2013-06-17/credit-swaps-in-u-s-fall-before-fed-meets-chevron-plans-bonds.html">
+        <headline>Credit Swaps in U.S. Fall Before Fed Meets; Chevron Offers Bonds</headline>
+        <body>
+            &lt;p&gt;A gauge of U.S. corporate credit
+            risk fell as stocks advanced before this week's Federal Reserve
+            policy meeting. Chevron Corp. is offering $6 billion of debt in
+            four parts. &lt;/p&gt;
+            &lt;p&gt;The Markit CDX North American Investment Grade Index, a
+            credit-default swaps benchmark that investors use to hedge
+            against losses or to speculate on creditworthiness, decreased
+            1.9 basis points to a mid-price of 82.2 basis points at 4:42
+            p.m. in New York, according to prices compiled by Bloomberg. The
+            index has dropped from a more than two-month high of 87.5 on
+            June 12. &lt;/p&gt;
+            &lt;p&gt;Traders are trying to determine when the Fed will scale
+            back $85 billion of monthly bond purchases, known as
+            quantitative easing, that have suppressed benchmark yields and
+            pushed investors into riskier assets such as corporate bonds.
+            Fed Chairman Ben S. Bernanke is scheduled to speak after the
+            central bank's decision on June 19. &lt;/p&gt;
+            &lt;p&gt;The 10-year Treasury note's yield has fallen to 2.18
+            percent from a 14-month high of 2.23 percent on June 12. &lt;/p&gt;
+            &lt;p&gt;'The market is generally feeling better about rates
+            stabilizing a bit and that Ben Bernanke will not pare back QE,'
+            Scott Carmack, co-portfolio manager at Leader Capital Corp. in
+            Portland, Oregon, said in a telephone interview. &lt;/p&gt;
+            &lt;p&gt;The credit-swaps index typically falls as investor
+            confidence improves and rises as it deteriorates. The contracts
+            pay the buyer face value if a borrower fails to meet its
+            obligations, less the value of the defaulted debt. A basis point
+            equals $1,000 annually on a contract protecting $10 million of
+            debt. &lt;/p&gt;
+            &lt;h2&gt;Chevron Issue &lt;/h2&gt;
+            &lt;p&gt;Chevron (CVX), the second-largest U.S. oil company by market
+            value, may sell $750 million of three-year notes to yield 40
+            basis points more than similar-maturity Treasuries, $2 billion
+            of five-year securities at a relative yield of 65 basis points,
+            $1 billion of seven-year debt at a 85 basis-point spread and
+            $2.25 billion of 10-year bonds at 100, according to a person
+            with knowledge of the transaction, who asked not to be
+            identified because terms aren't set. Proceeds will be used to
+            refinance commercial paper. &lt;/p&gt;
+            &lt;p&gt;The company canceled plans to offer floating-rate notes due
+            in 2016 and 2018. &lt;/p&gt;
+            &lt;p&gt;The risk premium on the Markit CDX North American High
+            Yield Index fell 11.1 basis points to 402.4 basis points,
+            Bloomberg data show. &lt;/p&gt;
+            &lt;p&gt;The average relative yield on speculative-grade, or junk-rated, debt fell 4.3 basis points to 551.7
+            basis points,
+            Bloomberg data show. High-yield, high-risk debt is rated below
+            Baa3 by Moody's Investors Service and less than BBB- at SP.
+            The Standard Poor's 500 (SPX) Index gained 0.8 percent. &lt;/p&gt;
+            &lt;p&gt;'Credit is tracking the equity market in general,' Mirko Mikelic, senior portfolio manager at Fifth
+            Third Asset
+            Management in Grand Rapids, Michigan, said in a telephone
+            interview. 'I think everybody agrees the Fed will be on hold.
+            It's more the timing when the Fed takes the foot off the
+            pedal.' &lt;/p&gt;
+            &lt;p&gt;</body>
+    </entry>
+    <entry author="By Sarika Gangar" datetime="Jun 17, 2013  6:07 PM ET" feeling_sentiment="n" progress_sentiment="u"
            url="http://bloomberg.com/news/2013-06-17/chevron-said-to-plan-four-part-bonds-in-first-sale-this-year-1-.html">
         <headline>Chevron Issues $6 Billion of Bonds in First Offering This Year</headline>
         <body>
@@ -1968,7 +2122,7 @@
             &lt;p&gt;Exxon Mobil Corp. is the largest U.S. oil company. &lt;/p&gt;
             &lt;p&gt;</body>
     </entry>
-    <entry author="By Marek Strzelecki" datetime="Jun 21, 2013  7:12 AM ET" feeling_sentiment="s" progress_sentiment="n"
+    <entry author="By Marek Strzelecki" datetime="Jun 21, 2013  7:12 AM ET" feeling_sentiment="s" progress_sentiment="u"
            url="http://bloomberg.com/news/2013-06-21/occupy-chevron-protesters-shale-permit-claims-denied-by-company.html">
         <headline>Occupy Chevron Protesters' Shale-Permit Claims Denied by Company</headline>
         <body>
@@ -1990,7 +2144,7 @@
             &lt;p&gt;</body>
     </entry>
     <entry author="By Bradley Olson and Rodrigo Orihuela" datetime="Mar 03, 2013 12:50 PM ET" feeling_sentiment="h"
-           progress_sentiment="n"
+           progress_sentiment="u"
            url="http://bloomberg.com/news/2013-03-03/brazil-government-expects-chevron-to-bid-for-new-oil-blocks.html">
         <headline>Brazil Government Expects Chevron to Bid for New Oil Blocks</headline>
         <body>
@@ -2004,7 +2158,7 @@
             block auction in October, she said. &lt;/p&gt;
             &lt;p&gt;</body>
     </entry>
-    <entry author="By Christie Smythe and Patricia Hurtado" datetime="Mar 04, 2014  4:13 PM ET" feeling_sentiment="h"
+    <entry author="By Christie Smythe and Patricia Hurtado" datetime="Mar 04, 2014  4:13 PM ET" feeling_sentiment="n"
            progress_sentiment="u"
            url="http://bloomberg.com/news/2014-03-04/ecuador-judgment-against-chevron-ruled-a-fraud-by-u-s-.html">
         <headline>Chevron Wins U.S. Ruling Calling Ecuador Judgment Fraud</headline>
@@ -2034,7 +2188,7 @@
             &lt;/p&gt;
         </body>
     </entry>
-    <entry author="By Christie Smythe" datetime="Mar 05, 2014  2:11 AM ET" feeling_sentiment="h" progress_sentiment="u"
+    <entry author="By Christie Smythe" datetime="Mar 05, 2014  2:11 AM ET" feeling_sentiment="n" progress_sentiment="u"
            url="http://bloomberg.com/news/2014-03-05/chevron-wins-ruling-ecuador-judgment-was-devil-s-deal.html">
         <headline>Chevron Wins Ruling Ecuador Judgment Was Devil's Deal</headline>
         <body>
@@ -2121,7 +2275,7 @@
             inappropriately. &lt;/p&gt; &lt;p&gt;The racketeering case is Chevron Corp. v. Donziger, 11-cv-00691, U.S.
             District Court, Southern District of New York (Manhattan). &lt;/p&gt; &lt;p&gt;</body>
     </entry>
-    <entry author="By Joe Carroll" datetime="Mar 11, 2014 10:56 AM ET" feeling_sentiment="s" progress_sentiment="d"
+    <entry author="By Joe Carroll" datetime="Mar 11, 2014 10:56 AM ET" feeling_sentiment="n" progress_sentiment="n"
            url="http://bloomberg.com/news/2014-03-11/chevron-cuts-long-term-output-target-as-gas-drilling-slows-1-.html">
         <headline>Chevron Cuts Long-Term Output Target as Gas Drilling Slows</headline>
         <body>
@@ -2165,7 +2319,7 @@
             followed by Royal Dutch Shell Plc and PetroChina. &lt;/p&gt;
             &lt;p&gt;</body>
     </entry>
-    <entry author="By Joe Carroll and Katia Dmitrieva" datetime="May 01, 2013  7:07 PM ET" feeling_sentiment="n"
+    <entry author="By Joe Carroll and Katia Dmitrieva" datetime="May 01, 2013  7:07 PM ET" feeling_sentiment="s"
            progress_sentiment="n"
            url="http://bloomberg.com/news/2013-05-01/canadian-judge-stays-ecuadorean-claim-against-chevron-assets.html">
         <headline>Canadian Judge Stays Ecuadorean Claim Against Chevron Assets</headline>
@@ -2315,7 +2469,7 @@
             market value, followed by Royal Dutch Shell (RDSA) Plc. &lt;/p&gt;
             &lt;p&gt;</body>
     </entry>
-    <entry author="By Patricia Hurtado" datetime="May 07, 2013  5:11 PM ET" feeling_sentiment="n" progress_sentiment="n"
+    <entry author="By Patricia Hurtado" datetime="May 07, 2013  5:11 PM ET" feeling_sentiment="s" progress_sentiment="d"
            url="http://bloomberg.com/news/2013-05-07/chevron-ceo-can-t-avoid-questioning-in-ecuador-fraud-case.html">
         <headline>Chevron CEO Can't Avoid Questioning in Ecuador Fraud Case</headline>
         <body>
@@ -2562,7 +2716,47 @@
             Administration data. &lt;/p&gt;
             &lt;p&gt;</body>
     </entry>
-
+    <entry author="By Pablo Gonzalez" datetime="May 15, 2013  2:30 PM ET" feeling_sentiment="h" progress_sentiment="u"
+           url="http://bloomberg.com/news/2013-05-15/ypf-rises-most-in-5-months-on-chevron-deal-buenos-aires-mover.html">
+        <headline>YPF Rises Most in 5 Months on Chevron Deal: Buenos Aires Mover</headline>
+        <body>
+            &lt;p&gt;YPF SA, Argentina's biggest energy
+            company, rose the most in almost five months after it said
+            Chevron Corp. (CVX), the second-biggest U.S. oil company, will be the
+            first major crude producer to partner with it to develop shale
+            oil and natural gas. &lt;/p&gt;
+            &lt;p&gt;YPF gained 8.3 percent to 114.80 pesos at 3:15 p.m. in
+            Buenos Aires. The stock earlier rose as much as 10 percent to
+            116.50, the biggest intraday increase since Nov. 23. &lt;/p&gt;
+            &lt;p&gt;Miguel Galuccio, chief executive officer of YPF, and Ali Moshiri, Chevron's head of Latin America,
+            Middle East and
+            Africa, visited the Patagonia shale formation yesterday, the
+            Buenos Aires-based company said late yesterday in a statement.
+            Moshiri was 'surprised' with the advanced state of YPF's
+            exploration project, the Argentine company said in the
+            statement. &lt;/p&gt;
+            &lt;p&gt;'The news saying Chevron will finally seal its $1.5
+            billion deal with YPF has indeed triggered this rally because it
+            isn't any company, it is Chevron,' Carlos Aszpis, an analyst at
+            Schweber Cia. Sociedad de Bolsa, said by telephone from Buenos
+            Aires. 'Argentina just needs more companies like Chevron
+            trusting in the country.' &lt;/p&gt;
+            &lt;p&gt;Moshiri and Galuccio in December signed an agreement to
+            negotiate final terms for YPF to transfer a 50 percent interest
+            in the fields Loma de la Lata Norte and Loma Campana. The fields
+            for the $1.5 billion joint venture comprise an area of 290
+            square kilometers (180 miles) in southwestern Argentina. &lt;/p&gt;
+            &lt;p&gt;Alejandro Di Lazzaro, a YPF spokesman, declined to comment
+            in a phone interview from Neuquen on reasons for YPF's rally. &lt;/p&gt;
+            &lt;p&gt;YPF said it is pumping 7,000 barrels of oil a day, up from
+            4,000 in January. Vaca Muerta, which means 'dead cow' in
+            Spanish, holds at least 23 billion barrels of oil equivalent,
+            according to a report by independent auditor Ryder Scott
+            released in February 2012 by YPF. Argentina holds the world's
+            third-largest shale gas reserves, according to U.S. Energy
+            Information Administration data. &lt;/p&gt;
+            &lt;p&gt;</body>
+    </entry>
     <entry author="By Pablo Gonzalez" datetime="May 16, 2013  1:50 PM ET" feeling_sentiment="h" progress_sentiment="u"
            url="http://bloomberg.com/news/2013-05-16/chevron-says-shale-to-help-make-argentina-energy-independent-2-.html">
         <headline>Chevron Says Shale to Help Make Argentina Energy Independent</headline>
@@ -2684,7 +2878,86 @@
             revised to include shale,' she said. &lt;/p&gt;
             &lt;p&gt;</body>
     </entry>
-
+    <entry author="By Joel Rosenblatt" datetime="May 24, 2014 12:28 PM ET" feeling_sentiment="s" progress_sentiment="n"
+           url="http://bloomberg.com/news/2014-05-24/squire-sanders-patton-boggs-merge-after-chevron-controversy.html">
+        <headline>Squire Sanders, Patton Boggs Merge After Chevron Fight</headline>
+        <body>
+            &lt;p&gt;Squire Sanders and Patton Boggs LLP
+            are merging to create a new law firm that will be among the 25
+            biggest in the world with about 1,600 lawyers in 21 countries. &lt;/p&gt;
+            &lt;p&gt;The announcement that the new firm will be called Squire
+            Patton Boggs comes two weeks after Patton Boggs agreed to pay
+            $15 million to settle Chevron Corp.'s (CVX) lawsuit over the firm's
+            involvement in obtaining a $9.5 billion judgment against the oil
+            company in Ecuador. &lt;/p&gt;
+            &lt;p&gt;The combination is part of a trend of 'continuing robust
+            merger activity' in 2014 after a 'banner year' in 2013,
+            according to data compiled by law firm consultancy Altman Weil.
+            The organization reported 88 law firm mergers last year, up from
+            60 in both 2011 and 2012. &lt;/p&gt;
+            &lt;p&gt;The merger will transform the brand of Squire Sanders
+            'from being an Ohio firm to being a Washington, D.C., firm,'
+            law firm consultant Peter Zeughauser said yesterday. While
+            Patton Boggs is known as a 'lobby shop,' it also has a strong
+            practice advising Middle Eastern sovereign funds in their
+            investments around the globe, he said. &lt;/p&gt;
+            &lt;p&gt;Revenue and profitability at Patton Boggs, which has about
+            400 lawyers, had declined consistently over the past five years,
+            Zeughauser said. Even after a restructuring improved its
+            prospects, it 'needed to combine with a stronger firm to be
+            sustainable,' he said. &lt;/p&gt;
+            &lt;h2&gt;Failed Efforts &lt;/h2&gt;
+            &lt;p&gt;Zeughauser said he advised Patton Boggs on the
+            restructuring and in other previous failed merger efforts,
+            though he hasn't consulted the firm during the past year. &lt;/p&gt;
+            &lt;p&gt;Jim Maiwurm, Squire Sanders Chairman and Global Chief
+            Executive Officer, said yesterday in a statement that the
+            combination with Patton Boggs will create the ''go-to firm for
+            public policy work.'' The merger is expected to take effect by
+            June 1, according to the statement. &lt;/p&gt;
+            &lt;p&gt;Patton Boggs specializes in government relations, lobbying
+            and regulatory practices, according to the statement. &lt;/p&gt;
+            &lt;p&gt;Ed Newberry, Managing Partner of Patton Boggs, said Squire
+            Sanders's financial markets expertise in North and South
+            America, Europe, Asia and the Middle East made it attractive.
+            Squire Sanders has about 1,300 lawyers in 39 offices across 19
+            countries. &lt;/p&gt;
+            &lt;p&gt;Patton Boggs entertained other offers. It announced in
+            December that merger talks were called off with Locke Lord LLP. &lt;/p&gt;
+            &lt;p&gt;Dentons, a 2,600-lawyer international firm formed a year
+            ago through the combination of Salans LLP, Fraser Milner
+            Casgrain LLP and SNR Denton, said last month that it was
+            interested in expanding further through a combination with
+            Patton Boggs. Dentons expressed interest after Patton Boggs had
+            already announced merger discussions with Squire Sanders in
+            February. &lt;/p&gt;
+            &lt;h2&gt;Ecuador Case &lt;/h2&gt;
+            &lt;p&gt;In the Ecuador case, U.S. District Judge Lewis Kaplan in
+            New York on March 4 ruled that an attorney from another firm,
+            Steven Donziger, had resorted to bribery and fraud in procuring
+            the Chevron judgment in Ecuador that held the oil company liable
+            for polluting the Amazon rain forest. Donziger is appealing the
+            decision. &lt;/p&gt;
+            &lt;p&gt;Kaplan's ruling ''includes a number of factual findings
+            about matters which would have materially affected our firm's
+            decision to become involved and stay involved as counsel,'
+            Patton Boggs said in a statement. 'Patton Boggs regrets its
+            involvement in this matter.' &lt;/p&gt;
+            &lt;p&gt;On April 29, Kaplan threw out Patton Boggs's claim that San
+            Ramon, California-based Chevron maliciously sued the firm for
+            pursuing collection of the judgment. The law firm, which
+            provided as much as $15 million to finance the Ecuador
+            litigation, had sought access to $21.8 million Chevron had been
+            ordered to post as a bond. &lt;/p&gt;
+            &lt;p&gt;The Chevron case is Patton Boggs LLP v. Chevron Corp., 12-cv-09176, U.S. District Court, Southern
+            District of New York
+            (Manhattan). The racketeering case is Chevron Corp. v. Donziger,
+            11-cv-00691, U.S. District Court, Southern District of New York
+            (Manhattan). &lt;/p&gt;
+            &lt;p&gt;(An earlier version of this story was corrected because
+            Patton Boggs was misspelled in some references.) &lt;/p&gt;
+            &lt;p&gt;</body>
+    </entry>
     <entry author="By Jose Orozco" datetime="May 27, 2013  5:35 PM ET" feeling_sentiment="h" progress_sentiment="u"
            url="http://bloomberg.com/news/2013-05-27/chevron-lends-venezuelan-oil-venture-2-billion-for-output-boost.html">
         <headline>Chevron Lends Venezuelan Oil Venture $2 Billion for Output Boost</headline>
@@ -2721,7 +2994,7 @@
             fields, Ramirez said. &lt;/p&gt;
             &lt;p&gt;</body>
     </entry>
-    <entry author="By Benjamin Elgin" datetime="May 29, 2014  5:00 PM ET" feeling_sentiment="s" progress_sentiment="n"
+    <entry author="By Benjamin Elgin" datetime="May 29, 2014  5:00 PM ET" feeling_sentiment="s" progress_sentiment="u"
            url="http://bloomberg.com/news/2014-05-29/chevron-retreats-on-clean-energy-after-renewables-hit-20-margin.html">
         <headline>Chevron Retreats on Clean Energy After Renewables Hit 20% Margin</headline>
         <body>
@@ -2758,7 +3031,27 @@
             &lt;/p&gt;
         </body>
     </entry>
-    <entry author="By Joe Carroll" datetime="Nov 01, 2013  8:42 AM ET" feeling_sentiment="s" progress_sentiment="d"
+    <entry author="By Bryan Bradley" datetime="May 30, 2013  8:50 AM ET" feeling_sentiment="h" progress_sentiment="u"
+           url="http://bloomberg.com/news/2013-05-30/lithuania-amends-shale-gas-laws-ahead-of-possible-chevron-deal.html">
+        <headline>Lithuania Amends Shale-Gas Laws Ahead of Possible Chevron Deal</headline>
+        <body>
+            &lt;p&gt;Lithuania added new restrictions to
+            environmental laws for shale-gas exploration and production as
+            the Baltic country's government mulls an agreement with Chevron
+            Corp. (CVX) &lt;/p&gt;
+            &lt;p&gt;Parliament today amended laws to require an environmental
+            impact study of exploration, limit usage of radioactive or toxic
+            materials and set rules for waste storage, the legislature in
+            Vilnius, the capital, said on its website. &lt;/p&gt;
+            &lt;p&gt;Chevron, a U.S. energy company, in January submitted the
+            only bid in a tender for shale-gas exploration rights in
+            Lithuania. The government, which seeks to develop shale-gas
+            resources as an alternative to imports of natural gas from
+            Russia, decided not to sign a deal with Chevron until laws on
+            the process could be improved. &lt;/p&gt;
+            &lt;p&gt;</body>
+    </entry>
+    <entry author="By Joe Carroll" datetime="Nov 01, 2013  8:42 AM ET" feeling_sentiment="s" progress_sentiment="u"
            url="http://bloomberg.com/news/2013-11-01/chevron-third-quarter-profit-misses-estimates-on-refining.html">
         <headline>Chevron Third-Quarter Profit Misses Estimates on Refining</headline>
         <body>
@@ -2915,7 +3208,45 @@
             that month, according to Energy Information Administration data. &lt;/p&gt;
             &lt;p&gt;</body>
     </entry>
-
+    <entry author="By Joe Carroll" datetime="Nov 22, 2013 11:50 AM ET" feeling_sentiment="s" progress_sentiment="n"
+           url="http://bloomberg.com/news/2013-11-22/chevron-says-north-sea-discovery-won-t-pay-to-develop.html">
+        <headline>Chevron Says North Sea Discovery Won't Pay to Develop</headline>
+        <body>
+            &lt;p&gt;Chevron Corp. (CVX), the world's second-largest non-state energy company by market value, said its
+            Rosebank oil discovery off the coast of Scotland would be
+            unprofitable to bring into production at this time. &lt;/p&gt;
+            &lt;p&gt;Chevron plans to continue evaluating the 240 million-barrel
+            field along with partners OMV AG (OMV) and Dong Energy A/S for ways to
+            improve the project's potential returns, the San Ramon,
+            California-based company said in an e-mailed statement today. A
+            final decision on whether to proceed will be made next year,
+            according to the statement. &lt;/p&gt;
+            &lt;p&gt;Rosebank's unprofitability is a blow to U.K and Norwegian
+            efforts to halt the slide in North Sea oil output as fields
+            first drilled in the 1970s and 1980s near the end of their
+            productive lifespans. Dropping North Sea supplies are expected
+            to drive a 15 percent decline in European crude and gas liquids
+            production by 2018, the Organization of Petroleum Exporting
+            Countries said in its annual world outlook on Nov. 7. &lt;/p&gt;
+            &lt;p&gt;Rosebank 'does not currently offer an economic value
+            proposition that justifies proceeding with an investment of this
+            magnitude,' Chevron said in the statement. &lt;/p&gt;
+            &lt;p&gt;Chevron and its partners hired South Korea's Hyundai Heavy
+            Industries (009540) Co. Ltd. in April to construct a $1.9 billion
+            platform that could offload crude directly to tankers, Hyundai
+            said in a Nov. 15 slide presentation. The vessel would have
+            capacity to draw 100,000 barrels of oil and 190 million standard
+            cubic feet of gas daily from the seafloor. &lt;/p&gt;
+            &lt;p&gt;Chevron hasn't disclosed any cost estimates for the total
+            development. Rosebank is located 80 miles (130 kilometers)
+            northwest of the Shetland Islands and 3,700 feet (1,130 meters)
+            beneath the sea surface. &lt;/p&gt;
+            &lt;p&gt;Chevron discovered Rosebank in 2004 and owns a 40 percent
+            stake. OMV owns 50 percent and Dong holds a 10 percent interest. &lt;/p&gt;
+            &lt;p&gt;Exxon Mobil Corp. is the largest oil company by market
+            value, according to data compiled by Bloomberg. &lt;/p&gt;
+            &lt;p&gt;</body>
+    </entry>
     <entry author="By Chris Dolmetsch and Christie Smythe" datetime="Nov 26, 2013  3:35 PM ET" feeling_sentiment="s"
            progress_sentiment="n"
            url="http://bloomberg.com/news/2013-11-26/chevron-claims-trial-showed-proof-of-fraud-in-ecuador.html">
@@ -3176,7 +3507,53 @@
             Appeals for the Second Circuit (Manhattan). &lt;/p&gt;
             &lt;p&gt;</body>
     </entry>
-
+    <entry author="By Bryan Bradley" datetime="Oct 09, 2013  3:45 AM ET" feeling_sentiment="s" progress_sentiment="n"
+           url="http://bloomberg.com/news/2013-10-09/lithuania-considers-revising-shale-gas-laws-after-chevron-quits.html">
+        <headline>Lithuania Considers Revising Shale-Gas Laws After Chevron Quits</headline>
+        <body>
+            &lt;p&gt;Lithuania should revise laws on
+            shale-gas works that led Chevron Corp. (CVX) to abandon its bid for
+            exploration rights, Prime Minister Algirdas Butkevicius said. &lt;/p&gt;
+            &lt;p&gt;New environmental approval procedures and plans to raise
+            taxes on shale hydrocarbons were behind the U.S. energy
+            company's decision yesterday to withdraw its lone bid in a
+            tender for exploration rights, Butkevicius said today. &lt;/p&gt;
+            &lt;p&gt;'It's worth a fresh look at those laws with an eye to
+            preparing and eventually announcing a new tender,' the prime
+            minister said on Laisvoji Banga radio in Vilnius, the Lithuanian
+            capital. 'I can't say how long that might take.' &lt;/p&gt;
+            &lt;p&gt;The Baltic nation wants to develop shale resources as an
+            alternative to energy imports from Russia. Some local
+            communities oppose the technology as environmentally unsafe. The
+            government is negotiating with and suing Russia's Gazprom (GAZP) OAO,
+            the country's only natural-gas supplier, seeking to reduce what
+            it calls 'unfair' prices. &lt;/p&gt;
+            &lt;p&gt;Chevron submitted the only bid in a January tender for
+            shale-hydrocarbon exploration and production rights in the
+            western Lithuanian region of Silute-Taurage. The U.S. company
+            last year bought half of Lithuanian oil and gas recovery company
+            LL Investicijos, which holds a license to explore for
+            hydrocarbons in Rietavas, contiguous to Silute-Taurage. &lt;/p&gt;
+            &lt;h2&gt;Lost Investments &lt;/h2&gt;
+            &lt;p&gt;'Because of the changing regulatory and legislative
+            landscape, Chevron believes that its business interests in
+            Lithuania are best served focusing on our existing investment in
+            the Rietavas block,' Chevron said in a statement yesterday. &lt;/p&gt;
+            &lt;p&gt;Chevron was put off mainly by a legal demand that it get
+            local-government approval for an environmental impact assessment
+            before starting exploration, Butkevicius said. It was also
+            concerned by a proposal in Lithuania's parliament to increase
+            the tax rate on income from shale-hydrocarbon production to as
+            much as 40 percent, he said. &lt;/p&gt;
+            &lt;p&gt;The prime minister said he'd support a tax rate as low as
+            15 percent if that would help attract investments. &lt;/p&gt;
+            &lt;p&gt;'Lithuania's unfounded fears have cost it investments
+            worth many millions as well as new jobs and a chance to move
+            toward energy independence,' Environment Minister Valentinas
+            Mazuronis said on the ministry's website today. 'I hope that in
+            the future we'll make better decisions.' &lt;/p&gt;
+            &lt;p&gt;</body>
+    </entry>
     <entry author="By Joe Carroll" datetime="Oct 09, 2013  5:28 PM ET" feeling_sentiment="s" progress_sentiment="d"
            url="http://bloomberg.com/news/2013-10-09/chevron-says-third-quarter-profit-hit-by-refinery-maintenance.html">
         <headline>Chevron Says Third-Quarter Profit Hit by Refinery Maintenance</headline>
@@ -3310,7 +3687,7 @@
             (Manhattan). The appeals court case is In Re Naranjo, 13-00772, U.S. Court of Appeals for the Second Circuit
             (Manhattan). &lt;/p&gt; &lt;p&gt;</body>
     </entry>
-    <entry author="By Christie Smythe" datetime="Oct 17, 2013 12:01 AM ET" feeling_sentiment="s" progress_sentiment="n"
+    <entry author="By Christie Smythe" datetime="Oct 17, 2013 12:01 AM ET" feeling_sentiment="n" progress_sentiment="n"
            url="http://bloomberg.com/news/2013-10-17/chevron-ecuador-lawsuit-financier-tells-judge-of-regrets.html">
         <headline>Chevron Ecuador Lawsuit Financier Tells Judge of Regrets</headline>
         <body>
@@ -3404,7 +3781,31 @@
             Appeals for the Second Circuit (Manhattan). &lt;/p&gt;
             &lt;p&gt;</body>
     </entry>
-
+    <entry author="By Bryan Bradley" datetime="Oct 29, 2013  7:34 AM ET" feeling_sentiment="n" progress_sentiment="n"
+           url="http://bloomberg.com/news/2013-10-29/lithuania-plans-new-tender-for-shale-gas-rights-on-chevron-exit.html">
+        <headline>Lithuania Plans New Tender for Shale-Gas Rights on Chevron Exit</headline>
+        <body>
+            &lt;p&gt;Lithuania plans a new tender for
+            shale hydrocarbon exploration rights and will revise licensing
+            terms after Chevron Corp. (CVX) withdrew as sole bidder from a
+            previous contest. &lt;/p&gt;
+            &lt;p&gt;The Lithuanian Geology Service was instructed by a tender
+            commission 'to assess the changed legal and tax environment and
+            present the documents to organize a new tender,' Vice
+            Environment Minister Daiva Matoniene said today in a statement
+            on the ministry's website in Vilnius, the capital. The rights
+            for the sale are to explore and produce shale hydrocarbons in
+            the western Lithuanian region of Silute-Taurage. &lt;/p&gt;
+            &lt;p&gt;The Baltic nation wants to know if its shale resources are
+            sufficient to be an alternative to energy imports from Russia.
+            U.S. energy company Chevron abandoned its bid for exploration
+            rights on Oct. 8, put off by regulatory and tax issues, Prime
+            Minister Algirdas Butkevicius said at the time. &lt;/p&gt;
+            &lt;p&gt;''This is a good decision,' Economy Minister Valentinas
+            Mazuronis said in the same statement. 'Refusing to explore for
+            shale gas or oil would be unfair to Lithuania as a whole.' &lt;/p&gt;
+            &lt;p&gt;</body>
+    </entry>
     <entry author="By Lynn Doan" datetime="Oct 29, 2013 12:26 PM ET" feeling_sentiment="n" progress_sentiment="n"
            url="http://bloomberg.com/news/2013-10-29/chevron-el-segundo-said-to-delay-unit-shutdowns-until-late-april.html">
         <headline>Chevron El Segundo Said to Delay Unit Shutdowns Until Late April</headline>
@@ -3437,7 +3838,7 @@
             tanker, the company's website shows. &lt;/p&gt;
             &lt;p&gt;</body>
     </entry>
-    <entry author="By Rebecca Penty" datetime="Sep 01, 2013  3:55 PM ET" feeling_sentiment="s" progress_sentiment="n"
+    <entry author="By Rebecca Penty" datetime="Sep 01, 2013  3:55 PM ET" feeling_sentiment="s" progress_sentiment="d"
            url="http://bloomberg.com/news/2013-09-01/chevron-natural-gas-pipeline-leaks-in-gulf-of-mexico-nrc-report.html">
         <headline>Chevron Natural Gas Pipeline Leaks in Gulf of Mexico: NRC Report</headline>
         <body>
@@ -3454,7 +3855,7 @@
             hours. &lt;/p&gt;
             &lt;p&gt;</body>
     </entry>
-    <entry author="By Ben Elgin" datetime="Sep 02, 2014  4:27 PM ET" feeling_sentiment="n" progress_sentiment="n"
+    <entry author="By Ben Elgin" datetime="Sep 02, 2014  4:27 PM ET" feeling_sentiment="s" progress_sentiment="d"
            url="http://bloomberg.com/news/2014-09-02/chevron-makes-it-official-with-sale-of-renewable-energy-unit.html">
         <headline>Chevron Makes It Official With Sale of Renewable-Energy Unit</headline>
         <body>
@@ -3507,7 +3908,7 @@
             &lt;p&gt;&lt;/p&gt;
         </body>
     </entry>
-    <entry author="By Andrew Noel" datetime="Sep 04, 2014  4:10 AM ET" feeling_sentiment="n" progress_sentiment="n"
+    <entry author="By Andrew Noel" datetime="Sep 04, 2014  4:10 AM ET" feeling_sentiment="h" progress_sentiment="n"
            url="http://bloomberg.com/news/2014-09-04/solvay-buys-chevron-phillips-car-plastics-unit-for-220-million.html">
         <headline>Solvay Buys Chevron Phillips Car-Plastics Unit for $220 Million</headline>
         <body>
@@ -3681,7 +4082,7 @@
             block, according to the company's Lithuanian website. &lt;/p&gt;
             &lt;p&gt;</body>
     </entry>
-    <entry author="By Joe Carroll" datetime="Sep 16, 2014  6:08 PM ET" feeling_sentiment="s" progress_sentiment="n"
+    <entry author="By Joe Carroll" datetime="Sep 16, 2014  6:08 PM ET" feeling_sentiment="s" progress_sentiment="d"
            url="http://bloomberg.com/news/2014-09-16/chevron-s-search-for-alternative-fuels-stumps-best-minds.html">
         <headline>Chevron's Search for Alternative Fuels Stumps Best Minds</headline>
         <body>
@@ -3709,7 +4110,7 @@
             &lt;/p&gt;
         </body>
     </entry>
-    <entry author="By Lynn Doan" datetime="Sep 19, 2014  3:10 PM ET" feeling_sentiment="n" progress_sentiment="n"
+    <entry author="By Lynn Doan" datetime="Sep 19, 2014  3:10 PM ET" feeling_sentiment="n" progress_sentiment="u"
            url="http://bloomberg.com/news/2014-09-19/chevron-hires-investment-bank-to-sell-kapolei-refinery-in-hawaii.html">
         <headline>Chevron Seeking Buyer for Kapolei Oil Refinery in Hawaii</headline>
         <body>
@@ -3763,7 +4164,7 @@
             largest oil producers. &lt;/p&gt;
             &lt;p&gt;</body>
     </entry>
-    <entry author="By Christie Smythe and Bob Van Voris" datetime="Sep 26, 2013  7:16 PM ET" feeling_sentiment="n"
+    <entry author="By Christie Smythe and Bob Van Voris" datetime="Sep 26, 2013  7:16 PM ET" feeling_sentiment="s"
            progress_sentiment="n"
            url="http://bloomberg.com/news/2013-09-26/chevron-argues-against-judge-switch-in-case-over-ecuador.html">
         <headline>Chevron Argues Against Judge Switch in Case Over Ecuador</headline>
@@ -3817,76 +4218,6 @@
             U.S. District Court, Southern District of New York (Manhattan).
             The appeals court case is In Re Naranjo, 13-00772, U.S. Court of
             Appeals for the Second Circuit (Manhattan). &lt;/p&gt;
-            &lt;p&gt;</body>
-    </entry>
-
-    <entry author="By Edvard Pettersson and Sophia Pearson" datetime="Jun 20, 2014  5:39 PM ET" feeling_sentiment="s"
-           progress_sentiment="d"
-           url="http://bloomberg.com/news/2014-06-20/exxon-chevron-sued-by-pennsylvania-over-gas-additive.html">
-        <headline>Exxon, Chevron Sued by Pennsylvania Over Gas Additive</headline>
-        <body>
-            &lt;p&gt;Exxon Mobil Corp. (XOM) and Chevron Corp. (CVX)
-            were among oil companies accused by Pennsylvania of polluting
-            groundwater with a gasoline additive in lawsuits similar to ones
-            brought by New York City, New Hampshire and Vermont. &lt;/p&gt;
-            &lt;p&gt;BP Plc (BP/) and Citgo, the Houston-based unit of Venezuela's
-            state-owned Petroleos de Venezuela SA, also were named in two
-            complaints made public today in state court that seek damages
-            for costs to clean up groundwater tainted by Methyl Tertiary
-            Butyl Ether, or MTBE. Pennsylvania Attorney General Kathleen Kane and Governor Tom Corbett's office of
-            general counsel filed
-            the complaints. &lt;/p&gt;
-            &lt;p&gt;'MTBE-related spills over the past 20 years have cost
-            Pennsylvania hundreds of millions of dollars,' James Schultz,
-            the governor's general counsel, said yesterday in a statement.
-            'We cannot take the health of Pennsylvania's waters for granted
-            and their protection must remain our utmost priority.' &lt;/p&gt;
-            &lt;p&gt;The Pennsylvania lawsuits follow scores of claims filed by
-            cities, states and individuals around the U.S. against oil
-            refiners, retailers and distributors over MTBE. Exxon Mobil,
-            Chevron and BP were among two dozen U.S. refiners sued this
-            month by Vermont Attorney General William Sorrell. &lt;/p&gt;
-            &lt;p&gt;The U.S. Supreme Court in April upheld a jury's $104.7
-            million damage award against Irving, Texas-based Exxon Mobil for
-            contaminating New York City wells with the additive. &lt;/p&gt;
-            &lt;h2&gt;Clean Air &lt;/h2&gt;
-            &lt;p&gt;The city sued oil companies in 2003, alleging they knew the
-            additive would pollute groundwater. Exxon Mobil argued that
-            state laws were pre-empted by the federal Clean Air Act, which
-            required oil companies to reformulate gasoline to reduce air
-            pollution from vehicle emissions. Oil companies added MTBE to
-            make the fuel burn more efficiently. &lt;/p&gt;
-            &lt;p&gt;Reasonable alternatives to MTBE were available at the time
-            oil companies jointly promoted gasoline with the additive,
-            Pennsylvania claims in its lawsuit. &lt;/p&gt;
-            &lt;p&gt;Braden Reddall, a spokesman for San Ramon, California-based
-            Chevron, said the company hadn't yet seen the suit and couldn't
-            comment. &lt;/p&gt;
-            &lt;p&gt;'BP acted at all times in good faith,' said Scott Dean, a
-            spokesman in Houston for the London-based company. 'BP plans to
-            defend itself against the allegations. &lt;/p&gt;
-            &lt;p&gt;Todd Spitler, an Exxon Mobil spokesman, said the company is
-            reviewing the claims, although ''such litigation is flawed in
-            that energy companies are being held liable not for spilling
-            gasoline, but for simply including oxygenates in gasoline as
-            required.'' &lt;/p&gt;
-            &lt;h2&gt;Second-Guessing &lt;/h2&gt;
-            &lt;p&gt;''If a company spills gasoline in Pennsylvania, it is
-            required to clean it up, as should be the case,'' Spitler said.
-            ''These cases are about second-guessing decisions made by state
-            and federal regulators to rely on MTBE-blended gasoline to
-            reduce air pollution. We take very seriously our responsibility
-            to operate in an environmentally sound manner.'' &lt;/p&gt;
-            &lt;p&gt;Fernando Garay, a Citgo spokesman, didn't immediately
-            return an e-mail seeking comment. &lt;/p&gt;
-            &lt;p&gt;Pennsylvania wants the companies held liable for
-            manufacturing a defective product, creating public nuisances and
-            negligence. The complaint also seeks punitive damages for
-            ''wanton, malicious, oppressive and fraudulent conduct,''
-            according to the filing. &lt;/p&gt;
-            &lt;p&gt;The case is Commonwealth of Pennsylvania v. Exxon Mobil
-            Corp., 140602881, Court of Common Pleas of Philadelphia County
-            (Philadelphia). &lt;/p&gt;
             &lt;p&gt;</body>
     </entry>
 </news>

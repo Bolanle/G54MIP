@@ -61,11 +61,11 @@ def separate_files():
                  pfizer=['pfizer.xml', Element("news")],
                  visa=['visa.xml', Element("news")],
                  unsure=['unsure.xml', Element("news")])
-    companies_keywords = ['goldman', 'sachs', 'coca', 'coca-cola', 'jpmorgan', 'jp', 'j.p.', 'j. p.', 'jp morgan', 'microsoft',
+    companies_keywords = ['goldman', 'coca-cola', 'jpmorgan', 'microsoft',
                           'disney',
                           'chevron', 'exxon', 'pfizer', 'visa', 'visa inc', 'ibm',
     ]
-    path = "manual_labelled.xml"
+    path = "../manual_labelled.xml"
     tree = ElementTree.parse(path)
 
     root = tree.getroot()
@@ -74,11 +74,11 @@ def separate_files():
         for company in companies_keywords:
             if company.lower() in child.find('headline').text.lower():
                 standardized_name = company.lower()
-                if company.lower() in ["goldman", "sachs"]:
+                if company.lower() in ["goldman"]:
                     standardized_name = "goldman"
-                elif company.lower() in ['jp', 'j.p.', 'j. p.', 'jp morgan', 'jpmorgan'] and not 'bjp' in child.find('headline').text.lower():
+                elif company.lower() in ['jpmorgan']:
                     standardized_name = "jpmorgan"
-                elif company.lower() in ["coca", "coca-cola"]:
+                elif company.lower() in [ "coca-cola"]:
                     standardized_name = "cocacola"
                 elif company.lower() in ["visa"] and not "televisa" in child.find('headline').text.lower():
                     standardized_name = "visa"
