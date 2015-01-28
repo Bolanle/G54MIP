@@ -77,16 +77,15 @@ def get_corpus_items(corpus):
     progress_category = []
     feeling_category = []
     for key, value in corpus.items():
-        if key[2] != 'n':
-            text.append(value)
-            progress_category.append(progress_sentiment_to_number.get(key[1]))
-            feeling_category.append(feeling_sentiment_to_number.get(key[2]))
+        text.append(value)
+        progress_category.append(progress_sentiment_to_number.get(key[1]))
+        feeling_category.append(feeling_sentiment_to_number.get(key[2]))
     print(set(feeling_category))
     return text, progress_category, feeling_category
 
 
 def build_report(x_data, y_labels, classifier, cross_val_iterator, tfidf: TfidfVectorizer):
-    cm = numpy.zeros((2, 2))
+    cm = numpy.zeros((3, 3))
     f1 = precision = recall = accuracy = float()
     support = Counter(y_labels)
     filename = 'Bigrams + Unigrams/features.txt'
@@ -112,7 +111,7 @@ def build_report(x_data, y_labels, classifier, cross_val_iterator, tfidf: TfidfV
                                                                  metrics.f1_score(y_test, y_pred),
                                                                  metrics.precision_score(y_test, y_pred),
                                                                  metrics.recall_score(y_test, y_pred, average='weighted'),
-                                                                 metrics.recall_score(y_test, y_pred))
+                                                                 metrics.accuracy_score(y_test, y_pred))
         # with open(filename, 'a+') as fea_file:
         #     fea_file.write("***********************************\n")
         #
@@ -156,9 +155,9 @@ def main():
     x_new = tfidf.fit_transform(x_values)
     x_new = preprocessing.normalize(x_new, norm="l2")
 
-    classifier = (LinearSVC(C=10 ** 8, class_weight="auto", penalty='l2', loss='l1', random_state=0))
-    skf = cross_validation.StratifiedKFold(numpy.array(y_labels_feeling), n_folds=10, random_state=0)
-    cm, f1, precision, recall, support, accuracy= build_report(x_new, numpy.array(y_labels_feeling), classifier, skf,
+    classifier = (LinearSVC(C=1, class_weight="auto", penalty='l2', loss='l1', random_state=0))
+    skf = cross_validation.StratifiedKFold(numpy.array(y_labels_progress), n_folds=10, random_state=0)
+    cm, f1, precision, recall, support, accuracy= build_report(x_new, numpy.array(y_labels_progress), classifier, skf,
                                                       tfidf)
     # scores = cross_validation.cross_val_score(classifier, x_new, numpy.array(y_labels_progress), cv=12, scoring="f1")
 
@@ -166,7 +165,7 @@ def main():
     print("F1: {f1}, Precision: {precision}, Recall: {recall}, Accuracy: {accuracy}".format(**locals()))
     print(support)
 
-    y_labels_progress = ['x', 'Happy', 'Neutral', 'Sad']
+    y_labels_progress = ['x', 'Positive', 'Neutral', 'Negative']
       # Print Confusion Matrix
 
     fig = plot.figure()
@@ -181,7 +180,7 @@ def main():
     plot.show()
     plot.clf()
 
-    x = numpy.arange(2)
+    x = numpy.arange(3)
     #Get support
     labels = []
     support_values = []
