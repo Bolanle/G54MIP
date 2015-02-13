@@ -128,51 +128,57 @@ if __name__ == '__main__':
         data = file_csv[file_csv.columns[2]].tolist()
         progress_trend, feeling_trend = auto_compare(news[company], stock_price[company], name=company,
                                                      dates=file_csv[file_csv.columns[0]].tolist())
-        correlation, pvalue = pearsonr([price.get_y() for price in projected_prices],
-                                       aggregate_sentiment(progress_trend))
-        print("Projected correlation coefficient (progress)", correlation)
-        correlation, pvalue = pearsonr([price.get_y() for price in projected_prices],
-                                       aggregate_sentiment(feeling_trend))
-        print("Projected correlation coefficient (feeling)", correlation)
 
-        correlation, pvalue = pearsonr(data, aggregate_sentiment(progress_trend))
-        print("Actual correlation coefficient (progress)", correlation)
-        correlation, pvalue = pearsonr(data, aggregate_sentiment(feeling_trend))
-        print("Actual correlation coefficient (feeling)", correlation)
-
-        dates = file_csv[file_csv.columns[0]].tolist()
-
-        # next we'll write a custom formatter
-        N = len(dates)
-        ind = np.arange(N)  # the evenly spaced plot indices
-
-
-        def format_date(x, pos=None):
-            thisind = np.clip(int(x + 0.5), 0, N - 1)
-            return datetime.datetime.strptime(dates[thisind], '%d/%m/%Y').strftime(
-                '%Y-%m-%d')
-
-
-        fig, axarr = plot.subplots(2, sharex=True, sharey=True)
-
-        axarr[0].plot(ind, data, '-', linewidth=2.5, color="blueviolet", label="Actual Price")
-        axarr[0].xaxis.set_major_formatter(ticker.FuncFormatter(format_date))
-        axarr[0].yaxis.set_major_locator(MaxNLocator(prune='upper'))
-
-        axarr[1].plot(ind, [price.get_y() for price in projected_prices], linewidth=2.5, color="blue",
-                      label="Projected Price")
-        axarr[1].xaxis.set_major_formatter(ticker.FuncFormatter(format_date))
-        axarr[1].yaxis.set_major_locator(MaxNLocator(prune='upper'))
-        # plot.plot(ind, progress_trend)
-
-        fig.subplots_adjust(hspace=0)
-        plot.setp([a.get_xticklabels() for a in fig.axes[:-1]], visible=False)
-
-        fig.autofmt_xdate()
-        plot.xlabel('Time Period')
-        plot.ylabel('Open Price')
-        axarr[0].legend(loc='upper left')
-        axarr[1].legend(loc='upper left')
-        axarr[0].set_title(company.capitalize())
-
-        plot.savefig("Piecewise Linear Segmentation/"+ company + ".png")
+        with open("../../Price Prediction/Sentiment Data/{0}.csv".format(company), 'w') as sent_file:
+            sent_file.write("Progress, Feeling\n")
+            for i in range(len(progress_trend)):
+                sent_file.write(str(progress_trend[i]) + ", ")
+                sent_file.write(str(feeling_trend[i]) + ", \n")
+        # correlation, pvalue = pearsonr([price.get_y() for price in projected_prices],
+        #                                aggregate_sentiment(progress_trend))
+        # print("Projected correlation coefficient (progress)", correlation)
+        # correlation, pvalue = pearsonr([price.get_y() for price in projected_prices],
+        #                                aggregate_sentiment(feeling_trend))
+        # print("Projected correlation coefficient (feeling)", correlation)
+        #
+        # correlation, pvalue = pearsonr(data, aggregate_sentiment(progress_trend))
+        # print("Actual correlation coefficient (progress)", correlation)
+        # correlation, pvalue = pearsonr(data, aggregate_sentiment(feeling_trend))
+        # print("Actual correlation coefficient (feeling)", correlation)
+        #
+        # dates = file_csv[file_csv.columns[0]].tolist()
+        #
+        # # next we'll write a custom formatter
+        # N = len(dates)
+        # ind = np.arange(N)  # the evenly spaced plot indices
+        #
+        #
+        # def format_date(x, pos=None):
+        #     thisind = np.clip(int(x + 0.5), 0, N - 1)
+        #     return datetime.datetime.strptime(dates[thisind], '%d/%m/%Y').strftime(
+        #         '%Y-%m-%d')
+        #
+        #
+        # fig, axarr = plot.subplots(2, sharex=True, sharey=True)
+        #
+        # axarr[0].plot(ind, data, '-', linewidth=2.5, color="blueviolet", label="Actual Price")
+        # axarr[0].xaxis.set_major_formatter(ticker.FuncFormatter(format_date))
+        # axarr[0].yaxis.set_major_locator(MaxNLocator(prune='upper'))
+        #
+        # axarr[1].plot(ind, [price.get_y() for price in projected_prices], linewidth=2.5, color="blue",
+        #               label="Projected Price")
+        # axarr[1].xaxis.set_major_formatter(ticker.FuncFormatter(format_date))
+        # axarr[1].yaxis.set_major_locator(MaxNLocator(prune='upper'))
+        # # plot.plot(ind, progress_trend)
+        #
+        # fig.subplots_adjust(hspace=0)
+        # plot.setp([a.get_xticklabels() for a in fig.axes[:-1]], visible=False)
+        #
+        # fig.autofmt_xdate()
+        # plot.xlabel('Time Period')
+        # plot.ylabel('Open Price')
+        # axarr[0].legend(loc='upper left')
+        # axarr[1].legend(loc='upper left')
+        # axarr[0].set_title(company.capitalize())
+        #
+        # plot.savefig("Piecewise Linear Segmentation/"+ company + ".png")
