@@ -148,7 +148,7 @@ def main():
     corpus = get_news_articles(path)
     x_values, y_labels_progress, y_labels_feeling = get_corpus_items(corpus)
 
-    tfidf = TfidfVectorizer(norm="l2", smooth_idf=True, sublinear_tf=True, binary=False, analyzer="word",
+    tfidf = TfidfVectorizer(smooth_idf=True, sublinear_tf=True, binary=False, analyzer="word",
                             ngram_range=(2, 2), stop_words="english",
                             token_pattern="[A-Za-z]{3,}", max_features=30000)
 

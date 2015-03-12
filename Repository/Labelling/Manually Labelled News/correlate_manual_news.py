@@ -63,8 +63,8 @@ def auto_compare(news, company_trends, name, dates):
     feeling_sentiment_to_number = dict(h=1, s=-1, n=0)
     progress_sentiment_to_number = dict(u=1, d=-1, n=0)
 
-    feeling_sentiment_trend = defaultdict(int)
-    progress_sentiment_trend = defaultdict(int)
+    feeling_sentiment_trend = defaultdict(lambda:0 )
+    progress_sentiment_trend = defaultdict(lambda:0 )
 
     for news_articles in news:
         date_of_news_release = news_articles.get('datetime')
@@ -128,12 +128,13 @@ if __name__ == '__main__':
         data = file_csv[file_csv.columns[2]].tolist()
         progress_trend, feeling_trend = auto_compare(news[company], stock_price[company], name=company,
                                                      dates=file_csv[file_csv.columns[0]].tolist())
-
+        #progress_trend = aggregate_sentiment(progress_trend)
+        #feeling_trend = aggregate_sentiment(feeling_trend)
         with open("../../Price Prediction/Sentiment Data/{0}.csv".format(company), 'w') as sent_file:
             sent_file.write("Progress, Feeling\n")
             for i in range(len(progress_trend)):
                 sent_file.write(str(progress_trend[i]) + ", ")
-                sent_file.write(str(feeling_trend[i]) + ", \n")
+                sent_file.write(str(feeling_trend[i]) + "\n")
         # correlation, pvalue = pearsonr([price.get_y() for price in projected_prices],
         #                                aggregate_sentiment(progress_trend))
         # print("Projected correlation coefficient (progress)", correlation)
