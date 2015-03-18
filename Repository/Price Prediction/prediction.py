@@ -12,10 +12,11 @@ from sklearn.preprocessing import MinMaxScaler
 from svm_hmm import SVMHMM
 from sklearn.hmm import GMMHMM
 from sklearn.decomposition import PCA
-from sklearn import cross_validation, metrics
 import matplotlib.pyplot as plot
-from functools import reduce
+from sklearn import cross_validation, metrics
 from operator import mul
+from functools import reduce
+
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 
@@ -23,6 +24,7 @@ def get_stock_data():
     companies_data = dict()
     rel_path_svm = "SVM-data"
     rel_path_hmm = "Sentiment Data"
+    rel_path_sentsvm = "SVM-Sent Data"
     for filename in os.listdir(rel_path_svm):
         if ".csv" in filename:
             company_name = filename.replace(".csv", "")
@@ -33,6 +35,12 @@ def get_stock_data():
         if ".csv" in filename:
             company_name = filename.replace(".csv", "")
             company_file = pandas.read_csv(os.path.join(rel_path_hmm, filename))
+            companies_data[company_name] += (company_file, )
+
+    for filename in os.listdir(rel_path_sentsvm):
+        if ".csv" in filename:
+            company_name = filename.replace(".csv", "")
+            company_file = pandas.read_csv(os.path.join(rel_path_sentsvm, filename))
             companies_data[company_name] += (company_file, )
 
     return companies_data
@@ -60,8 +68,8 @@ def train_classifier(x_train, y_train, c, random_state):
     classifier = (SVC(C=c, class_weight="auto", kernel="linear", random_state=random_state, tol=0.00001, max_iter=-1,
                       probability=True))
 
-    # classifier.fit(x_train, y_train)
-
+    classifier.fit(x_train, y_train)
+    print("Score:", classifier.score(x_train, y_train), )  # end=", ")
     return classifier
 
 
@@ -118,30 +126,31 @@ def build_report(x_data, y_labels, classifier, cross_val_iterator):
     return (cm, f1 / cross_val_iterator.n_folds, precision / cross_val_iterator.n_folds,
             recall / cross_val_iterator.n_folds, support, accuracy / cross_val_iterator.n_folds)
 
+
 def return_charts(close, predictions, actual):
-    #plot.plot(close, label="close")
+    # plot.plot(close, label="close")
     return_values_ft = [1]
     return_values_pre = [1]
     # calculate simple returns
     simple_returns = []
     simple_returns_pre = []
     for i in range(0, len(close) - 1):
-        simple_returns_pre.append(((close[i + 1] - close[i]) /close[i]))
-    simple_returns = [ 1+ rt for rt in simple_returns_pre]
+        simple_returns_pre.append(((close[i + 1] - close[i]) / close[i]))
+    simple_returns = [1 + rt for rt in simple_returns_pre]
 
     for i in range(0, len(predictions)):
-        current_return = reduce(mul, simple_returns[:i+1])
+        current_return = reduce(mul, simple_returns[:i + 1])
         if predictions[i] == actual[i]:
             simple_returns_pre[i] = 1 + abs(simple_returns_pre[i])
         if predictions[i] != actual[i]:
             simple_returns_pre[i] = 1 - abs(simple_returns_pre[i])
-        agg_return = reduce(mul, simple_returns_pre[:i+1])
+        agg_return = reduce(mul, simple_returns_pre[:i + 1])
 
         return_values_ft.append(current_return)
         return_values_pre.append(agg_return)
 
     plot.plot(return_values_ft, label="return of ft", linewidth=2.5, color="blueviolet")
-    plot.plot(return_values_pre,'--', label="return of predictions", linewidth=2.5, color="black")
+    plot.plot(return_values_pre, '--', label="return of predictions", linewidth=2.5, color="black")
     plot.xlabel("Trading Days")
     plot.ylabel("Return")
     plot.legend(loc="upper left")
@@ -152,14 +161,14 @@ def main():
     companies_data = get_stock_data()
 
     # for company, (svm_file, hmm_file )in companies_data.items():
-    company = "cocacola"
-    svm_file, sentiment_file = companies_data[company]
+    company = "exxon"
+    svm_file, sentiment_file, sent_svm = companies_data[company]
 
     print(company)
     print("*" * 100)
 
     window = 320
-    prediction_window = 20
+    prediction_window = 10
 
     sentiment_data = convert_to_numpy_array(sentiment_file.values, 2)
     data_difference = (svm_file.shape[0] - sentiment_data.shape[0] - 20)
@@ -171,6 +180,7 @@ def main():
     x_data = convert_to_numpy_array(x_unscaled, 12)
 
     # Add sentiment data
+    # sentiment_data[-120:] = convert_to_numpy_array(sent_svm.values, 2)
     x_data = np.column_stack((x_data[229:, :], sentiment_data[229:, :]))
 
     # x_data = x_data[229:, :]
@@ -178,85 +188,82 @@ def main():
     y_data = convert_to_numpy_array(y_data, 1)
     y_data = y_data[229:]
 
-    scalar = MinMaxScaler(feature_range=(-1, 1), copy=True)
+    scalar = MinMaxScaler(feature_range=(-1, 1), copy=False)
     x_data = scalar.fit_transform(x_data)
-
-    # x_data = pca.fit_transform(x_data, y_data)
+    pca = PCA(n_components=6)
+    x_data = pca.fit_transform(x_data, y_data)
 
 
     actual = y_data[window: window + 120].flatten()
     predictions = []
 
-
-    c_values = []
-    for day in range(window, window + 120):  # For each row - each corresponding to a day
+    c_values =[10, 9, 24, 2, 2, 31, 1, 38, 15, 2, 2, 3, 43, 3, 6, 9, 31, 15, 49, 6, 5, 9, 2, 10, 1, 9, 2, 37, 7, 4, 34,
+                20, 11, 31, 51, 25, 16, 21, 55, 2, 33, 25, 12, 3, 6, 1, 37, 37, 4, 3, 8, 23, 4, 5, 3, 30, 21, 5, 5, 6,
+                16, 31, 45, 15, 4, 32, 10, 40, 56, 23, 11, 23, 59, 59, 33, 25, 2, 57, 8, 16, 20, 17, 30, 1, 56, 25, 8,
+                19, 13, 59, 13, 19, 17, 20, 17, 19, 20, 12, 14, 11, 29, 6, 10, 24, 2, 2, 5, 10, 3, 3, 2, 6, 3, 49, 51,
+                42, 16, 23, 13, 2]
+    for day, c in zip(list(range(window, window + 120)), c_values):  # For each row - each corresponding to a day
         x_train = x_data[day - window: day]
         y_train = y_data[day - window: day]
         c_value = 0
-        accuracy_max = 0
+        # accuracy_max = 0  # Split into smaller sequences
+        converted_for_hmm = list()
 
-        for c in range(1, 40,  ):
-            # Split into smaller sequences
-            converted_for_hmm = list()
+        for day_m in range(0, len(x_train) - 20):
+            converted_for_hmm.append(x_train[day_m:day_m + 20, :])
 
-            for day in range(0, len(x_train) - 20):
-                converted_for_hmm.append(x_train[day:day + 20, :])
+        converted_for_hmm = np.array(converted_for_hmm)
+        count = None
 
-            converted_for_hmm = np.array(converted_for_hmm)
-            count = None
+        index_transformer = {-1: 0, 1: 1}
+        count = 2
 
-            index_transformer = {-1: 0, 1: 1}
-            count = 2
+        trans_mat = get_transmat(y_train, index_transformer, count)
+        # Get probabilities
+
+        # get Emission probabilities
+        x_test = x_data[day - prediction_window + 1: day+1]
+        y_test = y_data[day]  # - prediction_window + 1: day+1]
+
+        classifier = train_classifier(x_train, y_train, c=c, random_state=100)
+
+        # predict = classifier.predict(x_test)
+        # predictions.append(predict[-1])
+        # start_probs = np.zeros((len(index_transformer.values())))
+        #     first_state = y_train[0]
+        #     first_state_index = index_transformer[first_state]
+        #     start_probs[first_state_index] = 1
+        #
+        model = SVMHMM(n_components=count,
+                       random_state=100, thresh=1e-3, n_iter=200, svm=classifier, init_params="st", params="st",
+                       labels=y_train)
+        model.fit([x_train])
+
+        q_st = model.predict(x_test)
+        q_st = q_st[-1]
+        for original, index in index_transformer.items():
+            if index == q_st:
+                q_st = original
+                break
+        predictions.append(q_st)
+        print("match: ", q_st == y_test, "q_st:", q_st)
+    actual = list(actual.flatten())
+    f_measure = f1_score(actual, predictions)
+    accuracy = accuracy_score(actual, predictions)
+    recall = recall_score(actual, predictions)
+    precision = precision_score(actual, predictions)
+
+    # print("rand:",  rand, "accuracy:", accuracy)
+    print("Accuracy:", accuracy, )  # "C:", c_value)
+    # c_values.append(c_value)
+
+    print("F-Measure:", f_measure)
+    print("Accuracy:", accuracy)
+    print("Recall:", recall)
+    print("Precision: ", precision)  # break  # print("c", c_values)
+
+    return_charts(convert_to_numpy_array(svm_file.values[20:, 1], 1)[-121:], predictions, actual)
 
 
-            trans_mat = get_transmat(y_train, index_transformer, count)
-            # Get probabilities
-
-            # get Emission probabilities
-            x_test = np.vstack((x_train[-prediction_window :], x_data[day]))
-            # y_test = y_data[day]  # - prediction_window + 1: day+1]
-
-            classifier = train_classifier(x_train, y_train, c=c, random_state=150)
-            skf = cross_validation.StratifiedKFold(y_train, n_folds=2, random_state=100)
-            cm, f1, precision, recall, support, accuracy = build_report(x_train, y_train, classifier, skf,
-            )
-            if accuracy > accuracy_max:
-                c_value = c
-                accuracy_max = accuracy
-            print(">>>>cost", c, ", accuracy:", accuracy)
-            # # predict = classifier.predict(x_test)
-            #     # predictions.append(predict[-1])
-            #     start_probs = np.zeros((len(index_transformer.values())))
-            #     first_state = y_train[0]
-            #     first_state_index = index_transformer[first_state]
-            #     start_probs[first_state_index] = 1
-            #
-            #     model = SVMHMM(n_components=count, transmat=trans_mat,
-            #                    random_state=None, thresh=1e-3, n_iter=200, svm=classifier, init_params="st", params="st",
-            #                    labels=y_train)
-            #     model.fit([x_train])
-            #
-            #     q_st = model.predict(x_test)
-            #     q_st = q_st[-1]
-            #     for original, index in index_transformer.items():
-            #         if index == q_st:
-            #             q_st = original
-            #             break
-            #     predictions.append(q_st)
-            # actual = list(actual.flatten())
-            # f_measure = f1_score(actual, predictions)
-            # accuracy = accuracy_score(actual, predictions)
-            # recall = recall_score(actual, predictions)
-            # precision = precision_score(actual, predictions)
-            #
-            # # print("rand:",  rand, "accuracy:", accuracy)
-        print("Accuracy:", accuracy_max, "C:", c_value)
-        c_values.append(c_value)
-
-            # print("F-Measure:", f1)
-            # print("Accuracy:", accuracy)
-            # print("Recall:", recall)
-            # print("Precision: ", precision)  # break
-    print("c", c_values )
 if __name__ == "__main__":
     main()

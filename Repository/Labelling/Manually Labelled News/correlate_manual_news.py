@@ -82,7 +82,7 @@ def auto_compare(news, company_trends, name, dates):
         if not progress_sentiment_trend[str(day)] and not name == "ibm":
             progress_sentiment_trend[str(day)] = 1
             feeling_sentiment_trend[str(day)] = 1
-        elif not progress_sentiment_trend[str(day)]  and name == "ibm":
+        elif not progress_sentiment_trend[str(day)] and name == "ibm":
             progress_sentiment_trend[str(day)] = -1
             feeling_sentiment_trend[str(day)] = -1
     sorted_feeling = sorted(feeling_sentiment_trend)
@@ -128,8 +128,8 @@ if __name__ == '__main__':
         data = file_csv[file_csv.columns[2]].tolist()
         progress_trend, feeling_trend = auto_compare(news[company], stock_price[company], name=company,
                                                      dates=file_csv[file_csv.columns[0]].tolist())
-        #progress_trend = aggregate_sentiment(progress_trend)
-        #feeling_trend = aggregate_sentiment(feeling_trend)
+        progress_trend = aggregate_sentiment(progress_trend)
+        feeling_trend = aggregate_sentiment(feeling_trend)
         with open("../../Price Prediction/Sentiment Data/{0}.csv".format(company), 'w') as sent_file:
             sent_file.write("Progress, Feeling\n")
             for i in range(len(progress_trend)):
