@@ -167,8 +167,8 @@ def main():
     print(company)
     print("*" * 100)
 
-    window = 320
-    prediction_window = 10
+    window = 120
+    prediction_window = 20
 
     sentiment_data = convert_to_numpy_array(sentiment_file.values, 2)
     data_difference = (svm_file.shape[0] - sentiment_data.shape[0] - 20)
@@ -181,12 +181,12 @@ def main():
 
     # Add sentiment data
     # sentiment_data[-120:] = convert_to_numpy_array(sent_svm.values, 2)
-    x_data = np.column_stack((x_data[229:, :], sentiment_data[229:, :]))
+    x_data = np.column_stack((x_data[429:, :], sentiment_data[429:, :]))
 
     # x_data = x_data[229:, :]
     y_data = svm_file.values[20:, 14]
     y_data = convert_to_numpy_array(y_data, 1)
-    y_data = y_data[229:]
+    y_data = y_data[429:]
 
     scalar = MinMaxScaler(feature_range=(-1, 1), copy=False)
     x_data = scalar.fit_transform(x_data)
