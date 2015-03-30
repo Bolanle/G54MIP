@@ -31,10 +31,11 @@ class SVMHMM(_BaseHMM):
     def _compute_log_likelihood(self, obs):
         freq = itemfreq(self.labels)
         likelihoods =self.SVM.predict_proba(obs)
-#        print(likelihoods)
+        #print(likelihoods)
         adjusted_neg = likelihoods[:, 0] / (freq[0, 1] / (freq[0, 1] + freq[1, 1]))
         adjusted_pos = likelihoods[:, 1] / (freq[1, 1]/ (freq[0, 1] + freq[1, 1]))
-
+        # print(np.column_stack((adjusted_neg, adjusted_pos)))
+        # exit(0)
         likelihoods = np.log(np.column_stack((adjusted_neg, adjusted_pos)))
 
 #        print(self.SVM.predict_proba(obs))
