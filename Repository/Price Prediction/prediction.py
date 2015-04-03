@@ -161,7 +161,7 @@ def main():
     companies_data = get_stock_data()
 
     # for company, (svm_file, hmm_file )in companies_data.items():
-    company = "visa"
+    company = "jpmorgan"
     svm_file, sentiment_file, sent_svm = companies_data[company]
 
     print(company)
@@ -197,10 +197,11 @@ def main():
     actual = y_data[window: window + 120].flatten()
     predictions = []
 
-    c_values = [11, 20, 40, 28, 1, 6, 4, 4, 3, 29, 3, 2, 3, 5, 6, 2, 1, 1, 1, 1, 2, 4, 1, 1, 1, 1, 1, 2, 1, 2, 3, 4, 1,
-                1, 1, 46, 32, 5, 6, 4, 15, 1, 96, 50, 4, 1, 1, 1, 20, 1, 2, 1, 3, 2, 2, 3, 2, 1, 1, 1, 7, 1, 8, 1, 1, 1,
-                1, 82, 1, 1, 98, 1, 1, 1, 1, 1, 1, 1, 1, 3, 1, 1, 8, 1, 2, 12, 1, 1, 1, 3, 3, 4, 4, 5, 6, 3, 5, 3, 3, 1,
-                1, 1, 2, 1, 2, 2, 52, 65, 8, 15, 2, 27, 15, 16, 13, 44, 71, 30, 59, 1]
+    c_values =  [44, 40, 36, 54, 41, 58, 40, 45, 44, 6, 10, 42, 56, 55, 8, 55, 58, 8, 28, 48, 15, 25, 27, 6, 9, 19, 8,
+                43, 57, 17, 16, 16, 21, 46, 9, 29, 50, 7, 20, 36, 13, 37, 16, 8, 31, 59, 59, 19, 46, 45, 59, 58, 59, 54,
+                58, 12, 8, 18, 46, 51, 20, 9, 51, 14, 13, 5, 35, 57, 3, 2, 3, 3, 2, 2, 2, 20, 25, 11, 26, 19, 11, 26, 7,
+                24, 7, 9, 7, 17, 18, 26, 20, 6, 9, 10, 16, 4, 4, 8, 37, 32, 14, 41, 16, 19, 22, 33, 58, 58, 59, 32, 51,
+                18, 53, 41, 41, 40, 50, 59, 57, 57]
 
     for day, c in zip(list(range(window, window + 120)), c_values):  # For each row - each corresponding to a day
         x_train = x_data[day - window: day]
@@ -235,7 +236,7 @@ def main():
         #     start_probs[first_state_index] = 1
         #
         model = SVMHMM(n_components=count,
-                       random_state=100, thresh=1e-10, n_iter=1000, svm=classifier, init_params="st", params="st",
+                       random_state=100, thresh=1e-5, n_iter=300, svm=classifier, init_params="st", params="st",
                        labels=y_train)
         model.fit([x_train])
 
