@@ -161,7 +161,7 @@ def main():
     companies_data = get_stock_data()
 
     # for company, (svm_file, hmm_file )in companies_data.items():
-    company = "jpmorgan"
+    company = "visa"
     svm_file, sentiment_file, sent_svm = companies_data[company]
 
     print(company)
@@ -180,8 +180,8 @@ def main():
     x_data = convert_to_numpy_array(x_unscaled, 12)
 
     # Add sentiment data
-    sentiment_data[-120:] = convert_to_numpy_array(sent_svm.values, 2)
-    #x_data = np.column_stack((x_data[229:, :], sentiment_data[229:, :]))
+    # sentiment_data[-120:] = convert_to_numpy_array(sent_svm.values, 2)
+    # x_data = np.column_stack((x_data[489:, :], sentiment_data[489:, :]))
 
     x_data = x_data[229:, :]
     y_data = svm_file.values[20:, 14]
@@ -193,15 +193,13 @@ def main():
     pca = PCA(n_components=6)
     x_data = pca.fit_transform(x_data, y_data)
 
-
     actual = y_data[window: window + 120].flatten()
     predictions = []
 
-    c_values =  [44, 40, 36, 54, 41, 58, 40, 45, 44, 6, 10, 42, 56, 55, 8, 55, 58, 8, 28, 48, 15, 25, 27, 6, 9, 19, 8,
-                43, 57, 17, 16, 16, 21, 46, 9, 29, 50, 7, 20, 36, 13, 37, 16, 8, 31, 59, 59, 19, 46, 45, 59, 58, 59, 54,
-                58, 12, 8, 18, 46, 51, 20, 9, 51, 14, 13, 5, 35, 57, 3, 2, 3, 3, 2, 2, 2, 20, 25, 11, 26, 19, 11, 26, 7,
-                24, 7, 9, 7, 17, 18, 26, 20, 6, 9, 10, 16, 4, 4, 8, 37, 32, 14, 41, 16, 19, 22, 33, 58, 58, 59, 32, 51,
-                18, 53, 41, 41, 40, 50, 59, 57, 57]
+    c_values = [1, 1, 1, 4, 32, 3, 16, 4, 2, 2, 16, 7, 5, 2, 15, 13, 10, 8, 7, 3, 1, 4, 67, 3, 4, 23, 40, 14, 3, 22, 4,
+                5, 6, 13, 5, 5, 7, 9, 1, 2, 33, 7, 6, 7, 4, 34, 5, 2, 2, 2, 16, 5, 1, 5, 24, 1, 2, 15, 28, 2, 3, 2, 3,
+                14, 15, 3, 5, 1, 3, 3, 1, 15, 6, 18, 5, 4, 3, 3, 7, 1, 6, 9, 6, 23, 1, 48, 3, 3, 6, 1, 17, 2, 33, 37,
+                66, 12, 9, 1, 5, 1, 3, 3, 5, 3, 3, 10, 12, 2, 14, 22, 1, 4, 1, 6, 5, 54, 2, 17, 21, 1]
 
     for day, c in zip(list(range(window, window + 120)), c_values):  # For each row - each corresponding to a day
         x_train = x_data[day - window: day]
@@ -223,7 +221,7 @@ def main():
         # Get probabilities
 
         # get Emission probabilities
-        x_test = x_data[day - prediction_window + 1: day+1]
+        x_test = x_data[day - prediction_window + 1: day + 1]
         y_test = y_data[day]  # - prediction_window + 1: day+1]
 
         classifier = train_classifier(x_train, y_train, c=c, random_state=100)
@@ -231,12 +229,12 @@ def main():
         # predict = classifier.predict(x_test)
         # predictions.append(predict[-1])
         # start_probs = np.zeros((len(index_transformer.values())))
-        #     first_state = y_train[0]
-        #     first_state_index = index_transformer[first_state]
-        #     start_probs[first_state_index] = 1
+        # first_state = y_train[0]
+        # first_state_index = index_transformer[first_state]
+        # start_probs[first_state_index] = 1
         #
         model = SVMHMM(n_components=count,
-                       random_state=100, thresh=1e-5, n_iter=300, svm=classifier, init_params="st", params="st",
+                       random_state=100, thresh=1e-3, n_iter=200, svm=classifier, init_params="st", params="st",
                        labels=y_train)
         model.fit([x_train])
 

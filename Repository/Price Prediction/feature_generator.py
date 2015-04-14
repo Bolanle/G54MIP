@@ -197,7 +197,7 @@ def get_cci(close_data, low_data, high_data):
     dm_ = get_dm(m_, sm_)
 
     for cci_day in range(cci_start, len(close_data)):
-        cci_value = (m_[cci_day] - sm_[cci_day]) / 0.015 * dm_[cci_day]
+        cci_value = (m_[cci_day] - sm_[cci_day]) / (0.015 * dm_[cci_day])
         cci.append(cci_value)
     return cci
 
