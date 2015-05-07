@@ -175,7 +175,8 @@ def dateExists_2(date, data):
     return False, 0
 
 
-def predict(range_f, features):
+def predict(range_f, features, name):
+    import matplotlib.pyplot as plot
     path = "../Labelling/"
 
     if "auto" in sys.argv:
@@ -189,7 +190,7 @@ def predict(range_f, features):
     x_values, y_labels_progress, y_labels_feeling = get_corpus_items(corpus)
     x_train, y_labels_progress_train, y_labels_feeling_train = get_corpus_items(corpus_train)
     x_values_test, y_labels_progress_test, y_labels_feeling_test = get_corpus_items(corpus_test)
-    tfidf = TfidfVectorizer(smooth_idf=True, sublinear_tf=True, binary=False, analyzer="word", lowercase=True,
+    tfidf = TfidfVectorizer(smooth_idf=True, sublinear_tf=False, binary=False, analyzer="word", lowercase=True,
                             ngram_range=range_f, stop_words="english",
                             token_pattern="[A-Za-z]{3,}", max_features=30000)
 
@@ -199,9 +200,9 @@ def predict(range_f, features):
     x_train = x_new[:-len(x_values_test)]
     x_test = x_new[-len(x_values_test):]
 
-    classifier = (LinearSVC(C=2.9, class_weight="auto"))
-    skf = cross_validation.KFold(len(y_labels_progress), n_folds=10,)
-    cm, f1, precision, recall, support, accuracy = build_report(x_new, numpy.array(y_labels_progress), classifier,
+    classifier = (LinearSVC(C=1, class_weight="auto"))
+    skf = cross_validation.KFold(len(y_labels_feeling), n_folds=10,)
+    cm, f1, precision, recall, support, accuracy = build_report(x_new, numpy.array(y_labels_feeling), classifier,
                                                                 skf,
                                                                 tfidf, features)
     #scores = cross_validation.cross_val_score(classifier, x_new, numpy.array(y_labels_progress), cv=12, scoring="f1")
@@ -210,6 +211,33 @@ def predict(range_f, features):
     print("F1: {f1}, Precision: {precision}, Recall: {recall}, Accuracy: {accuracy}".format(**locals()))
     print(support)
 
+    cm = ((cm / sum(cm)) * 100)
+
+    fig = plot.figure()
+    ax = fig.add_subplot(111)
+    cax = ax.matshow(cm, interpolation='nearest')
+    plot.title('Confusion Matrix - ' + name)
+    fig.colorbar(cax)
+    ax.set_xticklabels(['0', 'Sad', 'Neutral', 'Happy'])
+    ax.set_yticklabels(['0', 'Sad', 'Neutral', 'Happy'])
+    plot.ylabel('True label')
+    plot.xlabel('Predicted label')
+    plot.show()
+    plot.clf()
+
+    x = numpy.arange(3)
+    #Get support
+    labels = ['Neutral', 'Happy', 'Sad']
+    support_values = []
+
+    {support_values.append(value) for key, value in support.items()}
+
+    width = 0.25
+    plot.bar(x, support_values, width, color="cornflowerblue")
+    plot.title('Support')
+    plot.xticks(x +(width/2), labels)
+    plot.ylabel("Number of Articles")
+    plot.show()
     #classifier.fit(x_train, y_labels_progress_train)
     #predicted = classifier.predict(x_test)
     #return predicted
@@ -222,9 +250,9 @@ def t_test_accept(pvalue):
 
 
 def main():
-    predict((1, 2), features=16000)
-    predict((1, 1), features=5000)
-    predict((2, 2), features=16000)
+    predict((1, 2), features=16000, name="Bigram + Unigram")
+    predict((1, 1), features=11000, name="Unigram")
+    predict((2, 2), features=16000, name="Bigram")
 
     # t_stat, p_value = stats.ttest_ind(unigram, unigram_bigram);
     # print("Uni, Uni-Bi",p_value/2, t_test_accept(p_value))
@@ -328,31 +356,7 @@ def main():
     # y_labels_progress = ['x', 'Positive', 'Neutral', 'Negative']
     # # Print Confusion Matrix
     #
-    # fig = plot.figure()
-    # ax = fig.add_subplot(111)
-    # cax = ax.matshow(cm, interpolation='nearest')
-    # plot.title('Confusion Matrix - Unigram + Bigram')
-    # fig.colorbar(cax)
-    # ax.set_xticklabels(y_labels_progress)
-    # ax.set_yticklabels(y_labels_progress)
-    # plot.ylabel('True label')
-    # plot.xlabel('Predicted label')
-    # plot.show()
-    # plot.clf()
-    #
-    # x = numpy.arange(3)
-    # #Get support
-    # labels = []
-    # support_values = []
-    #
-    # {(labels.append(key), support_values.append(value)) for key, value in support.items()}
-    #
-    # width = 0.25
-    # plot.bar(x, support_values, width, color="cornflowerblue")
-    # plot.title('Support')
-    # plot.xticks(x +(width/2), labels)
-    # plot.ylabel("Number of Articles")
-    # plot.show()
+
 
 
 if __name__ == '__main__':

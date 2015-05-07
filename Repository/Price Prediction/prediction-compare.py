@@ -127,7 +127,7 @@ def build_report(x_data, y_labels, classifier, cross_val_iterator):
             recall / cross_val_iterator.n_folds, support, accuracy / cross_val_iterator.n_folds)
 
 
-def return_charts(close, predictions, actual):
+def return_charts(close, predictions, actual, should_draw_normal):
     # plot.plot(close, label="close")
     return_values_ft = [1]
     return_values_pre = [1]
@@ -149,19 +149,23 @@ def return_charts(close, predictions, actual):
         return_values_ft.append(current_return)
         return_values_pre.append(agg_return)
 
-    plot.plot(return_values_ft, label="return of ft", linewidth=2.5, color="blueviolet")
-    plot.plot(return_values_pre, '--', label="return of predictions", linewidth=2.5, color="black")
+    if should_draw_normal:
+        plot.plot(return_values_ft, label="market return", linewidth=2.5, color="blueviolet")
+        plot.plot(return_values_pre, '--', label="news-based model", linewidth=2.5, color="black")
+    else:
+        plot.plot(return_values_pre, '+', label="technical indicators model", linewidth=2.5, color="black")
     plot.xlabel("Trading Days")
     plot.ylabel("Return")
     plot.legend(loc="upper left")
-    plot.show()
+    if should_draw_normal:
+        plot.show()
 
 
 def main():
     companies_data = get_stock_data()
 
-    # for company, (svm_file, hmm_file )in companies_data.items():
-    company = "microsoft"
+
+    company = "chevron"
     svm_file, sentiment_file, sent_svm = companies_data[company]
 
     print(company)
@@ -170,18 +174,9 @@ def main():
     window = 320
     prediction_window = 20
 
-    sentiment_data = convert_to_numpy_array(sentiment_file.values, 2)
-    data_difference = (svm_file.shape[0] - sentiment_data.shape[0] - 20)
-
-    prepend_no_sentiment_data = np.array([[0, 0]] * data_difference)
-    sentiment_data = np.vstack((prepend_no_sentiment_data, sentiment_data))
-
     x_unscaled = svm_file.values[20:, 2:14]
     x_data = convert_to_numpy_array(x_unscaled, 12)
 
-    # Add sentiment data
-    # sentiment_data[-120:] = convert_to_numpy_array(sent_svm.values, 2)
-    # x_data = np.column_stack((x_data[489:, :], sentiment_data[489:, :]))
 
     x_data = x_data[229:, :]
     y_data = svm_file.values[20:, 14]
@@ -191,15 +186,15 @@ def main():
     scalar = MinMaxScaler(feature_range=(-1, 1), copy=False)
     x_data = scalar.fit_transform(x_data)
     pca = PCA(n_components=6)
-    #x_data = pca.fit_transform(x_data, y_data)
+    x_data = pca.fit_transform(x_data, y_data)
 
     actual = y_data[window: window + 120].flatten()
     predictions = []
 
-    c_values = [3, 4, 5, 1, 3, 3, 3, 6, 3, 51, 9, 3, 3, 18, 95, 6, 2, 2, 59, 85, 37, 3, 1, 1, 1, 1, 9, 1, 1, 4, 30, 4,
-                2, 2, 40, 7, 16, 23, 8, 22, 15, 5, 3, 2, 1, 3, 2, 12, 5, 4, 5, 5, 2, 65, 4, 6, 91, 6, 5, 4, 60, 34, 1,
-                24, 31, 16, 10, 5, 1, 29, 2, 2, 3, 3, 12, 57, 20, 5, 2, 11, 16, 39, 2, 2, 2, 2, 1, 3, 3, 2, 3, 6, 6, 13,
-                2, 3, 3, 3, 12, 11, 5, 1, 1, 2, 1, 1, 2, 2, 2, 1, 1, 1, 1, 11, 2, 5, 1, 7, 4, 6]
+    c_values =[49, 37, 11, 33, 11, 7, 10, 4, 3, 5, 8, 1, 3, 90, 7, 5, 2, 2, 2, 1, 5, 3, 6, 5, 4, 10, 3, 19, 4, 19, 34,
+                4, 40, 1, 4, 1, 1, 4, 7, 9, 23, 15, 22, 13, 58, 1, 2, 1, 3, 3, 4, 1, 1, 1, 3, 4, 4, 10, 15, 3, 1, 2, 6,
+                1, 8, 1, 11, 1, 1, 4, 1, 1, 1, 1, 1, 1, 1, 8, 1, 2, 1, 4, 16, 4, 1, 1, 33, 54, 1, 1, 1, 1, 1, 1, 1, 1,
+                1, 1, 1, 2, 61, 9, 7, 10, 20, 3, 1, 2, 2, 3, 8, 3, 3, 55, 10, 12, 6, 8, 3, 2]
 
     for day, c in zip(list(range(window, window + 120)), c_values):  # For each row - each corresponding to a day
         x_train = x_data[day - window: day]
@@ -226,26 +221,26 @@ def main():
 
         classifier = train_classifier(x_train, y_train, c=c, random_state=100)
 
-        # predict = classifier.predict(x_test)
-        # predictions.append(predict[-1])
+        predict = classifier.predict(x_test)
+        predictions.append(predict[-1])
         # start_probs = np.zeros((len(index_transformer.values())))
         # first_state = y_train[0]
         # first_state_index = index_transformer[first_state]
-        #     start_probs[first_state_index] = 1
+        # start_probs[first_state_index] = 1
         #
-        model = SVMHMM(n_components=count,
-                       random_state=100, thresh=1e-2, n_iter=10000, svm=classifier, init_params="st", params="st",
-                       labels=y_train)
-        model.fit([x_train])
-
-        q_st = model.predict(x_test)
-        q_st = q_st[-1]
-        for original, index in index_transformer.items():
-            if index == q_st:
-                q_st = original
-                break
-        predictions.append(q_st)
-        print("match: ", q_st == y_test, "q_st:", q_st)
+        # model = SVMHMM(n_components=count,
+        #                random_state=100, thresh=1e-2, n_iter=200, svm=classifier, init_params="st", params="st",
+        #                labels=y_train)
+        # model.fit([x_train])
+        #
+        # q_st = model.predict(x_test)
+        # q_st = q_st[-1]
+        # for original, index in index_transformer.items():
+        #     if index == q_st:
+        #         q_st = original
+        #         break
+        # predictions.append(q_st)
+        # print("match: ", q_st == y_test, "q_st:", q_st)
     actual = list(actual.flatten())
     f_measure = f1_score(actual, predictions)
     accuracy = accuracy_score(actual, predictions)
@@ -261,7 +256,105 @@ def main():
     print("Recall:", recall)
     print("Precision: ", precision)  # break  # print("c", c_values)
 
-    return_charts(convert_to_numpy_array(svm_file.values[20:, 1], 1)[-121:], predictions, actual)
+    return_charts(convert_to_numpy_array(svm_file.values[20:, 1], 1)[-121:], predictions, actual, False)
+
+
+
+
+
+
+    #*******************************************************************************************************************
+    sentiment_data = convert_to_numpy_array(sentiment_file.values, 2)
+    data_difference = (svm_file.shape[0] - sentiment_data.shape[0] - 20)
+
+    prepend_no_sentiment_data = np.array([[0, 0]] * data_difference)
+    sentiment_data = np.vstack((prepend_no_sentiment_data, sentiment_data))
+
+    x_unscaled = svm_file.values[20:, 2:14]
+    x_data = convert_to_numpy_array(x_unscaled, 12)
+
+    # Add sentiment data
+    sentiment_data[-120:] = convert_to_numpy_array(sent_svm.values, 2)
+    x_data = np.column_stack((x_data[229:, :], sentiment_data[229:, :]))
+
+    y_data = svm_file.values[20:, 14]
+    y_data = convert_to_numpy_array(y_data, 1)
+    y_data = y_data[229:]
+
+    scalar = MinMaxScaler(feature_range=(-1, 1), copy=False)
+    x_data = scalar.fit_transform(x_data)
+    pca = PCA(n_components=6)
+    x_data = pca.fit_transform(x_data, y_data)
+
+    actual = y_data[window: window + 120].flatten()
+    predictions = []
+
+    c_values = [26, 46, 23, 84, 72, 28, 76, 4, 35, 20, 13, 11, 3, 58, 68, 10, 33, 29, 12, 8, 6, 71, 7, 46, 10, 6, 90,
+                55, 17, 47, 56, 11, 31, 67, 6, 3, 1, 1, 25, 1, 2, 7, 3, 3, 3, 2, 1, 2, 2, 4, 3, 47, 8, 64, 4, 32, 2, 33,
+                2, 2, 2, 7, 2, 85, 94, 68, 2, 2, 1, 2, 2, 77, 83, 26, 19, 9, 97, 69, 2, 97, 5, 90, 83, 3, 3, 3, 55, 2,
+                2, 1, 1, 1, 5, 1, 3, 1, 25, 10, 11, 26, 14, 8, 7, 13, 88, 5, 8, 8, 8, 65, 13, 41, 20, 14, 9, 12, 4, 1,
+                1, 1]
+    for day, c in zip(list(range(window, window + 120)), c_values):  # For each row - each corresponding to a day
+        x_train = x_data[day - window: day]
+        y_train = y_data[day - window: day]
+        c_value = 0
+        # accuracy_max = 0  # Split into smaller sequences
+        converted_for_hmm = list()
+
+        for day_m in range(0, len(x_train) - 20):
+            converted_for_hmm.append(x_train[day_m:day_m + 20, :])
+
+        converted_for_hmm = np.array(converted_for_hmm)
+        count = None
+
+        index_transformer = {-1: 0, 1: 1}
+        count = 2
+
+        trans_mat = get_transmat(y_train, index_transformer, count)
+        # Get probabilities
+
+        # get Emission probabilities
+        x_test = x_data[day - prediction_window + 1: day + 1]
+        y_test = y_data[day]  # - prediction_window + 1: day+1]
+
+        classifier = train_classifier(x_train, y_train, c=c, random_state=100)
+
+        predict = classifier.predict(x_test)
+        predictions.append(predict[-1])
+        # start_probs = np.zeros((len(index_transformer.values())))
+        # first_state = y_train[0]
+        # first_state_index = index_transformer[first_state]
+        # start_probs[first_state_index] = 1
+        #
+        # model = SVMHMM(n_components=count,
+        #                random_state=100, thresh=1e-3, n_iter=200, svm=classifier, init_params="st", params="st",
+        #                labels=y_train)
+        # model.fit([x_train])
+        #
+        # q_st = model.predict(x_test)
+        # q_st = q_st[-1]
+        # for original, index in index_transformer.items():
+        #     if index == q_st:
+        #         q_st = original
+        #         break
+        # predictions.append(q_st)
+        # print("match: ", q_st == y_test, "q_st:", q_st)
+    actual = list(actual.flatten())
+    f_measure = f1_score(actual, predictions)
+    accuracy = accuracy_score(actual, predictions)
+    recall = recall_score(actual, predictions)
+    precision = precision_score(actual, predictions)
+
+    # print("rand:",  rand, "accuracy:", accuracy)
+    print("Accuracy:", accuracy, )  # "C:", c_value)
+    # c_values.append(c_value)
+
+    print("F-Measure:", f_measure)
+    print("Accuracy:", accuracy)
+    print("Recall:", recall)
+    print("Precision: ", precision)  # break  # print("c", c_values)
+
+    return_charts(convert_to_numpy_array(svm_file.values[20:, 1], 1)[-121:], predictions, actual, True)
 
 
 if __name__ == "__main__":
